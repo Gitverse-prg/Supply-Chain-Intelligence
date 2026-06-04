@@ -181,7 +181,7 @@ python app.py --port 5001
 **Frontend:** HTML5 · CSS3 · Bootstrap 5 · Chart.js · Plotly.js · Leaflet.js
 **Backend:** Flask · SQLAlchemy · Pandas · NumPy · Scikit-Learn · Prophet
 **Database:** SQLite
-**AI:** Groq (LLaMA 3 8B)
+**AI:** Groq (LLaMA 3.1)
 **News:** NewsAPI + GNews fallback
 
 ---
