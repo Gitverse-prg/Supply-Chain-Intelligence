@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% block page_title %}Scenario Comparison{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h2><i class="fas fa-code-branch me-2 text-accent"></i>Scenario Comparison Tool</h2>
+  <p>Compare two supply chain shock scenarios side-by-side</p>
+</div>
+<div class="row g-3 mb-4">
+  <!-- Scenario A -->
+  <div class="col-md-5">
+    <div class="scenario-panel">
+      <div class="section-title" style="color:#0ea5e9">SCENARIO A</div>
+      <div class="mb-2">
+        <label class="form-label">Shock Type</label>
+        <select class="form-select" id="sa-shock">
+          <option>Oil Shock</option><option>Semiconductor Shortage</option>
+          <option>Trade Restriction</option><option>Shipping Crisis</option>
+          <option>Climate Event</option><option>Currency Volatility</option>
+        </select>
+      </div>
+      <div class="mb-2">
+        <label class="form-label">Severity <span id="sa-sev-val" class="text-accent">5</span>/10</label>
+        <input type="range" class="form-range" id="sa-severity" min="1" max="10" value="5" oninput="document.getElementById('sa-sev-val').textContent=this.value">
+      </div>
+      <div class="mb-2">
+        <label class="form-label">Country</label>
+        <select class="form-select" id="sa-country">
+          <option>Global</option><option>China</option><option>USA</option><option>Taiwan</option><option>Russia</option>
+        </select>
+      </div>
+      <div class="mb-2">
+        <label class="form-label">Duration <span id="sa-dur-val" class="text-accent">30</span>d</label>
+        <input type="range" class="form-range" id="sa-duration" min="7" max="180" value="30" oninput="document.getElementById('sa-dur-val').textContent=this.value">
+      </div>
+    </div>
+  </div>
+
+  <!-- VS -->
+  <div class="col-md-2 d-flex align-items-center justify-content-center">
+    <div style="text-align:center">
+      <div style="font-family:'Rajdhani',sans-serif;font-size:36px;font-weight:700;color:#1e2d42">VS</div>
+      <button class="btn btn-primary mt-3" onclick="compare()"><i class="fas fa-balance-scale me-1"></i>Compare</button>
+    </div>
+  </div>
+
+  <!-- Scenario B -->
+  <div class="col-md-5">
+    <div class="scenario-panel">
+      <div class="section-title" style="color:#8b5cf6">SCENARIO B</div>
+      <div class="mb-2">
+        <label class="form-label">Shock Type</label>
+        <select class="form-select" id="sb-shock">
+          <option>Semiconductor Shortage</option><option>Oil Shock</option>
+          <option>Trade Restriction</option><option>Shipping Crisis</option>
+          <option>Climate Event</option><option>Currency Volatility</option>
+        </select>
+      </div>
+      <div class="mb-2">
+        <label class="form-label">Severity <span id="sb-sev-val" class="text-accent">7</span>/10</label>
+        <input type="range" class="form-range" id="sb-severity" min="1" max="10" value="7" oninput="document.getElementById('sb-sev-val').textContent=this.value">
+      </div>
+      <div class="mb-2">
+        <label class="form-label">Country</label>
+        <select class="form-select" id="sb-country">
+          <option>Taiwan</option><option>Global</option><option>China</option><option>USA</option><option>Russia</option>
+        </select>
+      </div>
+      <div class="mb-2">
+        <label class="form-label">Duration <span id="sb-dur-val" class="text-accent">60</span>d</label>
+        <input type="range" class="form-range" id="sb-duration" min="7" max="180" value="60" oninput="document.getElementById('sb-dur-val').textContent=this.value">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Results -->
+<div id="compare-results" style="display:none">
+  <div class="card mb-3">
+    <div class="card-header"><h6><i class="fas fa-balance-scale me-2"></i>Comparison Results</h6></div>
+    <div class="card-body">
+      <div class="row g-3 mb-4" id="compare-winner"></div>
+      <div class="row g-3" id="compare-metrics"></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header"><h6><i class="fas fa-chart-bar me-2"></i>Side-by-Side Chart</h6></div>
+    <div class="card-body"><canvas id="compareChart" height="200"></canvas></div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+let cmpChart = null;
+async function compare() {
+  const sa = {shock_type:document.getElementById('sa-shock').value, severity:document.getElementById('sa-severity').value, country:document.getElementById('sa-country').value, duration:document.getElementById('sa-duration').value};
+  const sb = {shock_type:document.getElementById('sb-shock').value, severity:document.getElementById('sb-severity').value, country:document.getElementById('sb-country').value, duration:document.getElementById('sb-duration').value};
+
+  const d = await fetch('/api/scenario/compare',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({scenario_a:sa,scenario_b:sb})}).then(r=>r.json());
+
+  document.getElementById('compare-results').style.display = '';
+  const worse = d.comparison.worse_scenario;
+  document.getElementById('compare-winner').innerHTML = `
+    <div class="col-12">
+      <div style="background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.3);border-radius:10px;padding:16px;text-align:center;">
+        <i class="fas fa-skull-crossbones text-danger me-2"></i>
+        <b>Scenario ${worse}</b> is more severe by <span class="mono text-danger">${Math.abs(d.comparison.risk_score_diff).toFixed(0)}</span> risk points
+      </div>
+    </div>`;
+
+  const ra = d.scenario_a.result, rb = d.scenario_b.result;
+  const metrics = [
+    {label:'Risk Score', a:ra.risk_score.toFixed(0), b:rb.risk_score.toFixed(0), unit:'/100', higher_bad:true},
+    {label:'Revenue Impact', a:ra.revenue_impact.toFixed(1)+'%', b:rb.revenue_impact.toFixed(1)+'%', unit:'', higher_bad:true},
+    {label:'Price Increase', a:'+'+ra.price_increase.toFixed(1)+'%', b:'+'+rb.price_increase.toFixed(1)+'%', unit:'', higher_bad:true},
+  ];
+  document.getElementById('compare-metrics').innerHTML = metrics.map(m=>`
+    <div class="col-md-4">
+      <div class="scenario-panel">
+        <div style="font-size:11px;color:#475569;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px">${m.label}</div>
+        <div class="d-flex justify-content-between align-items-center">
+          <div style="text-align:center">
+            <div style="font-size:10px;color:#0ea5e9;font-weight:700;letter-spacing:1px">SCENARIO A</div>
+            <div class="mono" style="font-size:24px;font-weight:700;color:#e2e8f0">${m.a}</div>
+          </div>
+          <div style="color:#1e2d42;font-size:20px">—</div>
+          <div style="text-align:center">
+            <div style="font-size:10px;color:#8b5cf6;font-weight:700;letter-spacing:1px">SCENARIO B</div>
+            <div class="mono" style="font-size:24px;font-weight:700;color:#e2e8f0">${m.b}</div>
+          </div>
+        </div>
+      </div>
+    </div>`).join('');
+
+  if (cmpChart) cmpChart.destroy();
+  cmpChart = new Chart(document.getElementById('compareChart'), {
+    type:'bar',
+    data:{
+      labels:['Risk Score','Revenue Impact (abs%)','Price Increase %'],
+      datasets:[
+        {label:'Scenario A', data:[ra.risk_score,Math.abs(ra.revenue_impact),ra.price_increase], backgroundColor:'#0ea5e966', borderColor:'#0ea5e9', borderWidth:1, borderRadius:4},
+        {label:'Scenario B', data:[rb.risk_score,Math.abs(rb.revenue_impact),rb.price_increase], backgroundColor:'#8b5cf666', borderColor:'#8b5cf6', borderWidth:1, borderRadius:4}
+      ]
+    },
+    options:{plugins:{legend:{labels:{color:'#94a3b8'}}},scales:{x:{ticks:{color:'#94a3b8'},grid:{color:'#1e2d42'}},y:{grid:{color:'#1e2d42'},ticks:{color:'#94a3b8'}}}}
+  });
+}
+</script>
+{% endblock %}

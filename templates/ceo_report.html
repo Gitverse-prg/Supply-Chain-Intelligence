@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block page_title %}CEO Report Center{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h2><i class="fas fa-file-alt me-2 text-accent"></i>CEO Report Center</h2>
+  <p>AI-generated executive intelligence reports powered by Groq</p>
+</div>
+<div class="row g-4">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header"><h6><i class="fas fa-cog me-2"></i>Report Generator</h6></div>
+      <div class="card-body">
+        <p style="font-size:13px;color:#64748b;">Generate a comprehensive executive report based on current platform data including news events, risk scores, and forecasts.</p>
+        <div class="mb-3" id="report-context" style="background:#161f2e;border-radius:8px;padding:14px;font-size:12px;color:#64748b;display:none;"></div>
+        <button class="btn btn-primary w-100 mb-2" id="gen-btn" onclick="generateReport()">
+          <i class="fas fa-robot me-2"></i>Generate AI Report
+        </button>
+        <button class="btn btn-outline-accent w-100" id="export-btn" onclick="exportPDF()" style="display:none">
+          <i class="fas fa-file-pdf me-2"></i>Export PDF
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="card h-100">
+      <div class="card-header">
+        <h6><i class="fas fa-scroll me-2"></i>Executive Report</h6>
+        <span style="font-size:11px;color:#475569;" id="report-timestamp"></span>
+      </div>
+      <div class="card-body">
+        <div id="report-content" style="min-height:400px;line-height:1.8;font-size:13px;color:#cbd5e1;">
+          <div class="text-center text-muted py-5">
+            <i class="fas fa-file-alt fa-3x d-block mb-3" style="color:#1e2d42;"></i>
+            Click "Generate AI Report" to create an executive intelligence briefing.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+let reportText = '';
+
+async function generateReport() {
+  document.getElementById('gen-btn').innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Generating...';
+  document.getElementById('gen-btn').disabled = true;
+  document.getElementById('report-content').innerHTML = '<div class="text-center py-5"><i class="fas fa-spinner fa-spin fa-2x" style="color:#0ea5e9;"></i><br><br><span class="text-muted">AI is analyzing platform data...</span></div>';
+
+  try {
+    const r = await fetch('/api/report/generate',{method:'POST'});
+    const d = await r.json();
+    reportText = d.report;
+
+    // Format report
+    const html = reportText
+      .replace(/^#{2,3}\s+(.+)$/gm, '<h5 style="color:#0ea5e9;font-family:Rajdhani;margin:20px 0 8px;font-size:16px;font-weight:700;border-bottom:1px solid #1e2d42;padding-bottom:6px;">$1</h5>')
+      .replace(/^[-•]\s+(.+)$/gm, '<li style="margin-bottom:6px">$1</li>')
+      .replace(/(<li.*<\/li>)/gs, '<ul style="padding-left:20px;color:#94a3b8">$1</ul>')
+      .replace(/\*\*(.+?)\*\*/g, '<b style="color:#e2e8f0">$1</b>')
+      .replace(/\n{2,}/g, '<br><br>').replace(/\n/g, '<br>');
+
+    document.getElementById('report-content').innerHTML = html;
+    document.getElementById('report-timestamp').textContent = `Generated: ${new Date().toLocaleString()}`;
+
+    const ctx = d.context;
+    document.getElementById('report-context').innerHTML = `
+      📊 ${ctx.total_news||0} events &nbsp;·&nbsp; ⚠️ ${ctx.high_severity||0} high severity &nbsp;·&nbsp;
+      🔔 ${ctx.active_alerts||0} alerts &nbsp;·&nbsp; 📈 Risk: ${(ctx.avg_risk||0).toFixed(0)}/100`;
+    document.getElementById('report-context').style.display = '';
+    document.getElementById('export-btn').style.display = '';
+    showToast('Report generated!', 'success');
+  } catch(e) {
+    document.getElementById('report-content').innerHTML = '<div class="text-danger">Error generating report. Check your GROQ_API_KEY in .env</div>';
+  }
+  document.getElementById('gen-btn').innerHTML = '<i class="fas fa-robot me-2"></i>Generate AI Report';
+  document.getElementById('gen-btn').disabled = false;
+}
+
+async function exportPDF() {
+  if (!reportText) { showToast('Generate report first','error'); return; }
+  showToast('Exporting PDF...','info');
+  const r = await fetch('/api/report/export',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({report:reportText})});
+  if (r.ok) {
+    const blob = await r.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'CEO_Report.pdf'; a.click();
+    showToast('PDF downloaded!','success');
+  } else {
+    showToast('PDF export failed — check reportlab install','error');
+  }
+}
+</script>
+{% endblock %}

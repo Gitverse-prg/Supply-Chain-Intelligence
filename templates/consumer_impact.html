@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block page_title %}Consumer Impact Analyzer{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h2><i class="fas fa-shopping-cart me-2 text-accent"></i>Consumer Impact Analyzer</h2>
+  <p>Predict product shortages, price increases, and delivery delays from supply chain shocks</p>
+</div>
+<div class="row g-3 mb-4" id="summary-stats"></div>
+<div class="card mb-4">
+  <div class="card-header"><h6><i class="fas fa-chart-bar me-2"></i>Price Impact Forecast</h6></div>
+  <div class="card-body"><canvas id="priceChart" height="200"></canvas></div>
+</div>
+<div class="row g-3" id="product-cards"></div>
+{% endblock %}
+{% block scripts %}
+<script>
+async function loadConsumerImpact() {
+  const data = await fetch('/api/consumer-impact').then(r=>r.json());
+
+  const maxPriceIncrease = Math.max(...data.map(d=>d.price_increase_pct));
+  const maxShortage = Math.max(...data.map(d=>d.shortage_risk));
+  const maxDelay = Math.max(...data.map(d=>d.delay_days));
+  const avgConf = (data.reduce((a,b)=>a+b.confidence,0)/data.length*100).toFixed(0);
+
+  document.getElementById('summary-stats').innerHTML = [
+    {label:'Max Price Increase',val:maxPriceIncrease.toFixed(1)+'%',icon:'fa-arrow-up',cls:'danger'},
+    {label:'Max Shortage Risk',val:maxShortage.toFixed(0)+'%',icon:'fa-exclamation',cls:'warning'},
+    {label:'Max Delay (days)',val:maxDelay.toFixed(0)+'d',icon:'fa-clock',cls:''},
+    {label:'Avg Confidence',val:avgConf+'%',icon:'fa-check-circle',cls:'success'},
+  ].map(s=>`
+    <div class="col-md-3 col-6">
+      <div class="stat-card ${s.cls}">
+        <div class="stat-icon"><i class="fas ${s.icon}"></i></div>
+        <div class="stat-value">${s.val}</div>
+        <div class="stat-label">${s.label}</div>
+      </div>
+    </div>`).join('');
+
+  // Price Chart
+  new Chart(document.getElementById('priceChart'), {
+    type:'bar',
+    data:{
+      labels: data.map(d=>d.product),
+      datasets:[
+        {label:'Current Price', data:data.map(d=>d.current_price), backgroundColor:'#1e4a8a88', borderColor:'#1e4a8a', borderWidth:1},
+        {label:'Predicted Price', data:data.map(d=>d.predicted_price), backgroundColor:'#ef444488', borderColor:'#ef4444', borderWidth:1}
+      ]
+    },
+    options:{
+      plugins:{legend:{labels:{color:'#94a3b8'}}},
+      scales:{x:{ticks:{color:'#94a3b8',font:{size:10}},grid:{color:'#1e2d42'}},
+               y:{grid:{color:'#1e2d42'},ticks:{color:'#94a3b8'}}}
+    }
+  });
+
+  // Product Cards
+  document.getElementById('product-cards').innerHTML = data.map(p => {
+    const chg = p.price_increase_pct;
+    const color = chg >= 20 ? '#ef4444' : chg >= 10 ? '#f59e0b' : '#10b981';
+    return `
+    <div class="col-md-4 col-6">
+      <div class="sector-card ${chg>=20?'sell':chg>=10?'hold':'buy'}">
+        <div class="d-flex justify-content-between align-items-start mb-2">
+          <b style="font-size:13px">${p.product}</b>
+          <span style="color:${color};font-weight:700;font-size:14px">+${chg}%</span>
+        </div>
+        <div class="row g-2 mb-2">
+          <div class="col-6">
+            <div style="font-size:10px;color:#475569">CURRENT</div>
+            <div class="mono" style="font-size:13px">$${p.current_price.toLocaleString()}</div>
+          </div>
+          <div class="col-6">
+            <div style="font-size:10px;color:#475569">PREDICTED</div>
+            <div class="mono" style="font-size:13px;color:${color}">$${p.predicted_price.toLocaleString()}</div>
+          </div>
+        </div>
+        <div class="mb-1" style="font-size:10px;color:#64748b">SHORTAGE RISK ${p.shortage_risk}%</div>
+        <div class="progress mb-2"><div class="progress-bar" style="width:${p.shortage_risk}%;background:${color}"></div></div>
+        <div style="font-size:10px;color:#64748b">Delay: ${p.delay_days}d &nbsp;·&nbsp; Confidence: ${(p.confidence*100).toFixed(0)}%</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+loadConsumerImpact();
+</script>
+{% endblock %}

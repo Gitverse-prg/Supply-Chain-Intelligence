@@ -1,0 +1,511 @@
+id,title,description,shock_type,country,industry,severity,source,date
+1,Middle East tensions push energy prices higher,,Oil Shock,Brazil,Logistics,3.0,Bloomberg,2019-04-13
+2,Middle East tensions push energy prices higher,Businesses assess impact on operations.,Oil Shock,Russia,Energy,1.3,Financial Times,2019-12-23
+3,OPEC cuts oil production amid market uncertainty,Businesses assess impact on operations.,Oil Shock,USA,FMCG,2.8,MarketWatch,2025-10-01
+4,Crude oil prices surge after supply disruption,Industry participants report increasing disruption.,Oil Shock,Brazil,Energy,7.8,WSJ,2024-01-14
+5,Middle East tensions push energy prices higher,Market analysts expect elevated volatility.,Oil Shock,Brazil,Manufacturing,2.9,CNBC,2022-10-25
+6,OPEC cuts oil production amid market uncertainty,,Oil Shock,Germany,Banking,8.6,Associated Press,2023-04-06
+7,Crude oil prices surge after supply disruption,,Oil Shock,Germany,Automotive,1.7,BBC,2024-02-25
+8,Middle East tensions push energy prices higher,Businesses assess impact on operations.,Oil Shock,Saudi Arabia,Electronics,1.4,Financial Times,2023-01-21
+9,Crude oil prices surge after supply disruption,,Oil Shock,Germany,Automotive,3.5,CNBC,2021-08-11
+10,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Saudi Arabia,Agriculture,7.3,Bloomberg,2022-12-26
+11,Middle East tensions push energy prices higher,Industry participants report increasing disruption.,Oil Shock,Turkey,Manufacturing,5.2,BBC,2024-12-27
+12,Middle East tensions push energy prices higher,Businesses assess impact on operations.,Oil Shock,Pakistan,Energy,3.1,Reuters,2021-06-18
+13,Crude oil prices surge after supply disruption,Market analysts expect elevated volatility.,Oil Shock,India,Logistics,9.2,Associated Press,2022-01-01
+14,Middle East tensions push energy prices higher,Supply chain experts monitor developments closely.,Oil Shock,Global,Automotive,9.0,The Economist,2021-05-20
+15,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Turkey,FMCG,5.9,Associated Press,2020-07-25
+16,Crude oil prices surge after supply disruption,Businesses assess impact on operations.,Oil Shock,Vietnam,Logistics,10.0,WSJ,2023-06-24
+17,Middle East tensions push energy prices higher,Market analysts expect elevated volatility.,Oil Shock,China,Electronics,2.4,WSJ,2020-01-08
+18,Middle East tensions push energy prices higher,Market analysts expect elevated volatility.,Oil Shock,India,Automotive,4.4,The Economist,2025-09-08
+19,Middle East tensions push energy prices higher,Supply chain experts monitor developments closely.,Oil Shock,USA,Electronics,7.1,MarketWatch,2025-03-16
+20,Crude oil prices surge after supply disruption,Supply chain experts monitor developments closely.,Oil Shock,Egypt,Automotive,2.4,Reuters,2020-04-01
+21,Middle East tensions push energy prices higher,Supply chain experts monitor developments closely.,Oil Shock,Taiwan,FMCG,9.2,BBC,2024-08-12
+22,Middle East tensions push energy prices higher,Businesses assess impact on operations.,Oil Shock,Saudi Arabia,Manufacturing,4.4,WSJ,2025-10-30
+23,Middle East tensions push energy prices higher,Businesses assess impact on operations.,Oil Shock,Pakistan,Telecom,1.2,CNBC,2019-01-03
+24,Crude oil prices surge after supply disruption,Industry participants report increasing disruption.,Oil Shock,Turkey,Semiconductor,9.5,Bloomberg,2019-08-26
+25,Middle East tensions push energy prices higher,Market analysts expect elevated volatility.,Oil Shock,Japan,Manufacturing,6.9,MarketWatch,2019-10-11
+26,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Russia,Logistics,9.4,Financial Times,2024-12-01
+27,Middle East tensions push energy prices higher,Supply chain experts monitor developments closely.,Oil Shock,Vietnam,Telecom,9.1,The Economist,2023-06-23
+28,OPEC cuts oil production amid market uncertainty,Industry participants report increasing disruption.,Oil Shock,India,Banking,1.2,MarketWatch,2021-07-09
+29,OPEC cuts oil production amid market uncertainty,Businesses assess impact on operations.,Oil Shock,USA,Electronics,7.4,Reuters,2021-06-21
+30,OPEC cuts oil production amid market uncertainty,,Oil Shock,Pakistan,Electronics,5.6,BBC,2019-05-09
+31,Middle East tensions push energy prices higher,Market analysts expect elevated volatility.,Oil Shock,Japan,Semiconductor,6.2,Financial Times,2021-05-27
+32,Crude oil prices surge after supply disruption,Market analysts expect elevated volatility.,Oil Shock,Germany,Electronics,6.9,CNBC,2021-02-18
+33,Crude oil prices surge after supply disruption,Market analysts expect elevated volatility.,Oil Shock,China,Electronics,1.5,CNBC,2024-03-27
+34,OPEC cuts oil production amid market uncertainty,Industry participants report increasing disruption.,Oil Shock,Saudi Arabia,FMCG,5.0,Nikkei,2021-02-23
+35,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Turkey,Electronics,5.0,MarketWatch,2024-03-09
+36,OPEC cuts oil production amid market uncertainty,,Oil Shock,USA,Electronics,9.3,Financial Times,2025-01-23
+37,OPEC cuts oil production amid market uncertainty,Market analysts expect elevated volatility.,Oil Shock,Global,Logistics,8.8,Reuters,2024-06-12
+38,OPEC cuts oil production amid market uncertainty,Market analysts expect elevated volatility.,Oil Shock,South Korea,Agriculture,9.3,The Economist,2019-01-09
+39,Crude oil prices surge after supply disruption,Market analysts expect elevated volatility.,Oil Shock,Global,Manufacturing,2.7,Financial Times,2025-03-26
+40,OPEC cuts oil production amid market uncertainty,Businesses assess impact on operations.,Oil Shock,China,Banking,1.5,Associated Press,2025-01-29
+41,Crude oil prices surge after supply disruption,Businesses assess impact on operations.,Oil Shock,Taiwan,Energy,9.6,Bloomberg,2024-12-15
+42,OPEC cuts oil production amid market uncertainty,,Oil Shock,India,Logistics,4.6,Associated Press,2025-09-03
+43,OPEC cuts oil production amid market uncertainty,Businesses assess impact on operations.,Oil Shock,China,Semiconductor,1.7,Associated Press,2025-09-01
+44,Middle East tensions push energy prices higher,Businesses assess impact on operations.,Oil Shock,Brazil,Logistics,7.0,CNBC,2022-07-19
+45,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Japan,Agriculture,5.1,Bloomberg,2023-06-10
+46,OPEC cuts oil production amid market uncertainty,Market analysts expect elevated volatility.,Oil Shock,Germany,Electronics,5.8,MarketWatch,2025-12-19
+47,Crude oil prices surge after supply disruption,Industry participants report increasing disruption.,Oil Shock,India,Logistics,4.3,WSJ,2022-11-30
+48,Crude oil prices surge after supply disruption,Businesses assess impact on operations.,Oil Shock,USA,FMCG,3.7,Bloomberg,2022-05-24
+49,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Germany,FMCG,2.4,BBC,2020-04-17
+50,Middle East tensions push energy prices higher,Industry participants report increasing disruption.,Oil Shock,Saudi Arabia,Agriculture,5.5,BBC,2022-11-05
+51,OPEC cuts oil production amid market uncertainty,,Oil Shock,Russia,Agriculture,1.4,CNBC,2026-02-11
+52,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Ukraine,FMCG,7.4,MarketWatch,2020-10-23
+53,OPEC cuts oil production amid market uncertainty,,Oil Shock,Japan,FMCG,1.3,CNBC,2019-11-05
+54,Middle East tensions push energy prices higher,Businesses assess impact on operations.,Oil Shock,Russia,Manufacturing,1.4,CNBC,2020-08-29
+55,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Turkey,Electronics,4.2,MarketWatch,2021-05-10
+56,Crude oil prices surge after supply disruption,Businesses assess impact on operations.,Oil Shock,Turkey,Manufacturing,9.8,WSJ,2020-09-25
+57,Crude oil prices surge after supply disruption,,Oil Shock,Pakistan,Automotive,8.2,Financial Times,2021-01-04
+58,Crude oil prices surge after supply disruption,Industry participants report increasing disruption.,Oil Shock,South Korea,Energy,8.7,Financial Times,2020-03-18
+59,OPEC cuts oil production amid market uncertainty,Market analysts expect elevated volatility.,Oil Shock,Egypt,Logistics,3.0,Financial Times,2022-12-03
+60,Crude oil prices surge after supply disruption,Supply chain experts monitor developments closely.,Oil Shock,India,Agriculture,4.2,MarketWatch,2022-02-15
+61,Crude oil prices surge after supply disruption,Businesses assess impact on operations.,Oil Shock,USA,Electronics,8.9,BBC,2022-09-18
+62,OPEC cuts oil production amid market uncertainty,Businesses assess impact on operations.,Oil Shock,China,Electronics,6.4,CNBC,2021-12-23
+63,Middle East tensions push energy prices higher,Supply chain experts monitor developments closely.,Oil Shock,Germany,Automotive,9.1,Financial Times,2023-11-23
+64,Crude oil prices surge after supply disruption,,Oil Shock,USA,FMCG,9.3,MarketWatch,2023-11-22
+65,Middle East tensions push energy prices higher,Industry participants report increasing disruption.,Oil Shock,Russia,Electronics,9.5,CNBC,2023-01-31
+66,Middle East tensions push energy prices higher,Supply chain experts monitor developments closely.,Oil Shock,Egypt,FMCG,3.8,Nikkei,2020-05-25
+67,Crude oil prices surge after supply disruption,Market analysts expect elevated volatility.,Oil Shock,Japan,Logistics,4.8,Nikkei,2022-04-26
+68,Middle East tensions push energy prices higher,Industry participants report increasing disruption.,Oil Shock,Egypt,Automotive,5.9,Reuters,2025-11-26
+69,Crude oil prices surge after supply disruption,Supply chain experts monitor developments closely.,Oil Shock,Russia,Semiconductor,6.5,CNBC,2021-05-10
+70,Crude oil prices surge after supply disruption,Market analysts expect elevated volatility.,Oil Shock,Saudi Arabia,FMCG,5.3,WSJ,2023-12-17
+71,Middle East tensions push energy prices higher,,Oil Shock,Pakistan,Electronics,8.4,Financial Times,2022-03-08
+72,Middle East tensions push energy prices higher,Supply chain experts monitor developments closely.,Oil Shock,Saudi Arabia,Manufacturing,1.2,Financial Times,2021-07-09
+73,Crude oil prices surge after supply disruption,Businesses assess impact on operations.,Oil Shock,Ukraine,Automotive,9.0,Associated Press,2019-10-26
+74,OPEC cuts oil production amid market uncertainty,Market analysts expect elevated volatility.,Oil Shock,South Korea,Logistics,2.3,Reuters,2024-07-17
+75,OPEC cuts oil production amid market uncertainty,Market analysts expect elevated volatility.,Oil Shock,Taiwan,FMCG,5.2,MarketWatch,2021-06-15
+76,OPEC cuts oil production amid market uncertainty,,Oil Shock,Japan,Telecom,7.0,MarketWatch,2024-02-13
+77,Middle East tensions push energy prices higher,Supply chain experts monitor developments closely.,Oil Shock,Russia,FMCG,5.0,WSJ,2023-12-18
+78,Middle East tensions push energy prices higher,Market analysts expect elevated volatility.,Oil Shock,Brazil,Logistics,8.6,BBC,2024-01-18
+79,Middle East tensions push energy prices higher,Market analysts expect elevated volatility.,Oil Shock,Turkey,Agriculture,5.0,BBC,2026-01-11
+80,OPEC cuts oil production amid market uncertainty,Supply chain experts monitor developments closely.,Oil Shock,Pakistan,FMCG,1.7,WSJ,2022-10-07
+81,OPEC cuts oil production amid market uncertainty,Market analysts expect elevated volatility.,Oil Shock,Saudi Arabia,Electronics,4.7,CNBC,2020-09-17
+82,Middle East tensions push energy prices higher,Market analysts expect elevated volatility.,Oil Shock,China,Logistics,8.5,Nikkei,2023-08-31
+83,Middle East tensions push energy prices higher,,Oil Shock,South Korea,Telecom,1.1,CNBC,2025-06-16
+84,Crude oil prices surge after supply disruption,Market analysts expect elevated volatility.,Oil Shock,Turkey,Telecom,3.0,Nikkei,2023-09-13
+85,Crude oil prices surge after supply disruption,,Oil Shock,Pakistan,Automotive,7.5,The Economist,2023-05-12
+86,Chip exports decline due to manufacturing constraints,Businesses assess impact on operations.,Semiconductor Shortage,USA,Automotive,6.3,Reuters,2024-12-27
+87,Chip exports decline due to manufacturing constraints,Market analysts expect elevated volatility.,Semiconductor Shortage,Ukraine,Manufacturing,1.5,Nikkei,2020-07-09
+88,Global automakers face semiconductor shortages,Industry participants report increasing disruption.,Semiconductor Shortage,Pakistan,Banking,7.9,Nikkei,2024-02-06
+89,Global automakers face semiconductor shortages,Market analysts expect elevated volatility.,Semiconductor Shortage,India,Telecom,1.2,MarketWatch,2021-10-30
+90,Chip exports decline due to manufacturing constraints,Supply chain experts monitor developments closely.,Semiconductor Shortage,India,Energy,7.8,Financial Times,2021-07-07
+91,Chip exports decline due to manufacturing constraints,,Semiconductor Shortage,Japan,Logistics,2.1,Bloomberg,2025-12-19
+92,Taiwan chip production disrupted by power outage,Industry participants report increasing disruption.,Semiconductor Shortage,Brazil,Banking,2.5,Associated Press,2024-03-19
+93,Taiwan chip production disrupted by power outage,,Semiconductor Shortage,Egypt,Electronics,6.2,BBC,2020-11-01
+94,Taiwan chip production disrupted by power outage,Market analysts expect elevated volatility.,Semiconductor Shortage,Saudi Arabia,Electronics,6.3,Financial Times,2023-06-13
+95,Chip exports decline due to manufacturing constraints,Supply chain experts monitor developments closely.,Semiconductor Shortage,Germany,Semiconductor,8.0,CNBC,2025-09-25
+96,Taiwan chip production disrupted by power outage,Market analysts expect elevated volatility.,Semiconductor Shortage,India,FMCG,6.8,Reuters,2023-02-26
+97,Global automakers face semiconductor shortages,Market analysts expect elevated volatility.,Semiconductor Shortage,Russia,Banking,6.7,The Economist,2020-03-08
+98,Taiwan chip production disrupted by power outage,Industry participants report increasing disruption.,Semiconductor Shortage,Taiwan,FMCG,9.7,BBC,2023-11-19
+99,Taiwan chip production disrupted by power outage,Businesses assess impact on operations.,Semiconductor Shortage,Ukraine,Automotive,8.4,Associated Press,2024-06-03
+100,Global automakers face semiconductor shortages,Supply chain experts monitor developments closely.,Semiconductor Shortage,India,Agriculture,8.9,Financial Times,2021-10-02
+101,Global automakers face semiconductor shortages,Businesses assess impact on operations.,Semiconductor Shortage,South Korea,Banking,1.3,CNBC,2025-11-04
+102,Chip exports decline due to manufacturing constraints,Market analysts expect elevated volatility.,Semiconductor Shortage,Vietnam,Agriculture,4.1,Associated Press,2021-05-18
+103,Taiwan chip production disrupted by power outage,Supply chain experts monitor developments closely.,Semiconductor Shortage,USA,FMCG,9.5,Bloomberg,2025-03-26
+104,Chip exports decline due to manufacturing constraints,Market analysts expect elevated volatility.,Semiconductor Shortage,Turkey,Telecom,6.8,The Economist,2024-06-24
+105,Global automakers face semiconductor shortages,,Semiconductor Shortage,Egypt,Logistics,4.6,Financial Times,2020-01-17
+106,Global automakers face semiconductor shortages,Businesses assess impact on operations.,Semiconductor Shortage,Global,FMCG,5.8,Nikkei,2023-02-20
+107,Taiwan chip production disrupted by power outage,Businesses assess impact on operations.,Semiconductor Shortage,Vietnam,Telecom,3.4,BBC,2022-09-16
+108,Chip exports decline due to manufacturing constraints,,Semiconductor Shortage,Pakistan,Electronics,7.7,WSJ,2021-02-27
+109,Chip exports decline due to manufacturing constraints,Industry participants report increasing disruption.,Semiconductor Shortage,Brazil,Semiconductor,9.8,MarketWatch,2024-06-06
+110,Taiwan chip production disrupted by power outage,Supply chain experts monitor developments closely.,Semiconductor Shortage,Saudi Arabia,Agriculture,3.0,WSJ,2020-02-16
+111,Global automakers face semiconductor shortages,,Semiconductor Shortage,Japan,Agriculture,1.4,Reuters,2024-12-27
+112,Taiwan chip production disrupted by power outage,Supply chain experts monitor developments closely.,Semiconductor Shortage,Global,Electronics,8.9,Associated Press,2020-06-01
+113,Global automakers face semiconductor shortages,Market analysts expect elevated volatility.,Semiconductor Shortage,Ukraine,Banking,2.7,Reuters,2024-05-14
+114,Global automakers face semiconductor shortages,Market analysts expect elevated volatility.,Semiconductor Shortage,India,Automotive,5.4,Associated Press,2020-04-12
+115,Taiwan chip production disrupted by power outage,,Semiconductor Shortage,Japan,Semiconductor,9.5,Bloomberg,2020-09-13
+116,Chip exports decline due to manufacturing constraints,,Semiconductor Shortage,Russia,Semiconductor,6.4,Associated Press,2025-04-04
+117,Chip exports decline due to manufacturing constraints,Businesses assess impact on operations.,Semiconductor Shortage,Ukraine,Telecom,3.7,Associated Press,2023-04-08
+118,Global automakers face semiconductor shortages,Supply chain experts monitor developments closely.,Semiconductor Shortage,China,Semiconductor,9.6,Bloomberg,2025-05-18
+119,Chip exports decline due to manufacturing constraints,Industry participants report increasing disruption.,Semiconductor Shortage,India,Manufacturing,3.2,MarketWatch,2021-12-19
+120,Chip exports decline due to manufacturing constraints,Industry participants report increasing disruption.,Semiconductor Shortage,Russia,Telecom,7.2,The Economist,2019-01-11
+121,Global automakers face semiconductor shortages,,Semiconductor Shortage,Egypt,Agriculture,7.3,The Economist,2021-08-06
+122,Chip exports decline due to manufacturing constraints,Industry participants report increasing disruption.,Semiconductor Shortage,Saudi Arabia,Automotive,2.0,Financial Times,2021-12-19
+123,Taiwan chip production disrupted by power outage,Industry participants report increasing disruption.,Semiconductor Shortage,Japan,Electronics,1.5,BBC,2021-12-24
+124,Taiwan chip production disrupted by power outage,Businesses assess impact on operations.,Semiconductor Shortage,Ukraine,Electronics,5.2,BBC,2022-03-28
+125,Taiwan chip production disrupted by power outage,Market analysts expect elevated volatility.,Semiconductor Shortage,Global,Telecom,1.7,Reuters,2022-01-20
+126,Global automakers face semiconductor shortages,Supply chain experts monitor developments closely.,Semiconductor Shortage,Brazil,Energy,1.8,Associated Press,2025-10-08
+127,Taiwan chip production disrupted by power outage,,Semiconductor Shortage,China,Manufacturing,5.2,The Economist,2022-01-08
+128,Global automakers face semiconductor shortages,Industry participants report increasing disruption.,Semiconductor Shortage,Russia,Telecom,9.7,The Economist,2025-07-25
+129,Global automakers face semiconductor shortages,Market analysts expect elevated volatility.,Semiconductor Shortage,Pakistan,Electronics,8.7,CNBC,2022-09-27
+130,Global automakers face semiconductor shortages,Market analysts expect elevated volatility.,Semiconductor Shortage,South Korea,FMCG,1.3,Bloomberg,2022-03-26
+131,Global automakers face semiconductor shortages,Supply chain experts monitor developments closely.,Semiconductor Shortage,Germany,Automotive,8.8,Reuters,2022-08-17
+132,Taiwan chip production disrupted by power outage,Businesses assess impact on operations.,Semiconductor Shortage,Russia,Energy,2.7,CNBC,2024-03-07
+133,Taiwan chip production disrupted by power outage,Market analysts expect elevated volatility.,Semiconductor Shortage,Ukraine,Energy,2.8,MarketWatch,2026-01-05
+134,Chip exports decline due to manufacturing constraints,Supply chain experts monitor developments closely.,Semiconductor Shortage,Global,Electronics,1.3,Associated Press,2023-11-30
+135,Chip exports decline due to manufacturing constraints,Industry participants report increasing disruption.,Semiconductor Shortage,USA,FMCG,4.7,Financial Times,2022-06-26
+136,Chip exports decline due to manufacturing constraints,Market analysts expect elevated volatility.,Semiconductor Shortage,Japan,Telecom,9.4,BBC,2020-04-26
+137,Taiwan chip production disrupted by power outage,Supply chain experts monitor developments closely.,Semiconductor Shortage,Global,Telecom,3.2,MarketWatch,2023-08-29
+138,Chip exports decline due to manufacturing constraints,Market analysts expect elevated volatility.,Semiconductor Shortage,Japan,Electronics,3.5,Nikkei,2021-02-19
+139,Global automakers face semiconductor shortages,Businesses assess impact on operations.,Semiconductor Shortage,USA,Agriculture,7.5,Associated Press,2021-12-30
+140,Taiwan chip production disrupted by power outage,Market analysts expect elevated volatility.,Semiconductor Shortage,Ukraine,FMCG,5.4,CNBC,2020-08-31
+141,Taiwan chip production disrupted by power outage,Businesses assess impact on operations.,Semiconductor Shortage,Ukraine,Banking,8.8,Financial Times,2023-03-26
+142,Taiwan chip production disrupted by power outage,Market analysts expect elevated volatility.,Semiconductor Shortage,Russia,Energy,3.9,The Economist,2021-08-14
+143,Taiwan chip production disrupted by power outage,Market analysts expect elevated volatility.,Semiconductor Shortage,Japan,Telecom,9.7,WSJ,2023-05-01
+144,Taiwan chip production disrupted by power outage,Businesses assess impact on operations.,Semiconductor Shortage,Germany,Telecom,1.9,The Economist,2022-09-21
+145,Chip exports decline due to manufacturing constraints,Industry participants report increasing disruption.,Semiconductor Shortage,Japan,Electronics,5.2,BBC,2023-08-07
+146,Global automakers face semiconductor shortages,Businesses assess impact on operations.,Semiconductor Shortage,India,Banking,8.7,MarketWatch,2023-06-17
+147,Global automakers face semiconductor shortages,Supply chain experts monitor developments closely.,Semiconductor Shortage,Global,FMCG,1.3,Bloomberg,2026-01-11
+148,Chip exports decline due to manufacturing constraints,Supply chain experts monitor developments closely.,Semiconductor Shortage,India,Automotive,9.8,Bloomberg,2021-07-20
+149,Global automakers face semiconductor shortages,Industry participants report increasing disruption.,Semiconductor Shortage,USA,Energy,3.9,Reuters,2022-05-11
+150,Global automakers face semiconductor shortages,Supply chain experts monitor developments closely.,Semiconductor Shortage,Russia,Manufacturing,3.2,Nikkei,2023-03-16
+151,Taiwan chip production disrupted by power outage,Industry participants report increasing disruption.,Semiconductor Shortage,Taiwan,Electronics,6.5,Nikkei,2020-11-27
+152,Taiwan chip production disrupted by power outage,Industry participants report increasing disruption.,Semiconductor Shortage,Japan,Logistics,5.2,BBC,2024-07-31
+153,Global automakers face semiconductor shortages,Supply chain experts monitor developments closely.,Semiconductor Shortage,Ukraine,Agriculture,7.1,WSJ,2019-02-08
+154,Chip exports decline due to manufacturing constraints,Market analysts expect elevated volatility.,Semiconductor Shortage,Egypt,Automotive,7.2,The Economist,2022-11-16
+155,Global automakers face semiconductor shortages,Industry participants report increasing disruption.,Semiconductor Shortage,Global,Electronics,3.1,Associated Press,2023-04-25
+156,Global automakers face semiconductor shortages,Businesses assess impact on operations.,Semiconductor Shortage,Egypt,Energy,9.8,Nikkei,2022-04-26
+157,Global automakers face semiconductor shortages,,Semiconductor Shortage,China,Semiconductor,7.7,BBC,2025-05-07
+158,Chip exports decline due to manufacturing constraints,Businesses assess impact on operations.,Semiconductor Shortage,Turkey,Logistics,6.6,WSJ,2022-12-14
+159,Taiwan chip production disrupted by power outage,,Semiconductor Shortage,China,Agriculture,8.1,Reuters,2026-01-14
+160,Taiwan chip production disrupted by power outage,Supply chain experts monitor developments closely.,Semiconductor Shortage,India,Agriculture,3.9,Nikkei,2020-06-22
+161,Chip exports decline due to manufacturing constraints,Industry participants report increasing disruption.,Semiconductor Shortage,Vietnam,FMCG,5.5,BBC,2020-06-25
+162,Chip exports decline due to manufacturing constraints,Supply chain experts monitor developments closely.,Semiconductor Shortage,Egypt,Banking,8.2,The Economist,2024-05-27
+163,Chip exports decline due to manufacturing constraints,Industry participants report increasing disruption.,Semiconductor Shortage,South Korea,FMCG,4.3,Nikkei,2021-07-13
+164,Chip exports decline due to manufacturing constraints,Supply chain experts monitor developments closely.,Semiconductor Shortage,Germany,Telecom,4.3,BBC,2025-01-06
+165,Taiwan chip production disrupted by power outage,Market analysts expect elevated volatility.,Semiconductor Shortage,Germany,Logistics,5.2,Associated Press,2023-03-02
+166,Taiwan chip production disrupted by power outage,Supply chain experts monitor developments closely.,Semiconductor Shortage,Turkey,Electronics,6.7,The Economist,2025-11-03
+167,Taiwan chip production disrupted by power outage,Supply chain experts monitor developments closely.,Semiconductor Shortage,Germany,Manufacturing,1.4,Reuters,2023-07-31
+168,Global automakers face semiconductor shortages,Market analysts expect elevated volatility.,Semiconductor Shortage,Germany,Logistics,9.0,WSJ,2020-04-20
+169,Global automakers face semiconductor shortages,Market analysts expect elevated volatility.,Semiconductor Shortage,Russia,Semiconductor,7.7,WSJ,2023-02-28
+170,Global automakers face semiconductor shortages,,Semiconductor Shortage,Russia,Agriculture,1.3,CNBC,2024-06-27
+171,Government imposes tariffs on imported goods,Market analysts expect elevated volatility.,Trade Restriction,Turkey,Banking,1.9,CNBC,2023-12-27
+172,New sanctions affect international trade flows,Supply chain experts monitor developments closely.,Trade Restriction,South Korea,Agriculture,2.7,Bloomberg,2019-09-06
+173,Export controls tighten for strategic materials,,Trade Restriction,USA,Energy,8.1,Financial Times,2021-05-18
+174,Government imposes tariffs on imported goods,Businesses assess impact on operations.,Trade Restriction,India,FMCG,2.9,Financial Times,2021-04-20
+175,Government imposes tariffs on imported goods,Supply chain experts monitor developments closely.,Trade Restriction,USA,Agriculture,8.7,WSJ,2020-08-27
+176,Government imposes tariffs on imported goods,Businesses assess impact on operations.,Trade Restriction,Taiwan,Electronics,6.9,Reuters,2021-10-23
+177,Government imposes tariffs on imported goods,,Trade Restriction,Turkey,Semiconductor,3.9,WSJ,2023-01-07
+178,Export controls tighten for strategic materials,,Trade Restriction,Russia,FMCG,2.0,Bloomberg,2020-06-03
+179,Export controls tighten for strategic materials,Market analysts expect elevated volatility.,Trade Restriction,Germany,Telecom,5.5,Associated Press,2023-01-22
+180,Government imposes tariffs on imported goods,Businesses assess impact on operations.,Trade Restriction,Ukraine,Energy,1.5,The Economist,2022-05-20
+181,Export controls tighten for strategic materials,Market analysts expect elevated volatility.,Trade Restriction,Global,Telecom,1.7,Bloomberg,2020-03-18
+182,Export controls tighten for strategic materials,Businesses assess impact on operations.,Trade Restriction,India,Manufacturing,3.5,Associated Press,2020-08-30
+183,New sanctions affect international trade flows,Supply chain experts monitor developments closely.,Trade Restriction,Egypt,Telecom,5.5,Nikkei,2023-04-10
+184,Government imposes tariffs on imported goods,,Trade Restriction,Saudi Arabia,Automotive,5.1,Financial Times,2025-03-08
+185,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,South Korea,Automotive,7.6,CNBC,2024-02-01
+186,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,Vietnam,Manufacturing,7.2,The Economist,2021-11-10
+187,Government imposes tariffs on imported goods,,Trade Restriction,India,Automotive,1.9,CNBC,2019-12-16
+188,Government imposes tariffs on imported goods,Businesses assess impact on operations.,Trade Restriction,Pakistan,Electronics,4.7,Nikkei,2019-09-03
+189,New sanctions affect international trade flows,,Trade Restriction,Egypt,Banking,1.9,MarketWatch,2022-03-24
+190,Government imposes tariffs on imported goods,Industry participants report increasing disruption.,Trade Restriction,Turkey,Electronics,4.2,MarketWatch,2024-05-29
+191,Export controls tighten for strategic materials,,Trade Restriction,Turkey,Automotive,8.6,Associated Press,2022-02-15
+192,New sanctions affect international trade flows,Businesses assess impact on operations.,Trade Restriction,Brazil,Energy,2.6,BBC,2019-04-18
+193,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,Taiwan,Manufacturing,6.1,Nikkei,2019-01-26
+194,Government imposes tariffs on imported goods,Industry participants report increasing disruption.,Trade Restriction,USA,Electronics,7.7,Financial Times,2026-02-06
+195,Export controls tighten for strategic materials,Market analysts expect elevated volatility.,Trade Restriction,Pakistan,Manufacturing,4.3,CNBC,2024-02-02
+196,New sanctions affect international trade flows,Businesses assess impact on operations.,Trade Restriction,China,Manufacturing,2.4,Associated Press,2019-12-14
+197,Government imposes tariffs on imported goods,,Trade Restriction,Ukraine,Automotive,5.4,The Economist,2022-01-19
+198,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,Germany,Banking,4.9,BBC,2021-06-01
+199,New sanctions affect international trade flows,Businesses assess impact on operations.,Trade Restriction,Egypt,Energy,3.0,Associated Press,2024-06-16
+200,Government imposes tariffs on imported goods,,Trade Restriction,Egypt,Logistics,7.9,BBC,2021-04-17
+201,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,USA,Telecom,7.7,WSJ,2020-05-06
+202,Government imposes tariffs on imported goods,Market analysts expect elevated volatility.,Trade Restriction,Turkey,FMCG,6.0,CNBC,2024-12-21
+203,Government imposes tariffs on imported goods,Market analysts expect elevated volatility.,Trade Restriction,Russia,Energy,5.1,Bloomberg,2019-06-23
+204,Export controls tighten for strategic materials,Businesses assess impact on operations.,Trade Restriction,South Korea,Automotive,3.6,Nikkei,2023-10-25
+205,Government imposes tariffs on imported goods,Supply chain experts monitor developments closely.,Trade Restriction,Ukraine,Banking,1.8,Bloomberg,2020-12-04
+206,Government imposes tariffs on imported goods,Market analysts expect elevated volatility.,Trade Restriction,South Korea,FMCG,1.7,BBC,2025-08-09
+207,New sanctions affect international trade flows,Supply chain experts monitor developments closely.,Trade Restriction,Pakistan,Manufacturing,1.7,Bloomberg,2021-06-26
+208,New sanctions affect international trade flows,Businesses assess impact on operations.,Trade Restriction,Vietnam,Banking,7.5,WSJ,2021-03-05
+209,Government imposes tariffs on imported goods,,Trade Restriction,Brazil,Logistics,2.6,WSJ,2020-08-22
+210,New sanctions affect international trade flows,,Trade Restriction,Global,Telecom,7.8,Associated Press,2020-12-26
+211,Export controls tighten for strategic materials,Businesses assess impact on operations.,Trade Restriction,Pakistan,Banking,2.4,Bloomberg,2026-01-02
+212,Export controls tighten for strategic materials,Market analysts expect elevated volatility.,Trade Restriction,Egypt,Agriculture,6.3,CNBC,2026-01-30
+213,New sanctions affect international trade flows,,Trade Restriction,Ukraine,Telecom,1.3,CNBC,2022-06-25
+214,Export controls tighten for strategic materials,,Trade Restriction,South Korea,Telecom,6.2,Reuters,2020-01-05
+215,Export controls tighten for strategic materials,Businesses assess impact on operations.,Trade Restriction,Pakistan,Semiconductor,5.3,WSJ,2021-02-10
+216,Government imposes tariffs on imported goods,Market analysts expect elevated volatility.,Trade Restriction,Pakistan,Electronics,5.5,WSJ,2020-02-28
+217,Government imposes tariffs on imported goods,Industry participants report increasing disruption.,Trade Restriction,Ukraine,FMCG,5.7,WSJ,2023-11-29
+218,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,South Korea,Automotive,8.0,Associated Press,2022-03-04
+219,Government imposes tariffs on imported goods,Supply chain experts monitor developments closely.,Trade Restriction,Pakistan,Electronics,6.0,Nikkei,2019-09-27
+220,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,Japan,Banking,1.7,WSJ,2025-10-04
+221,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,Japan,Semiconductor,7.4,Bloomberg,2023-05-25
+222,Export controls tighten for strategic materials,Businesses assess impact on operations.,Trade Restriction,Pakistan,Manufacturing,7.0,MarketWatch,2023-03-23
+223,Government imposes tariffs on imported goods,Market analysts expect elevated volatility.,Trade Restriction,Vietnam,Energy,4.3,WSJ,2024-09-13
+224,Government imposes tariffs on imported goods,Supply chain experts monitor developments closely.,Trade Restriction,Saudi Arabia,Logistics,10.0,WSJ,2024-06-14
+225,Government imposes tariffs on imported goods,Supply chain experts monitor developments closely.,Trade Restriction,China,Banking,8.9,Associated Press,2020-02-19
+226,Government imposes tariffs on imported goods,Businesses assess impact on operations.,Trade Restriction,Japan,Manufacturing,2.6,Associated Press,2023-03-24
+227,Government imposes tariffs on imported goods,Market analysts expect elevated volatility.,Trade Restriction,Russia,Banking,7.1,Financial Times,2019-06-28
+228,Export controls tighten for strategic materials,Businesses assess impact on operations.,Trade Restriction,Ukraine,Logistics,5.8,BBC,2022-03-13
+229,Export controls tighten for strategic materials,Industry participants report increasing disruption.,Trade Restriction,Ukraine,Telecom,7.9,Nikkei,2023-02-15
+230,New sanctions affect international trade flows,Businesses assess impact on operations.,Trade Restriction,Taiwan,Logistics,8.2,WSJ,2023-09-11
+231,Export controls tighten for strategic materials,,Trade Restriction,Vietnam,FMCG,9.4,MarketWatch,2024-05-22
+232,Government imposes tariffs on imported goods,Supply chain experts monitor developments closely.,Trade Restriction,Taiwan,Agriculture,5.0,MarketWatch,2019-12-10
+233,Government imposes tariffs on imported goods,Market analysts expect elevated volatility.,Trade Restriction,Turkey,Telecom,9.0,Reuters,2020-01-11
+234,Export controls tighten for strategic materials,,Trade Restriction,Vietnam,Logistics,4.5,Bloomberg,2023-06-12
+235,Export controls tighten for strategic materials,Industry participants report increasing disruption.,Trade Restriction,Pakistan,Electronics,8.6,CNBC,2019-04-26
+236,Government imposes tariffs on imported goods,Industry participants report increasing disruption.,Trade Restriction,Egypt,Telecom,7.3,WSJ,2019-06-06
+237,New sanctions affect international trade flows,Market analysts expect elevated volatility.,Trade Restriction,USA,Electronics,1.2,Financial Times,2024-01-12
+238,Government imposes tariffs on imported goods,Businesses assess impact on operations.,Trade Restriction,Russia,Electronics,8.0,Financial Times,2025-10-29
+239,Export controls tighten for strategic materials,,Trade Restriction,Turkey,Automotive,6.8,Associated Press,2019-07-15
+240,Export controls tighten for strategic materials,,Trade Restriction,Global,Semiconductor,5.8,MarketWatch,2020-03-30
+241,New sanctions affect international trade flows,Industry participants report increasing disruption.,Trade Restriction,Egypt,Automotive,1.0,CNBC,2020-08-11
+242,Government imposes tariffs on imported goods,Businesses assess impact on operations.,Trade Restriction,Taiwan,Electronics,5.7,CNBC,2023-09-03
+243,Government imposes tariffs on imported goods,Businesses assess impact on operations.,Trade Restriction,USA,Automotive,8.9,Reuters,2025-02-06
+244,New sanctions affect international trade flows,Market analysts expect elevated volatility.,Trade Restriction,Brazil,Energy,4.2,Bloomberg,2023-03-10
+245,Export controls tighten for strategic materials,Industry participants report increasing disruption.,Trade Restriction,Germany,Semiconductor,7.6,CNBC,2026-01-17
+246,Government imposes tariffs on imported goods,,Trade Restriction,Pakistan,Manufacturing,8.5,The Economist,2022-12-14
+247,New sanctions affect international trade flows,Market analysts expect elevated volatility.,Trade Restriction,Taiwan,Manufacturing,1.6,The Economist,2026-01-31
+248,Government imposes tariffs on imported goods,Supply chain experts monitor developments closely.,Trade Restriction,China,Logistics,9.0,CNBC,2021-04-05
+249,Export controls tighten for strategic materials,Businesses assess impact on operations.,Trade Restriction,Global,Agriculture,1.3,Financial Times,2023-06-20
+250,Export controls tighten for strategic materials,Supply chain experts monitor developments closely.,Trade Restriction,Pakistan,Agriculture,2.1,CNBC,2019-07-15
+251,Export controls tighten for strategic materials,Market analysts expect elevated volatility.,Trade Restriction,South Korea,Banking,9.8,The Economist,2023-12-07
+252,New sanctions affect international trade flows,Market analysts expect elevated volatility.,Trade Restriction,Brazil,Electronics,7.5,Bloomberg,2023-02-13
+253,Export controls tighten for strategic materials,Businesses assess impact on operations.,Trade Restriction,Egypt,Banking,1.9,CNBC,2021-01-09
+254,New sanctions affect international trade flows,Supply chain experts monitor developments closely.,Trade Restriction,Ukraine,Semiconductor,7.5,WSJ,2022-06-09
+255,New sanctions affect international trade flows,Market analysts expect elevated volatility.,Trade Restriction,Ukraine,Energy,7.5,CNBC,2022-12-10
+256,Shipping routes face unexpected bottlenecks,Market analysts expect elevated volatility.,Shipping Crisis,China,Electronics,7.0,Nikkei,2022-01-29
+257,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,USA,Manufacturing,8.6,The Economist,2020-10-17
+258,Port congestion causes major shipment delays,Industry participants report increasing disruption.,Shipping Crisis,Turkey,Banking,4.3,Associated Press,2019-10-03
+259,Port congestion causes major shipment delays,Businesses assess impact on operations.,Shipping Crisis,Ukraine,Banking,4.3,Bloomberg,2020-09-20
+260,Shipping routes face unexpected bottlenecks,Industry participants report increasing disruption.,Shipping Crisis,Vietnam,Automotive,3.8,BBC,2024-12-08
+261,Port congestion causes major shipment delays,,Shipping Crisis,Taiwan,Telecom,5.7,MarketWatch,2019-04-17
+262,Port congestion causes major shipment delays,Supply chain experts monitor developments closely.,Shipping Crisis,Ukraine,Logistics,10.0,BBC,2021-12-02
+263,Shipping routes face unexpected bottlenecks,Market analysts expect elevated volatility.,Shipping Crisis,Germany,Manufacturing,8.7,The Economist,2021-03-30
+264,Port congestion causes major shipment delays,Market analysts expect elevated volatility.,Shipping Crisis,Pakistan,Banking,7.4,MarketWatch,2019-12-26
+265,Shipping routes face unexpected bottlenecks,Supply chain experts monitor developments closely.,Shipping Crisis,Taiwan,Manufacturing,8.1,MarketWatch,2022-05-13
+266,Port congestion causes major shipment delays,,Shipping Crisis,Japan,Logistics,8.1,Reuters,2021-04-03
+267,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Vietnam,Telecom,8.2,MarketWatch,2025-06-02
+268,Port congestion causes major shipment delays,Businesses assess impact on operations.,Shipping Crisis,India,Agriculture,4.6,The Economist,2019-12-20
+269,Shipping routes face unexpected bottlenecks,Market analysts expect elevated volatility.,Shipping Crisis,India,Manufacturing,9.8,Bloomberg,2023-08-05
+270,Container shortages disrupt global logistics,Market analysts expect elevated volatility.,Shipping Crisis,Vietnam,Manufacturing,8.9,MarketWatch,2024-10-20
+271,Shipping routes face unexpected bottlenecks,Businesses assess impact on operations.,Shipping Crisis,Japan,Automotive,5.5,Reuters,2021-01-15
+272,Port congestion causes major shipment delays,Businesses assess impact on operations.,Shipping Crisis,Egypt,Manufacturing,2.5,Financial Times,2020-09-18
+273,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,India,Agriculture,2.8,MarketWatch,2022-03-09
+274,Container shortages disrupt global logistics,Industry participants report increasing disruption.,Shipping Crisis,Egypt,Semiconductor,5.8,MarketWatch,2026-01-04
+275,Shipping routes face unexpected bottlenecks,Industry participants report increasing disruption.,Shipping Crisis,Japan,Manufacturing,6.9,Associated Press,2025-08-21
+276,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,USA,Electronics,1.4,Associated Press,2019-06-18
+277,Container shortages disrupt global logistics,Industry participants report increasing disruption.,Shipping Crisis,Russia,Semiconductor,6.8,The Economist,2025-06-01
+278,Shipping routes face unexpected bottlenecks,Businesses assess impact on operations.,Shipping Crisis,Egypt,Telecom,3.2,Nikkei,2022-04-01
+279,Container shortages disrupt global logistics,Market analysts expect elevated volatility.,Shipping Crisis,China,Manufacturing,5.0,The Economist,2019-10-26
+280,Container shortages disrupt global logistics,Industry participants report increasing disruption.,Shipping Crisis,Japan,Banking,8.8,CNBC,2022-10-25
+281,Shipping routes face unexpected bottlenecks,Supply chain experts monitor developments closely.,Shipping Crisis,Japan,Banking,5.6,Bloomberg,2023-06-22
+282,Container shortages disrupt global logistics,Industry participants report increasing disruption.,Shipping Crisis,Germany,Agriculture,5.0,WSJ,2024-03-25
+283,Port congestion causes major shipment delays,,Shipping Crisis,South Korea,Semiconductor,4.8,WSJ,2022-04-03
+284,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Saudi Arabia,Manufacturing,5.5,MarketWatch,2022-07-04
+285,Container shortages disrupt global logistics,Market analysts expect elevated volatility.,Shipping Crisis,Global,Energy,1.8,Nikkei,2022-06-17
+286,Shipping routes face unexpected bottlenecks,Market analysts expect elevated volatility.,Shipping Crisis,Saudi Arabia,Semiconductor,4.2,Reuters,2021-09-13
+287,Container shortages disrupt global logistics,Market analysts expect elevated volatility.,Shipping Crisis,Global,Agriculture,5.8,Bloomberg,2025-09-13
+288,Container shortages disrupt global logistics,Industry participants report increasing disruption.,Shipping Crisis,Vietnam,Automotive,4.3,Nikkei,2021-12-19
+289,Port congestion causes major shipment delays,Businesses assess impact on operations.,Shipping Crisis,Saudi Arabia,Banking,6.0,Bloomberg,2025-04-20
+290,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Brazil,Semiconductor,7.1,Bloomberg,2024-01-19
+291,Port congestion causes major shipment delays,,Shipping Crisis,Vietnam,Banking,6.0,CNBC,2023-06-02
+292,Port congestion causes major shipment delays,Industry participants report increasing disruption.,Shipping Crisis,South Korea,FMCG,1.4,Reuters,2025-10-03
+293,Port congestion causes major shipment delays,Supply chain experts monitor developments closely.,Shipping Crisis,Ukraine,Manufacturing,6.5,MarketWatch,2024-04-24
+294,Port congestion causes major shipment delays,Supply chain experts monitor developments closely.,Shipping Crisis,Pakistan,Manufacturing,4.5,Associated Press,2025-11-16
+295,Shipping routes face unexpected bottlenecks,Supply chain experts monitor developments closely.,Shipping Crisis,Pakistan,FMCG,8.5,MarketWatch,2025-08-28
+296,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Global,Energy,4.3,Bloomberg,2022-05-12
+297,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,USA,Semiconductor,5.3,Associated Press,2022-06-14
+298,Shipping routes face unexpected bottlenecks,Industry participants report increasing disruption.,Shipping Crisis,Global,Manufacturing,5.7,Associated Press,2019-07-30
+299,Container shortages disrupt global logistics,Industry participants report increasing disruption.,Shipping Crisis,China,Semiconductor,9.5,Bloomberg,2021-09-19
+300,Port congestion causes major shipment delays,,Shipping Crisis,Pakistan,Automotive,2.4,Financial Times,2023-12-12
+301,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Global,Energy,7.4,MarketWatch,2025-11-09
+302,Port congestion causes major shipment delays,Businesses assess impact on operations.,Shipping Crisis,Global,FMCG,4.4,WSJ,2022-08-24
+303,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Vietnam,Agriculture,6.5,Financial Times,2022-11-03
+304,Port congestion causes major shipment delays,Supply chain experts monitor developments closely.,Shipping Crisis,Egypt,Logistics,9.5,BBC,2025-04-04
+305,Container shortages disrupt global logistics,Industry participants report increasing disruption.,Shipping Crisis,Pakistan,Telecom,4.1,BBC,2024-06-25
+306,Container shortages disrupt global logistics,,Shipping Crisis,South Korea,Automotive,8.4,WSJ,2025-06-06
+307,Container shortages disrupt global logistics,,Shipping Crisis,India,Banking,9.3,BBC,2022-03-24
+308,Shipping routes face unexpected bottlenecks,Market analysts expect elevated volatility.,Shipping Crisis,Saudi Arabia,FMCG,3.4,MarketWatch,2021-05-26
+309,Shipping routes face unexpected bottlenecks,Supply chain experts monitor developments closely.,Shipping Crisis,Germany,Semiconductor,7.7,Financial Times,2020-07-16
+310,Port congestion causes major shipment delays,,Shipping Crisis,Turkey,Logistics,1.5,Nikkei,2024-12-15
+311,Container shortages disrupt global logistics,Market analysts expect elevated volatility.,Shipping Crisis,Japan,Energy,9.7,WSJ,2020-02-16
+312,Container shortages disrupt global logistics,Market analysts expect elevated volatility.,Shipping Crisis,Saudi Arabia,Agriculture,3.9,Reuters,2024-05-09
+313,Port congestion causes major shipment delays,Businesses assess impact on operations.,Shipping Crisis,China,Manufacturing,4.8,WSJ,2021-08-09
+314,Port congestion causes major shipment delays,Market analysts expect elevated volatility.,Shipping Crisis,Taiwan,Agriculture,8.9,Reuters,2024-07-22
+315,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Germany,Banking,3.6,MarketWatch,2025-10-04
+316,Shipping routes face unexpected bottlenecks,Market analysts expect elevated volatility.,Shipping Crisis,Ukraine,Agriculture,2.7,Bloomberg,2020-07-03
+317,Container shortages disrupt global logistics,Industry participants report increasing disruption.,Shipping Crisis,Brazil,Manufacturing,1.1,CNBC,2024-02-23
+318,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Taiwan,Semiconductor,8.7,Nikkei,2021-03-02
+319,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,India,Automotive,7.0,WSJ,2022-09-05
+320,Port congestion causes major shipment delays,Market analysts expect elevated volatility.,Shipping Crisis,Turkey,Energy,3.3,Financial Times,2022-08-18
+321,Container shortages disrupt global logistics,Supply chain experts monitor developments closely.,Shipping Crisis,Egypt,Semiconductor,7.5,Reuters,2022-09-12
+322,Container shortages disrupt global logistics,Supply chain experts monitor developments closely.,Shipping Crisis,China,Electronics,5.2,WSJ,2021-08-25
+323,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Germany,Agriculture,4.3,Financial Times,2022-06-27
+324,Port congestion causes major shipment delays,Industry participants report increasing disruption.,Shipping Crisis,Japan,Telecom,7.7,Associated Press,2024-05-12
+325,Container shortages disrupt global logistics,Market analysts expect elevated volatility.,Shipping Crisis,Global,FMCG,8.2,Financial Times,2025-02-27
+326,Port congestion causes major shipment delays,Businesses assess impact on operations.,Shipping Crisis,Ukraine,FMCG,7.3,Bloomberg,2019-12-02
+327,Shipping routes face unexpected bottlenecks,,Shipping Crisis,Saudi Arabia,Semiconductor,5.8,WSJ,2019-09-10
+328,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Germany,Logistics,7.5,The Economist,2023-12-15
+329,Port congestion causes major shipment delays,Businesses assess impact on operations.,Shipping Crisis,China,Telecom,2.2,Nikkei,2023-12-30
+330,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Ukraine,Agriculture,7.5,Nikkei,2019-08-25
+331,Container shortages disrupt global logistics,,Shipping Crisis,India,Energy,4.8,Bloomberg,2021-06-11
+332,Shipping routes face unexpected bottlenecks,,Shipping Crisis,Global,Energy,3.6,WSJ,2019-10-10
+333,Port congestion causes major shipment delays,Market analysts expect elevated volatility.,Shipping Crisis,South Korea,Telecom,8.8,Nikkei,2023-03-14
+334,Container shortages disrupt global logistics,,Shipping Crisis,Japan,Banking,2.1,MarketWatch,2025-01-17
+335,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Turkey,Energy,7.8,BBC,2020-06-05
+336,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,South Korea,Logistics,3.2,CNBC,2023-10-04
+337,Port congestion causes major shipment delays,Supply chain experts monitor developments closely.,Shipping Crisis,Germany,Energy,8.3,Nikkei,2021-02-11
+338,Shipping routes face unexpected bottlenecks,,Shipping Crisis,Saudi Arabia,Electronics,1.9,Reuters,2021-09-12
+339,Container shortages disrupt global logistics,Businesses assess impact on operations.,Shipping Crisis,Turkey,Energy,4.6,Financial Times,2019-07-19
+340,Shipping routes face unexpected bottlenecks,Industry participants report increasing disruption.,Shipping Crisis,Japan,FMCG,9.9,Financial Times,2019-08-20
+341,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,Pakistan,Logistics,3.7,WSJ,2022-07-30
+342,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,Russia,Agriculture,3.5,MarketWatch,2021-06-24
+343,Hurricane disrupts manufacturing operations,Industry participants report increasing disruption.,Climate Event,Russia,FMCG,5.5,CNBC,2026-01-08
+344,Hurricane disrupts manufacturing operations,Market analysts expect elevated volatility.,Climate Event,Pakistan,Automotive,4.7,BBC,2024-11-18
+345,Drought impacts commodity supply chains,Industry participants report increasing disruption.,Climate Event,Global,Logistics,8.6,BBC,2025-01-12
+346,Hurricane disrupts manufacturing operations,Industry participants report increasing disruption.,Climate Event,China,FMCG,4.7,Nikkei,2024-03-11
+347,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,South Korea,Logistics,3.3,CNBC,2020-07-03
+348,Hurricane disrupts manufacturing operations,,Climate Event,Vietnam,Electronics,5.8,Financial Times,2024-01-17
+349,Flooding damages agricultural production,Supply chain experts monitor developments closely.,Climate Event,China,Electronics,2.7,Associated Press,2023-03-25
+350,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,Global,Logistics,8.8,CNBC,2021-06-07
+351,Drought impacts commodity supply chains,,Climate Event,Saudi Arabia,Electronics,7.7,The Economist,2021-05-17
+352,Flooding damages agricultural production,Businesses assess impact on operations.,Climate Event,South Korea,Logistics,6.0,BBC,2021-04-17
+353,Drought impacts commodity supply chains,Market analysts expect elevated volatility.,Climate Event,Vietnam,Agriculture,3.4,MarketWatch,2024-12-25
+354,Drought impacts commodity supply chains,Market analysts expect elevated volatility.,Climate Event,Global,Banking,9.2,CNBC,2020-02-08
+355,Drought impacts commodity supply chains,Market analysts expect elevated volatility.,Climate Event,Turkey,Manufacturing,1.1,MarketWatch,2019-07-07
+356,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,Egypt,Manufacturing,2.8,Financial Times,2023-09-07
+357,Drought impacts commodity supply chains,Businesses assess impact on operations.,Climate Event,Global,FMCG,6.9,CNBC,2021-10-03
+358,Drought impacts commodity supply chains,Market analysts expect elevated volatility.,Climate Event,Ukraine,Manufacturing,7.6,CNBC,2024-07-02
+359,Flooding damages agricultural production,Industry participants report increasing disruption.,Climate Event,Global,Manufacturing,9.3,MarketWatch,2025-02-16
+360,Hurricane disrupts manufacturing operations,,Climate Event,China,Electronics,9.5,Reuters,2024-11-16
+361,Flooding damages agricultural production,Market analysts expect elevated volatility.,Climate Event,Turkey,Electronics,7.4,Reuters,2020-07-17
+362,Flooding damages agricultural production,Businesses assess impact on operations.,Climate Event,Vietnam,Energy,6.6,Associated Press,2024-02-11
+363,Drought impacts commodity supply chains,Market analysts expect elevated volatility.,Climate Event,USA,FMCG,6.0,Reuters,2019-03-06
+364,Flooding damages agricultural production,Businesses assess impact on operations.,Climate Event,Egypt,Energy,5.5,Nikkei,2022-01-30
+365,Flooding damages agricultural production,,Climate Event,Japan,Logistics,2.7,MarketWatch,2020-01-30
+366,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,South Korea,Electronics,4.4,Nikkei,2021-12-30
+367,Drought impacts commodity supply chains,Businesses assess impact on operations.,Climate Event,Turkey,Agriculture,7.2,Bloomberg,2021-09-23
+368,Hurricane disrupts manufacturing operations,,Climate Event,South Korea,Automotive,4.4,The Economist,2020-01-18
+369,Flooding damages agricultural production,,Climate Event,India,Telecom,8.6,CNBC,2020-12-02
+370,Hurricane disrupts manufacturing operations,,Climate Event,China,Logistics,2.9,Associated Press,2024-12-03
+371,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,India,Agriculture,9.1,Associated Press,2019-07-10
+372,Hurricane disrupts manufacturing operations,,Climate Event,Pakistan,Energy,9.7,Associated Press,2021-01-04
+373,Flooding damages agricultural production,Market analysts expect elevated volatility.,Climate Event,Egypt,Manufacturing,6.1,Associated Press,2019-11-12
+374,Drought impacts commodity supply chains,Businesses assess impact on operations.,Climate Event,South Korea,Manufacturing,8.1,Bloomberg,2022-09-20
+375,Hurricane disrupts manufacturing operations,Supply chain experts monitor developments closely.,Climate Event,Germany,Automotive,3.1,Bloomberg,2019-08-08
+376,Drought impacts commodity supply chains,Businesses assess impact on operations.,Climate Event,South Korea,Banking,1.3,BBC,2025-11-19
+377,Drought impacts commodity supply chains,Market analysts expect elevated volatility.,Climate Event,Vietnam,FMCG,9.5,Nikkei,2021-07-23
+378,Flooding damages agricultural production,Businesses assess impact on operations.,Climate Event,India,Semiconductor,3.7,Financial Times,2023-04-06
+379,Hurricane disrupts manufacturing operations,,Climate Event,Brazil,Manufacturing,4.4,WSJ,2019-12-03
+380,Hurricane disrupts manufacturing operations,Market analysts expect elevated volatility.,Climate Event,Vietnam,Electronics,1.8,BBC,2022-07-21
+381,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,Germany,Manufacturing,1.8,Nikkei,2022-01-09
+382,Drought impacts commodity supply chains,Businesses assess impact on operations.,Climate Event,Russia,Electronics,1.2,CNBC,2025-03-22
+383,Hurricane disrupts manufacturing operations,,Climate Event,Pakistan,Automotive,1.1,Nikkei,2025-09-11
+384,Drought impacts commodity supply chains,,Climate Event,Turkey,Semiconductor,5.7,Nikkei,2025-04-10
+385,Flooding damages agricultural production,Industry participants report increasing disruption.,Climate Event,Egypt,Agriculture,5.4,Bloomberg,2022-01-06
+386,Flooding damages agricultural production,Market analysts expect elevated volatility.,Climate Event,Russia,Agriculture,5.4,Bloomberg,2022-02-04
+387,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,Global,Semiconductor,6.6,The Economist,2021-10-07
+388,Flooding damages agricultural production,Industry participants report increasing disruption.,Climate Event,USA,Automotive,4.0,Associated Press,2022-06-01
+389,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,Pakistan,Automotive,8.3,Associated Press,2023-12-09
+390,Flooding damages agricultural production,Supply chain experts monitor developments closely.,Climate Event,Saudi Arabia,Telecom,3.8,Nikkei,2022-08-06
+391,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,Global,Semiconductor,8.0,CNBC,2026-02-05
+392,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,Vietnam,Electronics,9.4,Financial Times,2023-05-29
+393,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,USA,Telecom,9.5,Financial Times,2021-01-06
+394,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,Russia,Telecom,2.3,BBC,2019-10-11
+395,Flooding damages agricultural production,Supply chain experts monitor developments closely.,Climate Event,Russia,Automotive,1.7,Associated Press,2020-09-23
+396,Drought impacts commodity supply chains,Businesses assess impact on operations.,Climate Event,Russia,FMCG,1.3,CNBC,2023-06-30
+397,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,India,Electronics,7.9,CNBC,2025-08-29
+398,Flooding damages agricultural production,Businesses assess impact on operations.,Climate Event,South Korea,Banking,9.7,Nikkei,2019-07-01
+399,Flooding damages agricultural production,,Climate Event,Brazil,Logistics,5.6,MarketWatch,2020-02-08
+400,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,Turkey,Telecom,4.4,The Economist,2025-06-14
+401,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,Japan,Banking,10.0,The Economist,2024-08-11
+402,Flooding damages agricultural production,Supply chain experts monitor developments closely.,Climate Event,India,Electronics,8.5,WSJ,2023-08-31
+403,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,Ukraine,Logistics,5.7,CNBC,2022-11-06
+404,Drought impacts commodity supply chains,,Climate Event,Ukraine,Banking,1.6,Reuters,2023-11-30
+405,Hurricane disrupts manufacturing operations,,Climate Event,Pakistan,Electronics,7.1,WSJ,2019-04-03
+406,Hurricane disrupts manufacturing operations,Industry participants report increasing disruption.,Climate Event,Taiwan,FMCG,2.4,MarketWatch,2024-10-14
+407,Drought impacts commodity supply chains,Market analysts expect elevated volatility.,Climate Event,South Korea,Manufacturing,2.7,Nikkei,2021-08-07
+408,Drought impacts commodity supply chains,,Climate Event,Saudi Arabia,Telecom,6.3,Nikkei,2025-11-20
+409,Flooding damages agricultural production,Industry participants report increasing disruption.,Climate Event,Brazil,Electronics,6.2,MarketWatch,2021-04-22
+410,Flooding damages agricultural production,Supply chain experts monitor developments closely.,Climate Event,Saudi Arabia,Telecom,2.0,The Economist,2022-08-28
+411,Hurricane disrupts manufacturing operations,Supply chain experts monitor developments closely.,Climate Event,South Korea,Semiconductor,4.5,Bloomberg,2025-09-11
+412,Drought impacts commodity supply chains,Supply chain experts monitor developments closely.,Climate Event,Taiwan,Agriculture,9.3,Associated Press,2024-02-19
+413,Flooding damages agricultural production,Industry participants report increasing disruption.,Climate Event,Germany,Logistics,3.7,WSJ,2022-07-06
+414,Drought impacts commodity supply chains,Industry participants report increasing disruption.,Climate Event,South Korea,Automotive,6.4,Associated Press,2024-09-23
+415,Drought impacts commodity supply chains,Market analysts expect elevated volatility.,Climate Event,Global,FMCG,7.2,WSJ,2021-01-30
+416,Hurricane disrupts manufacturing operations,Industry participants report increasing disruption.,Climate Event,Egypt,Manufacturing,2.7,The Economist,2024-06-28
+417,Hurricane disrupts manufacturing operations,,Climate Event,USA,Telecom,2.2,Nikkei,2023-01-10
+418,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,Russia,Telecom,4.7,The Economist,2024-07-20
+419,Drought impacts commodity supply chains,Industry participants report increasing disruption.,Climate Event,USA,Logistics,3.6,BBC,2019-12-05
+420,Flooding damages agricultural production,Businesses assess impact on operations.,Climate Event,Taiwan,Telecom,6.1,The Economist,2022-03-28
+421,Hurricane disrupts manufacturing operations,Businesses assess impact on operations.,Climate Event,Germany,Agriculture,8.0,CNBC,2020-04-08
+422,Hurricane disrupts manufacturing operations,,Climate Event,Saudi Arabia,Automotive,1.9,Financial Times,2023-12-13
+423,Drought impacts commodity supply chains,,Climate Event,Brazil,Banking,8.8,Bloomberg,2024-01-17
+424,Drought impacts commodity supply chains,,Climate Event,Saudi Arabia,Semiconductor,7.2,Associated Press,2021-08-28
+425,Hurricane disrupts manufacturing operations,Market analysts expect elevated volatility.,Climate Event,Japan,Logistics,8.3,Reuters,2020-11-10
+426,Banking sector reacts to currency instability,Supply chain experts monitor developments closely.,Currency Volatility,Brazil,Semiconductor,5.8,CNBC,2024-12-20
+427,Banking sector reacts to currency instability,Supply chain experts monitor developments closely.,Currency Volatility,Brazil,FMCG,9.9,Bloomberg,2022-03-31
+428,National currency weakens amid uncertainty,Market analysts expect elevated volatility.,Currency Volatility,Brazil,Manufacturing,7.3,WSJ,2019-08-31
+429,National currency weakens amid uncertainty,Industry participants report increasing disruption.,Currency Volatility,Turkey,Automotive,5.4,Associated Press,2022-08-12
+430,Banking sector reacts to currency instability,Supply chain experts monitor developments closely.,Currency Volatility,Russia,Automotive,5.1,Bloomberg,2026-01-15
+431,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,Vietnam,Telecom,9.6,CNBC,2022-02-13
+432,Banking sector reacts to currency instability,,Currency Volatility,Ukraine,Banking,8.7,MarketWatch,2020-01-17
+433,Foreign exchange swings pressure import costs,Industry participants report increasing disruption.,Currency Volatility,Saudi Arabia,Telecom,3.4,BBC,2023-10-26
+434,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,Japan,Semiconductor,8.7,CNBC,2025-06-25
+435,Banking sector reacts to currency instability,,Currency Volatility,Germany,Telecom,1.1,WSJ,2019-07-08
+436,Foreign exchange swings pressure import costs,Market analysts expect elevated volatility.,Currency Volatility,Russia,Logistics,10.0,WSJ,2019-01-03
+437,Banking sector reacts to currency instability,Supply chain experts monitor developments closely.,Currency Volatility,Brazil,Electronics,6.9,BBC,2020-10-13
+438,National currency weakens amid uncertainty,Supply chain experts monitor developments closely.,Currency Volatility,China,Automotive,6.6,Financial Times,2020-11-08
+439,Foreign exchange swings pressure import costs,,Currency Volatility,USA,Logistics,5.3,WSJ,2020-01-25
+440,Banking sector reacts to currency instability,Industry participants report increasing disruption.,Currency Volatility,Ukraine,Energy,1.1,CNBC,2024-10-28
+441,National currency weakens amid uncertainty,Market analysts expect elevated volatility.,Currency Volatility,Global,Electronics,3.1,Bloomberg,2020-06-25
+442,Banking sector reacts to currency instability,,Currency Volatility,Pakistan,Banking,8.9,WSJ,2020-02-27
+443,Foreign exchange swings pressure import costs,Industry participants report increasing disruption.,Currency Volatility,India,FMCG,6.1,Associated Press,2020-08-08
+444,Banking sector reacts to currency instability,Industry participants report increasing disruption.,Currency Volatility,Vietnam,Logistics,6.7,WSJ,2023-12-08
+445,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,Saudi Arabia,Electronics,9.1,WSJ,2023-12-18
+446,National currency weakens amid uncertainty,Businesses assess impact on operations.,Currency Volatility,Vietnam,Automotive,3.8,WSJ,2023-04-22
+447,National currency weakens amid uncertainty,Supply chain experts monitor developments closely.,Currency Volatility,Turkey,FMCG,6.4,Associated Press,2019-12-12
+448,Foreign exchange swings pressure import costs,,Currency Volatility,Saudi Arabia,FMCG,6.5,Financial Times,2022-05-20
+449,Banking sector reacts to currency instability,Market analysts expect elevated volatility.,Currency Volatility,China,Logistics,5.5,Bloomberg,2022-04-25
+450,National currency weakens amid uncertainty,Market analysts expect elevated volatility.,Currency Volatility,India,FMCG,9.0,Reuters,2025-08-29
+451,Foreign exchange swings pressure import costs,Supply chain experts monitor developments closely.,Currency Volatility,South Korea,Semiconductor,4.8,MarketWatch,2020-06-24
+452,Banking sector reacts to currency instability,Industry participants report increasing disruption.,Currency Volatility,India,Energy,6.3,Reuters,2024-04-13
+453,Foreign exchange swings pressure import costs,Industry participants report increasing disruption.,Currency Volatility,China,Automotive,5.6,MarketWatch,2019-06-13
+454,Foreign exchange swings pressure import costs,Market analysts expect elevated volatility.,Currency Volatility,India,FMCG,5.8,WSJ,2023-07-06
+455,Foreign exchange swings pressure import costs,,Currency Volatility,India,FMCG,9.3,WSJ,2022-06-23
+456,Banking sector reacts to currency instability,Supply chain experts monitor developments closely.,Currency Volatility,India,Agriculture,7.3,Financial Times,2023-05-20
+457,National currency weakens amid uncertainty,Industry participants report increasing disruption.,Currency Volatility,Russia,Electronics,5.1,Associated Press,2019-12-20
+458,National currency weakens amid uncertainty,Supply chain experts monitor developments closely.,Currency Volatility,Germany,Energy,7.4,Reuters,2020-12-20
+459,National currency weakens amid uncertainty,Market analysts expect elevated volatility.,Currency Volatility,Brazil,Manufacturing,4.3,BBC,2022-11-21
+460,Banking sector reacts to currency instability,,Currency Volatility,Pakistan,Automotive,3.4,Bloomberg,2019-05-01
+461,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,India,Telecom,5.1,CNBC,2026-01-14
+462,National currency weakens amid uncertainty,Market analysts expect elevated volatility.,Currency Volatility,Taiwan,Banking,2.4,Bloomberg,2025-05-10
+463,Banking sector reacts to currency instability,,Currency Volatility,USA,Energy,8.7,Reuters,2021-07-24
+464,National currency weakens amid uncertainty,,Currency Volatility,Vietnam,Automotive,9.3,WSJ,2024-04-16
+465,National currency weakens amid uncertainty,Businesses assess impact on operations.,Currency Volatility,Turkey,Banking,3.2,CNBC,2023-09-14
+466,Foreign exchange swings pressure import costs,,Currency Volatility,Vietnam,Electronics,5.5,Reuters,2025-05-30
+467,National currency weakens amid uncertainty,Industry participants report increasing disruption.,Currency Volatility,China,Automotive,1.6,The Economist,2024-10-13
+468,Foreign exchange swings pressure import costs,Supply chain experts monitor developments closely.,Currency Volatility,India,FMCG,5.1,CNBC,2022-09-02
+469,National currency weakens amid uncertainty,Supply chain experts monitor developments closely.,Currency Volatility,Egypt,Semiconductor,3.2,CNBC,2025-04-28
+470,Banking sector reacts to currency instability,Market analysts expect elevated volatility.,Currency Volatility,Turkey,Manufacturing,1.1,Nikkei,2021-03-11
+471,National currency weakens amid uncertainty,Industry participants report increasing disruption.,Currency Volatility,Vietnam,Energy,9.6,Reuters,2025-01-27
+472,Banking sector reacts to currency instability,Market analysts expect elevated volatility.,Currency Volatility,Germany,Logistics,5.8,Financial Times,2022-06-13
+473,Foreign exchange swings pressure import costs,Market analysts expect elevated volatility.,Currency Volatility,Japan,Agriculture,1.8,Financial Times,2019-09-03
+474,Banking sector reacts to currency instability,Market analysts expect elevated volatility.,Currency Volatility,Ukraine,Electronics,6.2,MarketWatch,2023-03-06
+475,National currency weakens amid uncertainty,Market analysts expect elevated volatility.,Currency Volatility,China,Automotive,7.0,WSJ,2019-11-03
+476,National currency weakens amid uncertainty,Supply chain experts monitor developments closely.,Currency Volatility,Pakistan,Automotive,7.3,CNBC,2021-12-05
+477,Foreign exchange swings pressure import costs,Market analysts expect elevated volatility.,Currency Volatility,Turkey,Electronics,9.5,WSJ,2022-01-18
+478,Banking sector reacts to currency instability,,Currency Volatility,Germany,Manufacturing,5.0,CNBC,2020-09-28
+479,Foreign exchange swings pressure import costs,,Currency Volatility,Vietnam,Logistics,5.1,The Economist,2025-01-04
+480,Foreign exchange swings pressure import costs,,Currency Volatility,Taiwan,Agriculture,8.4,Associated Press,2020-01-06
+481,National currency weakens amid uncertainty,Industry participants report increasing disruption.,Currency Volatility,Japan,Electronics,7.4,CNBC,2022-09-04
+482,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,Egypt,Agriculture,8.4,WSJ,2019-07-20
+483,National currency weakens amid uncertainty,Market analysts expect elevated volatility.,Currency Volatility,Turkey,Electronics,5.2,WSJ,2024-01-27
+484,National currency weakens amid uncertainty,,Currency Volatility,Turkey,Manufacturing,2.8,Nikkei,2019-09-10
+485,Foreign exchange swings pressure import costs,,Currency Volatility,Brazil,Electronics,1.2,Bloomberg,2025-07-13
+486,National currency weakens amid uncertainty,Market analysts expect elevated volatility.,Currency Volatility,India,Banking,2.1,The Economist,2020-06-11
+487,National currency weakens amid uncertainty,Industry participants report increasing disruption.,Currency Volatility,Russia,Automotive,5.5,Nikkei,2025-06-08
+488,Banking sector reacts to currency instability,Market analysts expect elevated volatility.,Currency Volatility,Vietnam,Logistics,9.2,BBC,2020-12-08
+489,Foreign exchange swings pressure import costs,Market analysts expect elevated volatility.,Currency Volatility,China,Semiconductor,6.6,Financial Times,2020-08-31
+490,Banking sector reacts to currency instability,Supply chain experts monitor developments closely.,Currency Volatility,Russia,FMCG,5.3,Bloomberg,2024-08-05
+491,Foreign exchange swings pressure import costs,Market analysts expect elevated volatility.,Currency Volatility,Russia,Logistics,6.8,MarketWatch,2020-07-16
+492,National currency weakens amid uncertainty,Businesses assess impact on operations.,Currency Volatility,South Korea,Banking,5.3,The Economist,2019-03-21
+493,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,Pakistan,Automotive,3.4,Reuters,2024-08-19
+494,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,USA,Agriculture,1.5,The Economist,2021-06-16
+495,Banking sector reacts to currency instability,Supply chain experts monitor developments closely.,Currency Volatility,Turkey,Manufacturing,1.9,Financial Times,2025-07-20
+496,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,Turkey,Semiconductor,8.6,Nikkei,2019-08-18
+497,Foreign exchange swings pressure import costs,Industry participants report increasing disruption.,Currency Volatility,Turkey,Semiconductor,3.9,CNBC,2020-12-22
+498,Banking sector reacts to currency instability,,Currency Volatility,Japan,Semiconductor,9.5,The Economist,2022-12-11
+499,Banking sector reacts to currency instability,Supply chain experts monitor developments closely.,Currency Volatility,Global,Energy,1.8,Financial Times,2020-12-20
+500,Banking sector reacts to currency instability,Industry participants report increasing disruption.,Currency Volatility,Global,Energy,4.0,Associated Press,2019-03-23
+501,National currency weakens amid uncertainty,Industry participants report increasing disruption.,Currency Volatility,Taiwan,Banking,1.5,WSJ,2022-10-27
+502,Banking sector reacts to currency instability,Industry participants report increasing disruption.,Currency Volatility,Vietnam,Electronics,4.4,Nikkei,2020-03-30
+503,Banking sector reacts to currency instability,,Currency Volatility,Egypt,Banking,2.2,WSJ,2022-10-10
+504,Banking sector reacts to currency instability,Market analysts expect elevated volatility.,Currency Volatility,Pakistan,Manufacturing,7.4,MarketWatch,2024-06-18
+505,Banking sector reacts to currency instability,Businesses assess impact on operations.,Currency Volatility,Turkey,Semiconductor,8.3,Nikkei,2023-01-01
+506,Foreign exchange swings pressure import costs,Supply chain experts monitor developments closely.,Currency Volatility,Taiwan,Energy,9.5,Associated Press,2020-06-05
+507,Foreign exchange swings pressure import costs,Businesses assess impact on operations.,Currency Volatility,Taiwan,Semiconductor,3.9,Associated Press,2019-05-13
+508,National currency weakens amid uncertainty,Businesses assess impact on operations.,Currency Volatility,Global,Manufacturing,4.0,Bloomberg,2020-03-02
+509,National currency weakens amid uncertainty,Supply chain experts monitor developments closely.,Currency Volatility,Taiwan,Electronics,8.4,CNBC,2022-08-01
+510,Foreign exchange swings pressure import costs,,Currency Volatility,Saudi Arabia,Logistics,7.2,CNBC,2021-12-22

@@ -1,0 +1,501 @@
+industry,dependency_type,source_country,dependency_score,substitution_ease,annual_trade_value_usd_bn,lead_time_weeks,risk_multiplier
+Electronics,Rare Earth,China,61,low,85.9,14,1.4
+Electronics,Semiconductor,Taiwan,97,low,41.9,6,2.1
+Automotive,Semiconductor,Taiwan,95,medium,84.9,12,1.7
+Automotive,Semiconductor,Taiwan,70,medium,104.5,6,2.9
+Agriculture,Fertilizer,Russia,66,low,132.1,8,2.3
+Automotive,Battery Cells,China,89,medium,36.8,7,2.7
+Textiles,Cotton,India,96,low,25.6,6,2.6
+Electronics,Semiconductor,Taiwan,74,medium,104.5,13,2.7
+Pharmaceuticals,API,India,83,medium,248.6,13,2.4
+Pharmaceuticals,API,India,94,low,167.2,7,3.0
+Energy,Crude Oil,Saudi Arabia,80,low,87.9,3,2.6
+Textiles,Synthetic Fiber,China,77,medium,82.3,10,1.9
+Construction,Steel,China,69,low,263.3,11,1.7
+Aerospace,Titanium,Kazakhstan,97,low,349.1,5,2.1
+Electronics,Semiconductor,Taiwan,63,low,223.3,15,2.4
+Electronics,Semiconductor,Taiwan,84,medium,189.9,11,2.7
+Automotive,Semiconductor,Taiwan,67,high,265.3,15,2.4
+Electronics,Rare Earth,China,78,medium,11.1,14,2.8
+Energy,Natural Gas,Qatar,92,high,320.3,16,2.3
+Pharmaceuticals,Chemical Precursors,China,69,low,193.4,15,2.9
+Automotive,Semiconductor,Taiwan,98,low,48.0,8,2.8
+Agriculture,Potash,Canada,75,low,39.1,10,2.7
+Electronics,Lithium,Chile,68,high,66.1,11,2.8
+Aerospace,Titanium,Kazakhstan,73,high,244.6,14,1.8
+Textiles,Cotton,India,88,medium,51.1,6,1.3
+Automotive,Semiconductor,Taiwan,97,high,84.9,4,2.5
+Automotive,Battery Cells,China,74,low,302.3,4,2.1
+Energy,Natural Gas,Qatar,91,low,255.9,12,2.2
+Energy,Crude Oil,Saudi Arabia,90,low,42.1,13,2.0
+Aerospace,Titanium,Kazakhstan,86,low,238.9,13,1.4
+Textiles,Synthetic Fiber,China,81,low,94.5,6,2.2
+Electronics,Lithium,Chile,87,medium,94.9,4,2.0
+Electronics,Rare Earth,China,63,high,294.2,4,2.9
+Energy,Crude Oil,Saudi Arabia,70,medium,82.7,9,2.8
+Pharmaceuticals,API,India,84,medium,100.2,15,2.6
+Agriculture,Potash,Canada,87,high,348.4,11,2.4
+Chemicals,Petrochemicals,Saudi Arabia,69,low,339.4,12,2.5
+Automotive,Battery Cells,China,80,medium,181.0,16,2.2
+Automotive,Battery Cells,China,92,low,33.3,4,2.4
+Energy,Crude Oil,Saudi Arabia,85,low,206.8,3,2.3
+Aerospace,Titanium,Kazakhstan,97,medium,327.8,6,2.4
+Agriculture,Fertilizer,Russia,75,low,238.4,7,2.0
+Electronics,Semiconductor,Taiwan,60,low,34.9,6,2.1
+Electronics,Lithium,Chile,82,low,135.6,5,2.0
+Agriculture,Potash,Canada,99,high,189.8,13,2.7
+Agriculture,Potash,Canada,66,low,99.9,4,2.5
+Electronics,Lithium,Chile,77,low,254.0,6,2.4
+Energy,Natural Gas,Qatar,92,low,41.4,9,2.7
+Automotive,Battery Cells,China,60,low,226.6,7,1.5
+Construction,Steel,China,95,high,13.3,4,2.9
+Electronics,Lithium,Chile,94,medium,208.1,5,2.0
+Automotive,Battery Cells,China,79,low,315.6,6,2.4
+Electronics,Rare Earth,China,82,medium,341.1,14,1.5
+Energy,Crude Oil,Saudi Arabia,70,low,309.7,3,1.5
+Agriculture,Fertilizer,Russia,86,high,285.7,7,1.5
+Electronics,Rare Earth,China,84,medium,85.6,16,2.9
+Textiles,Cotton,India,79,low,85.8,13,1.5
+Agriculture,Fertilizer,Russia,77,medium,129.4,11,1.9
+Agriculture,Fertilizer,Russia,61,medium,70.7,7,1.3
+Aerospace,Titanium,Kazakhstan,82,medium,158.4,11,1.4
+Pharmaceuticals,Chemical Precursors,China,76,medium,10.6,15,2.2
+Pharmaceuticals,Chemical Precursors,China,83,medium,221.9,13,2.7
+Agriculture,Potash,Canada,92,medium,120.9,14,1.7
+Electronics,Lithium,Chile,72,medium,240.3,5,2.3
+Agriculture,Potash,Canada,85,low,113.3,6,2.0
+Agriculture,Fertilizer,Russia,89,low,183.8,15,2.8
+Pharmaceuticals,API,India,65,medium,41.8,15,1.6
+Agriculture,Potash,Canada,74,low,18.3,6,3.0
+Electronics,Semiconductor,Taiwan,89,low,254.2,9,2.1
+Energy,Crude Oil,Saudi Arabia,69,low,313.5,16,2.6
+Electronics,Rare Earth,China,87,medium,27.1,6,2.9
+Electronics,Rare Earth,China,89,medium,237.0,11,2.3
+Construction,Steel,China,99,high,155.1,11,2.0
+Pharmaceuticals,API,India,90,low,295.6,7,2.6
+Chemicals,Petrochemicals,Saudi Arabia,100,medium,36.3,7,1.6
+Agriculture,Fertilizer,Russia,80,low,57.0,6,1.9
+Electronics,Lithium,Chile,73,medium,122.5,10,1.9
+Pharmaceuticals,Chemical Precursors,China,86,low,301.3,15,2.2
+Chemicals,Petrochemicals,Saudi Arabia,60,medium,266.2,16,2.8
+Aerospace,Titanium,Kazakhstan,94,high,282.0,6,2.1
+Energy,Natural Gas,Qatar,87,medium,124.3,13,2.6
+Pharmaceuticals,API,India,89,high,191.6,9,2.3
+Automotive,Semiconductor,Taiwan,65,low,304.7,5,1.3
+Textiles,Synthetic Fiber,China,80,medium,124.8,9,1.7
+Aerospace,Titanium,Kazakhstan,76,medium,16.6,11,1.3
+Textiles,Cotton,India,74,high,23.7,3,2.9
+Pharmaceuticals,Chemical Precursors,China,61,low,52.9,13,1.4
+Pharmaceuticals,Chemical Precursors,China,89,medium,67.0,12,2.9
+Electronics,Rare Earth,China,70,low,206.8,7,2.2
+Textiles,Synthetic Fiber,China,85,low,35.8,14,2.7
+Energy,Crude Oil,Saudi Arabia,66,medium,299.1,12,2.6
+Automotive,Battery Cells,China,82,high,136.0,11,2.4
+Automotive,Semiconductor,Taiwan,86,low,157.4,8,2.3
+Construction,Steel,China,69,medium,219.4,11,2.6
+Construction,Steel,China,87,high,101.3,16,1.6
+Electronics,Semiconductor,Taiwan,77,low,265.2,12,2.3
+Textiles,Synthetic Fiber,China,81,medium,71.8,6,1.8
+Energy,Natural Gas,Qatar,81,medium,199.0,11,2.9
+Electronics,Semiconductor,Taiwan,75,medium,198.8,6,2.4
+Chemicals,Petrochemicals,Saudi Arabia,88,low,110.0,9,2.4
+Agriculture,Potash,Canada,97,medium,154.7,14,2.2
+Textiles,Cotton,India,89,medium,88.4,14,1.5
+Electronics,Rare Earth,China,94,high,73.0,6,2.5
+Energy,Natural Gas,Qatar,97,high,212.9,4,2.7
+Agriculture,Potash,Canada,74,medium,14.8,11,1.4
+Automotive,Battery Cells,China,63,high,331.0,13,2.8
+Chemicals,Petrochemicals,Saudi Arabia,66,high,106.7,10,2.0
+Pharmaceuticals,API,India,63,medium,48.8,4,1.9
+Electronics,Semiconductor,Taiwan,96,low,61.6,15,2.2
+Agriculture,Potash,Canada,65,low,199.7,9,2.3
+Energy,Crude Oil,Saudi Arabia,93,medium,111.1,12,3.0
+Agriculture,Potash,Canada,96,high,336.4,4,2.9
+Pharmaceuticals,Chemical Precursors,China,100,low,63.4,5,2.2
+Pharmaceuticals,API,India,60,medium,109.0,6,1.7
+Agriculture,Potash,Canada,89,low,324.1,15,2.6
+Pharmaceuticals,Chemical Precursors,China,87,low,230.2,7,2.7
+Electronics,Semiconductor,Taiwan,63,medium,212.3,16,2.2
+Agriculture,Potash,Canada,88,medium,247.9,7,2.1
+Chemicals,Petrochemicals,Saudi Arabia,88,low,312.4,14,1.8
+Energy,Natural Gas,Qatar,61,low,349.9,13,2.7
+Automotive,Battery Cells,China,71,medium,321.5,5,3.0
+Aerospace,Titanium,Kazakhstan,100,low,169.8,9,1.8
+Electronics,Rare Earth,China,70,medium,108.0,9,2.7
+Automotive,Battery Cells,China,89,medium,119.9,15,1.9
+Automotive,Semiconductor,Taiwan,94,low,73.8,8,2.3
+Chemicals,Petrochemicals,Saudi Arabia,100,low,79.2,11,1.4
+Agriculture,Potash,Canada,88,medium,51.3,13,2.3
+Energy,Crude Oil,Saudi Arabia,70,low,197.8,4,1.6
+Electronics,Rare Earth,China,89,high,292.9,10,2.9
+Agriculture,Potash,Canada,92,medium,293.8,10,1.6
+Electronics,Lithium,Chile,84,low,303.8,7,2.6
+Aerospace,Titanium,Kazakhstan,81,high,100.8,3,1.7
+Agriculture,Potash,Canada,97,high,176.5,5,2.0
+Chemicals,Petrochemicals,Saudi Arabia,82,medium,164.8,8,2.8
+Energy,Crude Oil,Saudi Arabia,96,medium,24.8,14,2.1
+Textiles,Synthetic Fiber,China,84,high,343.5,10,2.9
+Electronics,Lithium,Chile,92,medium,305.7,16,2.7
+Electronics,Rare Earth,China,93,low,255.6,9,2.8
+Electronics,Lithium,Chile,64,medium,125.1,14,1.9
+Electronics,Semiconductor,Taiwan,81,high,139.2,8,2.3
+Chemicals,Petrochemicals,Saudi Arabia,94,low,89.8,13,2.9
+Energy,Crude Oil,Saudi Arabia,65,low,268.5,14,2.8
+Construction,Steel,China,70,low,25.6,15,1.3
+Textiles,Cotton,India,83,low,190.6,12,2.4
+Pharmaceuticals,API,India,70,medium,220.7,6,2.1
+Electronics,Lithium,Chile,74,medium,166.3,13,1.2
+Construction,Steel,China,78,low,35.1,8,3.0
+Agriculture,Potash,Canada,100,high,95.0,16,1.7
+Textiles,Synthetic Fiber,China,90,medium,204.5,12,1.7
+Agriculture,Potash,Canada,61,high,144.6,3,2.2
+Automotive,Battery Cells,China,98,medium,273.8,6,2.3
+Textiles,Cotton,India,74,high,95.2,15,2.5
+Electronics,Lithium,Chile,100,low,115.0,10,1.3
+Textiles,Cotton,India,68,medium,121.1,9,1.5
+Electronics,Lithium,Chile,94,medium,190.5,7,2.7
+Energy,Natural Gas,Qatar,90,medium,263.8,8,2.6
+Construction,Steel,China,64,low,302.4,14,2.4
+Textiles,Synthetic Fiber,China,95,medium,14.7,11,1.4
+Textiles,Cotton,India,76,high,329.7,4,2.4
+Chemicals,Petrochemicals,Saudi Arabia,61,high,121.5,12,1.6
+Electronics,Semiconductor,Taiwan,100,high,112.7,9,1.4
+Automotive,Battery Cells,China,62,medium,49.5,6,2.8
+Electronics,Lithium,Chile,84,medium,209.7,14,1.5
+Aerospace,Titanium,Kazakhstan,66,high,148.8,7,1.3
+Textiles,Cotton,India,73,low,300.9,4,3.0
+Textiles,Cotton,India,94,high,131.9,9,1.7
+Electronics,Rare Earth,China,89,low,228.2,12,2.9
+Automotive,Battery Cells,China,81,low,277.6,6,1.3
+Pharmaceuticals,Chemical Precursors,China,97,low,121.7,5,2.6
+Automotive,Semiconductor,Taiwan,77,low,345.8,11,1.7
+Pharmaceuticals,API,India,67,low,54.8,8,2.6
+Energy,Crude Oil,Saudi Arabia,97,low,100.2,5,2.5
+Electronics,Rare Earth,China,64,medium,184.5,4,2.0
+Energy,Crude Oil,Saudi Arabia,99,medium,165.7,3,1.3
+Chemicals,Petrochemicals,Saudi Arabia,85,low,176.7,10,1.3
+Electronics,Semiconductor,Taiwan,80,low,52.9,12,2.3
+Agriculture,Fertilizer,Russia,84,high,110.3,11,2.3
+Electronics,Rare Earth,China,67,high,308.4,11,2.5
+Pharmaceuticals,Chemical Precursors,China,87,low,150.7,16,2.0
+Aerospace,Titanium,Kazakhstan,66,medium,236.1,8,2.9
+Chemicals,Petrochemicals,Saudi Arabia,64,low,41.7,4,2.5
+Textiles,Cotton,India,68,high,335.3,11,1.8
+Electronics,Rare Earth,China,86,medium,305.2,14,1.3
+Agriculture,Potash,Canada,98,low,206.5,6,1.5
+Chemicals,Petrochemicals,Saudi Arabia,74,medium,297.4,8,1.4
+Energy,Natural Gas,Qatar,96,medium,297.4,15,2.7
+Automotive,Semiconductor,Taiwan,98,high,100.9,5,1.7
+Agriculture,Potash,Canada,81,low,305.8,12,2.4
+Electronics,Semiconductor,Taiwan,69,low,41.2,11,1.6
+Aerospace,Titanium,Kazakhstan,89,medium,116.0,8,2.6
+Electronics,Semiconductor,Taiwan,63,low,239.1,7,2.0
+Aerospace,Titanium,Kazakhstan,91,medium,102.9,15,2.1
+Textiles,Cotton,India,87,medium,189.2,7,1.3
+Textiles,Synthetic Fiber,China,98,low,112.5,6,2.6
+Energy,Natural Gas,Qatar,78,low,179.1,9,1.5
+Textiles,Synthetic Fiber,China,94,high,200.0,13,2.7
+Electronics,Semiconductor,Taiwan,85,low,158.3,10,2.9
+Agriculture,Fertilizer,Russia,96,medium,251.2,9,1.7
+Textiles,Synthetic Fiber,China,61,low,282.4,12,2.0
+Textiles,Cotton,India,65,low,92.7,12,1.9
+Electronics,Semiconductor,Taiwan,85,high,125.4,8,2.6
+Electronics,Semiconductor,Taiwan,92,high,183.4,15,1.8
+Electronics,Lithium,Chile,75,medium,77.1,12,1.5
+Electronics,Semiconductor,Taiwan,71,high,178.0,15,2.2
+Construction,Steel,China,96,high,119.9,13,1.8
+Construction,Steel,China,64,medium,280.8,12,1.3
+Electronics,Semiconductor,Taiwan,79,low,29.3,16,1.7
+Electronics,Semiconductor,Taiwan,99,medium,167.3,11,2.9
+Automotive,Battery Cells,China,88,high,231.6,8,2.3
+Electronics,Lithium,Chile,63,medium,344.0,4,2.1
+Pharmaceuticals,API,India,62,medium,346.9,11,2.1
+Pharmaceuticals,API,India,83,medium,141.7,15,1.8
+Automotive,Battery Cells,China,100,low,122.1,11,2.4
+Agriculture,Potash,Canada,76,high,337.9,12,2.8
+Agriculture,Fertilizer,Russia,65,low,321.7,7,2.9
+Textiles,Synthetic Fiber,China,68,low,115.3,9,2.4
+Agriculture,Fertilizer,Russia,68,high,349.0,11,1.4
+Aerospace,Titanium,Kazakhstan,92,medium,115.0,6,1.8
+Chemicals,Petrochemicals,Saudi Arabia,72,low,62.7,7,2.7
+Electronics,Rare Earth,China,92,high,310.5,3,2.4
+Electronics,Lithium,Chile,98,low,71.5,14,2.6
+Pharmaceuticals,API,India,88,medium,240.0,6,2.9
+Agriculture,Potash,Canada,88,low,115.2,15,2.6
+Pharmaceuticals,Chemical Precursors,China,83,high,344.7,10,2.6
+Textiles,Synthetic Fiber,China,92,low,287.7,15,2.3
+Energy,Natural Gas,Qatar,63,medium,198.5,4,2.5
+Electronics,Rare Earth,China,78,low,102.7,11,1.5
+Aerospace,Titanium,Kazakhstan,65,low,287.7,8,2.9
+Aerospace,Titanium,Kazakhstan,63,medium,90.2,4,1.9
+Automotive,Semiconductor,Taiwan,80,high,231.0,15,1.5
+Automotive,Battery Cells,China,78,medium,246.7,5,2.6
+Chemicals,Petrochemicals,Saudi Arabia,88,low,16.5,6,2.7
+Aerospace,Titanium,Kazakhstan,67,low,112.4,3,1.6
+Construction,Steel,China,64,medium,212.9,3,2.3
+Energy,Crude Oil,Saudi Arabia,69,low,219.0,6,2.2
+Pharmaceuticals,API,India,65,medium,33.0,11,2.2
+Automotive,Semiconductor,Taiwan,84,low,226.1,8,1.7
+Automotive,Semiconductor,Taiwan,82,medium,92.0,13,2.3
+Agriculture,Fertilizer,Russia,68,medium,286.6,5,2.7
+Construction,Steel,China,90,low,31.5,15,2.9
+Automotive,Battery Cells,China,78,low,311.2,8,2.9
+Textiles,Synthetic Fiber,China,94,low,266.1,6,1.7
+Automotive,Battery Cells,China,81,medium,158.6,9,2.5
+Textiles,Synthetic Fiber,China,81,medium,245.3,8,2.9
+Energy,Natural Gas,Qatar,65,low,156.4,16,1.5
+Agriculture,Potash,Canada,80,medium,234.7,7,2.0
+Aerospace,Titanium,Kazakhstan,70,medium,162.0,14,2.8
+Textiles,Cotton,India,99,medium,227.4,15,2.9
+Electronics,Semiconductor,Taiwan,100,low,333.9,5,2.7
+Construction,Steel,China,62,low,274.7,8,1.9
+Automotive,Battery Cells,China,98,medium,332.6,8,2.0
+Electronics,Semiconductor,Taiwan,96,medium,145.3,13,1.7
+Electronics,Rare Earth,China,61,medium,186.0,11,1.4
+Energy,Natural Gas,Qatar,88,medium,246.0,10,1.6
+Electronics,Lithium,Chile,64,medium,349.1,15,2.4
+Agriculture,Fertilizer,Russia,82,high,194.3,7,2.7
+Pharmaceuticals,API,India,83,low,344.9,15,1.4
+Chemicals,Petrochemicals,Saudi Arabia,61,medium,168.9,11,1.4
+Electronics,Semiconductor,Taiwan,64,medium,188.7,15,1.9
+Electronics,Semiconductor,Taiwan,68,high,35.2,10,2.4
+Textiles,Cotton,India,68,high,227.5,5,2.6
+Electronics,Lithium,Chile,87,low,292.7,11,1.5
+Pharmaceuticals,API,India,70,low,127.6,11,2.8
+Electronics,Semiconductor,Taiwan,76,medium,52.6,7,2.3
+Electronics,Semiconductor,Taiwan,92,high,330.1,5,1.5
+Agriculture,Fertilizer,Russia,96,low,37.6,13,2.6
+Energy,Natural Gas,Qatar,73,medium,220.2,3,2.1
+Agriculture,Potash,Canada,79,medium,111.1,4,2.4
+Pharmaceuticals,API,India,88,medium,79.4,12,1.5
+Agriculture,Fertilizer,Russia,82,low,268.6,11,2.2
+Agriculture,Fertilizer,Russia,75,medium,162.9,5,1.4
+Agriculture,Potash,Canada,84,medium,94.4,16,2.8
+Agriculture,Fertilizer,Russia,96,low,269.5,10,3.0
+Construction,Steel,China,91,medium,17.9,9,2.1
+Energy,Crude Oil,Saudi Arabia,73,low,27.2,10,2.3
+Chemicals,Petrochemicals,Saudi Arabia,78,low,156.5,7,2.5
+Textiles,Synthetic Fiber,China,83,low,203.9,6,1.9
+Agriculture,Potash,Canada,64,medium,269.9,7,2.7
+Electronics,Rare Earth,China,68,medium,136.9,8,2.2
+Textiles,Cotton,India,69,medium,180.0,3,1.3
+Agriculture,Fertilizer,Russia,90,low,216.1,11,1.5
+Agriculture,Fertilizer,Russia,70,medium,211.9,11,2.7
+Chemicals,Petrochemicals,Saudi Arabia,96,low,135.2,13,1.4
+Aerospace,Titanium,Kazakhstan,97,low,212.9,7,2.9
+Energy,Crude Oil,Saudi Arabia,63,low,188.2,14,2.3
+Textiles,Synthetic Fiber,China,69,low,20.7,14,1.4
+Automotive,Semiconductor,Taiwan,88,low,150.4,6,1.9
+Chemicals,Petrochemicals,Saudi Arabia,63,high,80.5,8,3.0
+Chemicals,Petrochemicals,Saudi Arabia,93,low,166.3,11,1.8
+Textiles,Cotton,India,76,low,335.5,7,2.2
+Energy,Crude Oil,Saudi Arabia,79,high,80.5,14,2.1
+Chemicals,Petrochemicals,Saudi Arabia,82,high,103.0,4,2.2
+Textiles,Synthetic Fiber,China,85,low,108.8,7,2.9
+Electronics,Semiconductor,Taiwan,82,high,97.2,10,1.6
+Energy,Natural Gas,Qatar,95,low,47.1,14,2.3
+Energy,Crude Oil,Saudi Arabia,63,high,86.7,6,1.3
+Aerospace,Titanium,Kazakhstan,81,low,241.6,5,1.2
+Pharmaceuticals,API,India,86,medium,172.3,6,2.6
+Agriculture,Potash,Canada,80,low,318.7,4,2.4
+Energy,Crude Oil,Saudi Arabia,94,low,320.5,5,2.0
+Pharmaceuticals,API,India,62,medium,277.9,5,2.9
+Agriculture,Potash,Canada,62,low,325.7,8,1.7
+Chemicals,Petrochemicals,Saudi Arabia,68,medium,102.8,15,1.4
+Pharmaceuticals,API,India,89,high,73.3,14,1.8
+Agriculture,Potash,Canada,96,low,69.7,16,2.3
+Textiles,Synthetic Fiber,China,87,low,146.3,4,1.5
+Electronics,Lithium,Chile,90,low,12.3,9,1.6
+Energy,Natural Gas,Qatar,81,low,98.9,8,2.4
+Automotive,Battery Cells,China,67,low,147.8,11,2.9
+Agriculture,Potash,Canada,67,medium,135.0,6,1.6
+Electronics,Lithium,Chile,90,medium,151.4,11,2.8
+Pharmaceuticals,Chemical Precursors,China,75,high,306.9,4,2.1
+Textiles,Cotton,India,64,low,31.0,11,2.8
+Pharmaceuticals,Chemical Precursors,China,96,low,121.6,11,2.0
+Pharmaceuticals,Chemical Precursors,China,97,medium,285.0,10,1.4
+Aerospace,Titanium,Kazakhstan,89,high,167.2,15,1.8
+Automotive,Semiconductor,Taiwan,85,low,263.6,12,1.3
+Aerospace,Titanium,Kazakhstan,82,high,348.0,4,3.0
+Chemicals,Petrochemicals,Saudi Arabia,62,low,271.5,15,2.4
+Aerospace,Titanium,Kazakhstan,83,medium,162.5,9,1.9
+Electronics,Lithium,Chile,82,medium,189.8,14,3.0
+Automotive,Semiconductor,Taiwan,61,medium,239.0,11,2.0
+Textiles,Synthetic Fiber,China,74,medium,62.7,6,2.9
+Electronics,Rare Earth,China,62,medium,219.1,3,1.6
+Electronics,Semiconductor,Taiwan,66,medium,213.2,14,2.8
+Energy,Crude Oil,Saudi Arabia,62,low,193.5,15,2.8
+Automotive,Battery Cells,China,68,medium,89.6,14,2.2
+Agriculture,Fertilizer,Russia,75,low,345.1,11,1.6
+Agriculture,Potash,Canada,77,low,222.8,9,2.2
+Automotive,Battery Cells,China,82,high,139.6,11,1.8
+Aerospace,Titanium,Kazakhstan,86,medium,72.5,11,2.1
+Energy,Crude Oil,Saudi Arabia,79,low,284.0,3,2.2
+Aerospace,Titanium,Kazakhstan,95,medium,92.6,6,1.8
+Electronics,Semiconductor,Taiwan,88,low,192.1,16,1.5
+Energy,Natural Gas,Qatar,84,high,23.4,4,1.5
+Pharmaceuticals,Chemical Precursors,China,90,medium,113.1,3,1.6
+Pharmaceuticals,Chemical Precursors,China,67,medium,320.9,14,2.3
+Pharmaceuticals,Chemical Precursors,China,85,high,119.3,7,1.9
+Textiles,Cotton,India,79,medium,168.4,15,3.0
+Chemicals,Petrochemicals,Saudi Arabia,80,medium,116.4,3,2.2
+Energy,Crude Oil,Saudi Arabia,69,medium,110.4,6,1.8
+Textiles,Synthetic Fiber,China,96,medium,197.2,13,1.8
+Chemicals,Petrochemicals,Saudi Arabia,91,medium,67.6,14,2.2
+Pharmaceuticals,API,India,94,low,188.1,16,2.7
+Automotive,Battery Cells,China,60,low,33.1,5,1.2
+Construction,Steel,China,83,medium,234.2,3,1.2
+Aerospace,Titanium,Kazakhstan,60,medium,192.2,7,1.2
+Aerospace,Titanium,Kazakhstan,71,low,188.3,6,1.5
+Energy,Natural Gas,Qatar,82,medium,36.9,9,2.0
+Energy,Crude Oil,Saudi Arabia,74,low,232.3,16,2.4
+Electronics,Rare Earth,Argentina,78,medium,195.7,2,2.1
+Agriculture,Rare Earth,Australia,85,high,275.6,11,2.9
+Pharmaceuticals,Pesticides,Israel,35,low,77.9,15,2.2
+Logistics,Seeds,UK,35,low,241.1,6,2.7
+Logistics,Titanium,Taiwan,52,medium,10.4,5,2.0
+Renewable Energy,Rare Earth,Canada,50,high,88.0,15,2.6
+Industrial Manufacturing,Chemical Precursors,Argentina,47,high,254.8,10,2.4
+Medical Devices,Battery Cells,Japan,85,low,294.3,7,2.0
+Retail,Glass,Argentina,71,low,223.8,14,3.0
+Food Processing,Crude Oil,Brazil,100,medium,154.0,12,2.0
+Renewable Energy,Rare Earth,Russia,67,low,251.0,3,1.2
+Renewable Energy,Industrial Salt,Ukraine,49,high,139.4,7,0.8
+Automotive,API,Peru,76,medium,40.3,3,1.0
+Mining,Display Panels,Malaysia,95,medium,40.6,3,1.4
+FMCG,Glass,Vietnam,71,medium,9.3,8,1.5
+FMCG,Heavy Machinery,Turkey,61,high,184.8,12,1.5
+Energy,Natural Gas,Canada,64,medium,55.3,4,1.6
+Defense,API,Australia,39,medium,91.8,5,2.3
+Food Processing,Glass,Vietnam,55,medium,41.9,6,0.5
+Renewable Energy,Chemical Precursors,Kazakhstan,78,medium,156.9,8,2.5
+Retail,Lithium,Canada,71,high,331.8,5,1.7
+Agriculture,Palm Oil,Mexico,67,high,244.8,9,2.9
+Chemicals,Chemical Precursors,Argentina,65,medium,130.9,16,1.9
+Logistics,Display Panels,USA,100,low,333.8,9,2.9
+Aerospace,Potash,Ukraine,67,high,28.9,15,2.5
+Defense,Titanium,Australia,47,high,109.5,6,2.1
+Defense,Palm Oil,India,87,high,170.3,8,1.8
+Defense,Display Panels,Taiwan,76,high,313.9,10,2.0
+FMCG,Copper,Russia,61,high,234.3,4,2.1
+Electronics,Rubber,Singapore,81,medium,338.2,8,0.8
+Pharmaceuticals,Natural Gas,France,95,high,184.0,11,2.2
+Chemicals,Potash,Brazil,80,medium,271.5,11,2.2
+Energy,Packaging,China,91,low,106.9,16,2.9
+Pharmaceuticals,Heavy Machinery,South Korea,74,medium,123.4,14,1.0
+Food Processing,Packaging,Australia,42,medium,254.1,9,1.3
+Construction,Battery Cells,Ukraine,44,low,298.0,12,0.8
+Agriculture,Heavy Machinery,France,96,low,195.4,7,1.9
+Mining,Crude Oil,Ukraine,81,high,68.6,12,2.1
+Renewable Energy,Semiconductor,Qatar,55,medium,209.3,8,0.5
+Aerospace,Aluminum,UK,38,high,40.1,15,1.8
+Medical Devices,Chemical Precursors,Germany,88,low,95.5,15,1.7
+Telecommunications,Glass,Argentina,80,high,44.4,7,2.6
+Retail,Steel,Kazakhstan,68,high,208.6,12,0.8
+Pharmaceuticals,Crude Oil,Canada,44,low,133.8,4,1.8
+Defense,Glass,South Korea,79,medium,69.1,12,1.8
+Agriculture,Display Panels,USA,92,medium,53.4,7,2.6
+Retail,Battery Cells,South Africa,75,low,172.2,5,2.5
+Industrial Manufacturing,Pesticides,Singapore,93,medium,241.2,8,2.3
+Mining,Seeds,USA,40,high,15.6,14,1.1
+Electronics,Natural Gas,France,98,medium,63.0,9,1.9
+Food Processing,Display Panels,Indonesia,44,high,44.4,14,1.9
+Medical Devices,Display Panels,Kazakhstan,35,high,157.3,5,3.0
+Pharmaceuticals,Heavy Machinery,Kazakhstan,61,medium,306.8,2,1.6
+Medical Devices,Rare Earth,Peru,45,low,77.4,13,2.0
+Medical Devices,Industrial Salt,Vietnam,84,low,217.6,14,1.0
+Aerospace,Battery Cells,Thailand,74,high,102.0,10,0.9
+Construction,API,Thailand,64,high,345.0,12,2.5
+Energy,Logistics,Ukraine,82,low,347.4,15,2.1
+Energy,Crude Oil,South Korea,71,low,267.7,12,1.5
+Energy,Rubber,Singapore,64,high,147.9,9,0.7
+FMCG,Palm Oil,Indonesia,65,high,328.0,7,1.6
+Food Processing,Chemical Precursors,Thailand,30,high,37.1,9,2.1
+Medical Devices,Rare Earth,Ukraine,98,medium,80.2,8,2.6
+Food Processing,Natural Gas,Mexico,66,medium,193.8,4,1.9
+Food Processing,Chemical Precursors,Turkey,36,low,39.4,14,2.6
+Automotive,Copper,Israel,50,medium,162.5,8,1.0
+Energy,Carbon Fiber,Canada,50,medium,37.2,7,1.1
+Medical Devices,Titanium,Turkey,51,low,141.7,6,2.3
+Chemicals,Fertilizer,Singapore,41,high,37.8,5,1.7
+Energy,Rubber,France,96,high,158.5,2,2.2
+Pharmaceuticals,Fertilizer,UAE,46,medium,29.4,8,0.7
+Pharmaceuticals,Copper,Mexico,77,medium,52.3,14,2.5
+Energy,Carbon Fiber,Saudi Arabia,48,low,188.0,2,2.0
+Agriculture,Potash,Brazil,57,high,263.2,16,1.5
+Mining,Aluminum,India,42,low,264.6,11,2.3
+Medical Devices,Fertilizer,Mexico,47,low,100.6,3,1.1
+Retail,Glass,Qatar,66,high,14.3,15,2.1
+Construction,Aluminum,Indonesia,95,low,263.0,6,2.1
+Chemicals,Seeds,Argentina,44,low,177.4,11,0.7
+Automotive,Packaging,Israel,70,low,138.5,15,1.9
+Medical Devices,Display Panels,Saudi Arabia,52,medium,334.3,14,0.7
+Logistics,Rare Earth,China,63,low,18.7,2,2.9
+Renewable Energy,Pesticides,Canada,94,medium,151.1,8,0.7
+Industrial Manufacturing,Display Panels,Vietnam,49,medium,33.8,3,1.8
+Aerospace,Lithium,Malaysia,71,medium,207.3,14,2.6
+FMCG,API,UAE,85,high,333.9,5,0.6
+FMCG,Fertilizer,Japan,88,high,215.0,6,2.2
+Agriculture,Copper,China,47,high,8.9,9,2.9
+Consumer Electronics,Pesticides,Ukraine,63,low,133.3,13,2.5
+Textiles,Heavy Machinery,Turkey,45,low,120.6,8,1.2
+FMCG,Natural Gas,UAE,39,medium,162.0,7,0.6
+Logistics,Steel,Brazil,50,medium,271.8,16,1.9
+Pharmaceuticals,Crude Oil,Qatar,95,low,20.2,15,0.5
+Electronics,Seeds,Brazil,79,low,66.7,15,0.6
+Defense,Crude Oil,Mexico,61,medium,321.0,7,1.2
+FMCG,Rubber,Brazil,45,high,237.3,2,0.9
+Consumer Electronics,Battery Cells,Argentina,38,medium,303.8,14,2.6
+Telecommunications,Rare Earth,Malaysia,88,low,132.3,6,1.9
+Construction,Heavy Machinery,Vietnam,61,medium,132.1,9,3.0
+Aerospace,Heavy Machinery,Turkey,99,low,56.9,16,1.5
+Chemicals,Display Panels,Brazil,31,medium,5.5,12,1.4
+Construction,Copper,Germany,97,low,149.8,2,2.9
+Energy,Industrial Salt,UK,41,low,322.8,16,2.6
+Defense,Industrial Salt,Turkey,77,medium,341.2,3,2.0
+Consumer Electronics,Lithium,Singapore,80,low,209.2,2,1.6
+Energy,Crude Oil,Canada,63,medium,324.5,8,2.3
+Telecommunications,Chemical Precursors,Peru,64,low,30.8,5,0.8
+Logistics,Copper,South Korea,43,low,160.1,7,1.5
+Industrial Manufacturing,Packaging,Russia,56,medium,111.4,6,2.6
+FMCG,Steel,Ukraine,68,high,245.4,2,1.0
+Telecommunications,Lithium,India,61,medium,141.7,2,2.2
+Textiles,Steel,China,81,medium,196.8,10,1.1
+Mining,Copper,Ukraine,47,low,9.1,15,2.5
+Chemicals,Lithium,Germany,81,medium,241.8,12,0.7
+Logistics,Natural Gas,Israel,39,low,349.0,5,2.8
+Mining,Lithium,India,72,low,19.7,9,0.6
+Logistics,Fertilizer,Kazakhstan,80,medium,15.2,12,1.6
+Medical Devices,Aluminum,Israel,53,medium,101.5,16,0.9
+Retail,Glass,Vietnam,61,high,106.8,8,2.7
+Food Processing,Battery Cells,India,65,medium,52.3,5,2.1
+Consumer Electronics,Crude Oil,Singapore,99,low,346.3,14,2.3
+Food Processing,Display Panels,Ukraine,92,medium,319.9,10,1.3
+Textiles,Steel,China,70,high,80.6,16,2.5
+Textiles,Battery Cells,Ukraine,90,high,128.3,11,3.0
+Agriculture,Copper,France,60,medium,189.1,14,2.8
+Electronics,Logistics,France,79,medium,327.6,15,0.9
+Chemicals,Rubber,Mexico,75,high,14.7,13,1.4
+Logistics,Rubber,South Korea,54,medium,192.0,4,1.7
+FMCG,Battery Cells,France,58,low,186.6,2,1.3
+Retail,Aluminum,Ukraine,46,medium,252.3,16,2.5
+Telecommunications,Battery Cells,China,48,high,248.1,4,2.4
+Consumer Electronics,Packaging,India,77,high,330.0,8,2.0
+Telecommunications,API,Mexico,47,low,257.7,8,2.5
+Food Processing,Carbon Fiber,Mexico,52,high,339.2,13,2.7
+Retail,Packaging,France,52,medium,110.9,13,1.2
+Agriculture,Heavy Machinery,China,80,high,16.2,11,1.3
+Retail,Crude Oil,Singapore,43,medium,53.5,13,0.7
+Medical Devices,Chemical Precursors,USA,41,high,236.2,13,2.7
+Mining,Semiconductor,UK,56,low,244.1,7,1.1
+Pharmaceuticals,Heavy Machinery,China,36,medium,156.2,8,2.9
+Defense,Seeds,Turkey,78,medium,193.4,3,2.6
+Logistics,Carbon Fiber,Russia,58,low,160.7,14,2.6
+Construction,Semiconductor,Mexico,63,low,30.6,4,2.7
+Agriculture,Heavy Machinery,India,100,low,121.6,11,2.7
+Automotive,Fertilizer,Singapore,51,high,312.0,4,0.6
+Telecommunications,Aluminum,Germany,82,high,196.2,16,2.3
+Textiles,Titanium,Canada,68,low,38.1,8,1.9
+Food Processing,Lithium,Taiwan,76,low,152.5,6,2.6
+Retail,Seeds,Germany,42,low,76.4,12,1.2
+FMCG,Seeds,South Africa,44,medium,275.8,9,1.7

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block page_title %}AI Assistant{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h2><i class="fas fa-robot me-2 text-accent"></i>AI Supply Chain Assistant</h2>
+  <p>Powered by Groq LLaMA — ask about risks, industries, and supply chain scenarios</p>
+</div>
+<div class="row g-3">
+  <div class="col-md-8">
+    <div class="card" style="height:620px;display:flex;flex-direction:column;">
+      <div class="card-header"><h6><i class="fas fa-comments me-2"></i>Chat</h6></div>
+      <div class="chat-container" id="chat-messages">
+        <div class="chat-msg bot">
+          👋 Hello! I'm your Supply Chain Intelligence Assistant powered by Groq AI.<br><br>
+          I can analyze supply chain risks based on current platform data. Ask me about industry vulnerabilities, country risks, scenario impacts, or investment opportunities.
+        </div>
+      </div>
+      <div style="padding:12px;border-top:1px solid #1e2d42;">
+        <div class="d-flex gap-2">
+          <input type="text" class="form-control" id="chat-input" placeholder="Ask a supply chain question..."
+            onkeydown="if(event.key==='Enter') sendMessage()">
+          <button class="btn btn-primary" onclick="sendMessage()" style="white-space:nowrap">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card mb-3">
+      <div class="card-header"><h6><i class="fas fa-lightbulb me-2"></i>Suggested Questions</h6></div>
+      <div class="chat-suggestions">
+        <span class="chat-suggestion" onclick="askSuggestion(this)">Which industries are most vulnerable?</span>
+        <span class="chat-suggestion" onclick="askSuggestion(this)">What happens if Taiwan exports fall 20%?</span>
+        <span class="chat-suggestion" onclick="askSuggestion(this)">Which sectors benefit from oil shocks?</span>
+        <span class="chat-suggestion" onclick="askSuggestion(this)">What are the top risks this month?</span>
+        <span class="chat-suggestion" onclick="askSuggestion(this)">How does a shipping crisis affect FMCG?</span>
+        <span class="chat-suggestion" onclick="askSuggestion(this)">Best investment sectors during trade wars?</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><h6><i class="fas fa-info-circle me-2"></i>About</h6></div>
+      <div class="card-body" style="font-size:12px;color:#64748b;">
+        <p>The AI uses current platform data as context — no internet access required.</p>
+        <p>Powered by <b style="color:#0ea5e9">Groq LLaMA 3.1</b> for fast inference.</p>
+        <p>Add <code style="color:#f59e0b">GROQ_API_KEY</code> in <code>.env</code> to enable AI responses.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+async function sendMessage() {
+  const input = document.getElementById('chat-input');
+  const question = input.value.trim();
+  if (!question) return;
+  input.value = '';
+
+  const container = document.getElementById('chat-messages');
+  container.innerHTML += `<div class="chat-msg user">${question}</div>`;
+  container.innerHTML += `<div class="chat-msg bot" id="typing"><i class="fas fa-spinner fa-spin me-2"></i>Thinking...</div>`;
+  container.scrollTop = container.scrollHeight;
+
+  const r = await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question})});
+  const d = await r.json();
+
+  document.getElementById('typing').remove();
+  container.innerHTML += `<div class="chat-msg bot">${(d.answer||'No response').replace(/\n/g,'<br>')}</div>`;
+  container.scrollTop = container.scrollHeight;
+}
+
+function askSuggestion(el) {
+  document.getElementById('chat-input').value = el.textContent;
+  sendMessage();
+}
+</script>
+{% endblock %}

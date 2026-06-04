@@ -1,0 +1,501 @@
+product_name,category,primary_shock_type,base_price_usd,price_elasticity,key_material,sourcing_country,shortage_probability_pct,typical_lead_time_days,stockpile_buffer_days
+Electric Vehicle,Consumer,Semiconductor Shortage,2001.84,0.35,Lithium Battery,China,19,24,23
+Tractor,Industrial,Steel Shortage,6956.02,0.48,Steel,China,6,18,37
+Laptop,Consumer,Semiconductor Shortage,40428.92,0.12,Processor,Taiwan,17,98,79
+Pharmaceutical Tablet,Consumer,API Shortage,17636.03,0.63,API,India,56,118,10
+Fuel (per litre),Energy,Oil Shock,55851.45,0.41,Crude Oil,Saudi Arabia,14,34,53
+Electric Vehicle,Consumer,Semiconductor Shortage,7420.57,0.19,Lithium Battery,China,59,51,87
+Solar Panel,Energy,Trade Restriction,64570.45,0.76,Solar Cells,China,39,22,58
+Electric Vehicle,Consumer,Semiconductor Shortage,44163.7,0.85,Lithium Battery,China,44,120,56
+Passenger Vehicle,Consumer,Semiconductor Shortage,15383.89,0.16,Semiconductor,Taiwan,47,36,47
+Electric Vehicle,Consumer,Semiconductor Shortage,68425.56,0.88,Lithium Battery,China,29,42,68
+Wind Turbine,Energy,Rare Earth Shortage,13013.17,0.42,Rare Earth Magnets,China,47,41,19
+Passenger Vehicle,Consumer,Semiconductor Shortage,50798.63,0.58,Semiconductor,Taiwan,20,27,69
+Pharmaceutical Tablet,Consumer,API Shortage,21596.56,0.93,API,India,49,78,38
+Wind Turbine,Energy,Rare Earth Shortage,67428.31,0.8,Rare Earth Magnets,China,19,112,14
+Wind Turbine,Energy,Rare Earth Shortage,32093.78,0.16,Rare Earth Magnets,China,41,119,50
+Laptop,Consumer,Semiconductor Shortage,52435.44,0.46,Processor,Taiwan,46,65,28
+Solar Panel,Energy,Trade Restriction,11171.29,0.77,Solar Cells,China,39,40,84
+Pharmaceutical Tablet,Consumer,API Shortage,71825.93,0.46,API,India,19,24,75
+Medical Device,Industrial,Semiconductor Shortage,7273.66,0.14,Microcontroller,Taiwan,12,26,90
+Fuel (per litre),Energy,Oil Shock,63366.56,0.48,Crude Oil,Saudi Arabia,9,56,58
+Passenger Vehicle,Consumer,Semiconductor Shortage,79689.71,0.58,Semiconductor,Taiwan,40,117,11
+Electric Vehicle,Consumer,Semiconductor Shortage,54537.15,0.58,Lithium Battery,China,22,105,53
+Electric Vehicle,Consumer,Semiconductor Shortage,23480.72,0.24,Lithium Battery,China,5,99,43
+Tractor,Industrial,Steel Shortage,60957.21,0.56,Steel,China,11,118,90
+Solar Panel,Energy,Trade Restriction,67333.71,0.56,Solar Cells,China,17,26,57
+Fuel (per litre),Energy,Oil Shock,43150.78,0.8,Crude Oil,Saudi Arabia,38,7,86
+Wind Turbine,Energy,Rare Earth Shortage,39088.97,0.2,Rare Earth Magnets,China,28,119,49
+Laptop,Consumer,Semiconductor Shortage,4634.96,0.89,Processor,Taiwan,10,17,72
+Electric Vehicle,Consumer,Semiconductor Shortage,78238.78,0.58,Lithium Battery,China,13,23,70
+Tractor,Industrial,Steel Shortage,13210.99,0.57,Steel,China,43,61,37
+Tractor,Industrial,Steel Shortage,60421.46,0.72,Steel,China,50,46,61
+Wind Turbine,Energy,Rare Earth Shortage,35048.57,0.57,Rare Earth Magnets,China,12,38,38
+Electric Vehicle,Consumer,Semiconductor Shortage,27047.51,0.63,Lithium Battery,China,19,82,38
+Smartphone,Consumer,Semiconductor Shortage,5680.38,0.67,TSMC Chip,Taiwan,19,15,14
+Wind Turbine,Energy,Rare Earth Shortage,5669.52,0.31,Rare Earth Magnets,China,47,69,37
+Tractor,Industrial,Steel Shortage,10585.82,0.94,Steel,China,41,80,70
+Laptop,Consumer,Semiconductor Shortage,62769.77,0.83,Processor,Taiwan,17,19,22
+Pharmaceutical Tablet,Consumer,API Shortage,28344.45,0.47,API,India,60,100,16
+Electric Vehicle,Consumer,Semiconductor Shortage,4849.95,0.76,Lithium Battery,China,56,117,23
+Laptop,Consumer,Semiconductor Shortage,15328.01,0.58,Processor,Taiwan,13,61,33
+Solar Panel,Energy,Trade Restriction,37010.78,0.89,Solar Cells,China,9,63,80
+Electric Vehicle,Consumer,Semiconductor Shortage,4048.02,1.0,Lithium Battery,China,58,8,21
+Laptop,Consumer,Semiconductor Shortage,13305.72,0.54,Processor,Taiwan,18,117,61
+Smartphone,Consumer,Semiconductor Shortage,13171.81,0.1,TSMC Chip,Taiwan,29,40,68
+Solar Panel,Energy,Trade Restriction,33841.18,0.96,Solar Cells,China,55,78,72
+Fuel (per litre),Energy,Oil Shock,15192.64,0.3,Crude Oil,Saudi Arabia,8,81,79
+Smartphone,Consumer,Semiconductor Shortage,59838.3,0.15,TSMC Chip,Taiwan,42,68,74
+Tractor,Industrial,Steel Shortage,12595.46,0.96,Steel,China,10,115,33
+Electric Vehicle,Consumer,Semiconductor Shortage,47603.21,0.71,Lithium Battery,China,20,58,25
+Passenger Vehicle,Consumer,Semiconductor Shortage,19697.98,0.64,Semiconductor,Taiwan,44,17,63
+Passenger Vehicle,Consumer,Semiconductor Shortage,45218.59,0.38,Semiconductor,Taiwan,21,33,50
+Laptop,Consumer,Semiconductor Shortage,21249.9,0.22,Processor,Taiwan,46,45,68
+Wind Turbine,Energy,Rare Earth Shortage,74321.54,0.94,Rare Earth Magnets,China,5,65,89
+Passenger Vehicle,Consumer,Semiconductor Shortage,79687.72,0.17,Semiconductor,Taiwan,18,71,43
+Fuel (per litre),Energy,Oil Shock,74660.82,0.89,Crude Oil,Saudi Arabia,20,54,46
+Fuel (per litre),Energy,Oil Shock,35055.33,0.59,Crude Oil,Saudi Arabia,24,85,77
+Smartphone,Consumer,Semiconductor Shortage,53429.39,0.6,TSMC Chip,Taiwan,47,20,27
+Solar Panel,Energy,Trade Restriction,9235.18,0.2,Solar Cells,China,40,26,44
+Solar Panel,Energy,Trade Restriction,48386.78,0.75,Solar Cells,China,18,94,43
+Tractor,Industrial,Steel Shortage,39083.06,0.91,Steel,China,59,13,21
+Pharmaceutical Tablet,Consumer,API Shortage,66348.02,0.14,API,India,26,105,26
+Solar Panel,Energy,Trade Restriction,12927.4,0.5,Solar Cells,China,50,61,81
+Smartphone,Consumer,Semiconductor Shortage,8950.8,0.95,TSMC Chip,Taiwan,49,26,79
+Smartphone,Consumer,Semiconductor Shortage,66767.77,0.62,TSMC Chip,Taiwan,14,62,26
+Smartphone,Consumer,Semiconductor Shortage,24661.36,0.91,TSMC Chip,Taiwan,55,117,15
+Wind Turbine,Energy,Rare Earth Shortage,16806.91,0.32,Rare Earth Magnets,China,11,52,81
+Pharmaceutical Tablet,Consumer,API Shortage,77906.99,0.77,API,India,20,117,30
+Fuel (per litre),Energy,Oil Shock,70513.41,0.12,Crude Oil,Saudi Arabia,52,49,62
+Laptop,Consumer,Semiconductor Shortage,21345.19,0.81,Processor,Taiwan,11,55,14
+Medical Device,Industrial,Semiconductor Shortage,17795.47,0.83,Microcontroller,Taiwan,34,51,49
+Laptop,Consumer,Semiconductor Shortage,17834.66,0.69,Processor,Taiwan,30,49,45
+Electric Vehicle,Consumer,Semiconductor Shortage,77351.16,0.35,Lithium Battery,China,46,72,61
+Tractor,Industrial,Steel Shortage,26492.66,0.12,Steel,China,21,29,84
+Solar Panel,Energy,Trade Restriction,3061.54,0.64,Solar Cells,China,27,100,50
+Pharmaceutical Tablet,Consumer,API Shortage,48497.1,0.56,API,India,29,80,34
+Solar Panel,Energy,Trade Restriction,3551.88,0.49,Solar Cells,China,38,110,78
+Laptop,Consumer,Semiconductor Shortage,29138.35,0.16,Processor,Taiwan,47,49,89
+Wind Turbine,Energy,Rare Earth Shortage,53071.33,0.21,Rare Earth Magnets,China,24,71,49
+Pharmaceutical Tablet,Consumer,API Shortage,26095.31,0.73,API,India,40,23,34
+Pharmaceutical Tablet,Consumer,API Shortage,53194.69,0.44,API,India,52,29,88
+Passenger Vehicle,Consumer,Semiconductor Shortage,24076.69,0.59,Semiconductor,Taiwan,5,45,46
+Laptop,Consumer,Semiconductor Shortage,34391.62,0.62,Processor,Taiwan,46,48,69
+Medical Device,Industrial,Semiconductor Shortage,35373.34,0.29,Microcontroller,Taiwan,35,108,31
+Electric Vehicle,Consumer,Semiconductor Shortage,22703.63,0.7,Lithium Battery,China,44,49,21
+Laptop,Consumer,Semiconductor Shortage,53823.98,0.3,Processor,Taiwan,17,25,13
+Smartphone,Consumer,Semiconductor Shortage,19588.16,0.53,TSMC Chip,Taiwan,59,105,19
+Medical Device,Industrial,Semiconductor Shortage,33155.87,0.67,Microcontroller,Taiwan,17,98,59
+Medical Device,Industrial,Semiconductor Shortage,31972.83,0.23,Microcontroller,Taiwan,49,7,23
+Pharmaceutical Tablet,Consumer,API Shortage,17508.07,0.82,API,India,49,73,69
+Smartphone,Consumer,Semiconductor Shortage,44592.91,0.93,TSMC Chip,Taiwan,12,65,27
+Medical Device,Industrial,Semiconductor Shortage,53406.55,0.99,Microcontroller,Taiwan,43,47,66
+Passenger Vehicle,Consumer,Semiconductor Shortage,65200.71,0.9,Semiconductor,Taiwan,32,113,80
+Medical Device,Industrial,Semiconductor Shortage,71776.75,0.77,Microcontroller,Taiwan,35,64,43
+Laptop,Consumer,Semiconductor Shortage,67189.19,0.35,Processor,Taiwan,54,73,72
+Laptop,Consumer,Semiconductor Shortage,21968.52,0.17,Processor,Taiwan,23,37,44
+Wind Turbine,Energy,Rare Earth Shortage,25577.45,0.59,Rare Earth Magnets,China,13,26,39
+Pharmaceutical Tablet,Consumer,API Shortage,55516.29,0.74,API,India,9,60,62
+Wind Turbine,Energy,Rare Earth Shortage,43409.35,0.47,Rare Earth Magnets,China,18,113,63
+Pharmaceutical Tablet,Consumer,API Shortage,72387.17,0.63,API,India,49,9,83
+Pharmaceutical Tablet,Consumer,API Shortage,38158.9,0.95,API,India,24,103,59
+Pharmaceutical Tablet,Consumer,API Shortage,43058.11,0.76,API,India,56,84,38
+Medical Device,Industrial,Semiconductor Shortage,17554.51,0.49,Microcontroller,Taiwan,6,56,53
+Pharmaceutical Tablet,Consumer,API Shortage,57934.79,0.86,API,India,13,86,78
+Smartphone,Consumer,Semiconductor Shortage,72554.4,0.63,TSMC Chip,Taiwan,47,10,20
+Pharmaceutical Tablet,Consumer,API Shortage,10856.82,0.52,API,India,8,40,58
+Wind Turbine,Energy,Rare Earth Shortage,16933.61,0.39,Rare Earth Magnets,China,53,119,58
+Solar Panel,Energy,Trade Restriction,60161.03,0.85,Solar Cells,China,21,113,20
+Medical Device,Industrial,Semiconductor Shortage,1551.64,0.59,Microcontroller,Taiwan,27,35,18
+Smartphone,Consumer,Semiconductor Shortage,60338.9,0.95,TSMC Chip,Taiwan,17,114,12
+Passenger Vehicle,Consumer,Semiconductor Shortage,12191.44,0.21,Semiconductor,Taiwan,47,21,82
+Laptop,Consumer,Semiconductor Shortage,37203.25,0.33,Processor,Taiwan,28,28,87
+Passenger Vehicle,Consumer,Semiconductor Shortage,77098.82,0.75,Semiconductor,Taiwan,54,111,30
+Solar Panel,Energy,Trade Restriction,8648.79,0.12,Solar Cells,China,24,80,58
+Pharmaceutical Tablet,Consumer,API Shortage,75317.71,0.28,API,India,42,95,90
+Laptop,Consumer,Semiconductor Shortage,8153.0,0.8,Processor,Taiwan,59,94,86
+Electric Vehicle,Consumer,Semiconductor Shortage,63698.38,0.61,Lithium Battery,China,7,51,78
+Pharmaceutical Tablet,Consumer,API Shortage,52922.05,0.16,API,India,46,50,11
+Pharmaceutical Tablet,Consumer,API Shortage,65786.65,0.19,API,India,28,88,68
+Fuel (per litre),Energy,Oil Shock,34839.54,0.76,Crude Oil,Saudi Arabia,46,41,88
+Tractor,Industrial,Steel Shortage,61971.54,0.52,Steel,China,57,100,85
+Solar Panel,Energy,Trade Restriction,25785.04,0.32,Solar Cells,China,10,42,67
+Laptop,Consumer,Semiconductor Shortage,60038.35,0.61,Processor,Taiwan,47,55,53
+Smartphone,Consumer,Semiconductor Shortage,39545.03,0.39,TSMC Chip,Taiwan,36,34,55
+Solar Panel,Energy,Trade Restriction,27227.77,0.89,Solar Cells,China,49,119,45
+Tractor,Industrial,Steel Shortage,813.08,0.95,Steel,China,10,37,62
+Medical Device,Industrial,Semiconductor Shortage,44414.54,0.32,Microcontroller,Taiwan,35,89,72
+Medical Device,Industrial,Semiconductor Shortage,63434.84,0.18,Microcontroller,Taiwan,19,58,41
+Solar Panel,Energy,Trade Restriction,53117.14,0.43,Solar Cells,China,40,74,54
+Pharmaceutical Tablet,Consumer,API Shortage,79730.52,0.6,API,India,27,96,68
+Solar Panel,Energy,Trade Restriction,24530.53,0.31,Solar Cells,China,51,31,50
+Electric Vehicle,Consumer,Semiconductor Shortage,59430.74,0.96,Lithium Battery,China,49,30,34
+Laptop,Consumer,Semiconductor Shortage,59088.63,0.35,Processor,Taiwan,42,104,77
+Passenger Vehicle,Consumer,Semiconductor Shortage,22640.61,0.19,Semiconductor,Taiwan,17,44,39
+Wind Turbine,Energy,Rare Earth Shortage,14356.14,0.11,Rare Earth Magnets,China,39,23,45
+Smartphone,Consumer,Semiconductor Shortage,77943.62,0.6,TSMC Chip,Taiwan,49,23,72
+Electric Vehicle,Consumer,Semiconductor Shortage,69817.71,0.62,Lithium Battery,China,35,68,66
+Wind Turbine,Energy,Rare Earth Shortage,14749.91,0.15,Rare Earth Magnets,China,60,68,24
+Electric Vehicle,Consumer,Semiconductor Shortage,32057.19,0.17,Lithium Battery,China,45,94,16
+Fuel (per litre),Energy,Oil Shock,11936.66,0.61,Crude Oil,Saudi Arabia,24,17,41
+Electric Vehicle,Consumer,Semiconductor Shortage,44646.28,0.47,Lithium Battery,China,43,108,89
+Laptop,Consumer,Semiconductor Shortage,62055.71,0.44,Processor,Taiwan,33,45,85
+Pharmaceutical Tablet,Consumer,API Shortage,24431.11,0.66,API,India,44,101,22
+Laptop,Consumer,Semiconductor Shortage,50041.58,0.34,Processor,Taiwan,10,27,40
+Fuel (per litre),Energy,Oil Shock,44159.83,0.24,Crude Oil,Saudi Arabia,31,64,86
+Medical Device,Industrial,Semiconductor Shortage,23301.45,0.31,Microcontroller,Taiwan,50,43,68
+Electric Vehicle,Consumer,Semiconductor Shortage,54991.11,0.93,Lithium Battery,China,55,108,90
+Passenger Vehicle,Consumer,Semiconductor Shortage,52894.98,0.94,Semiconductor,Taiwan,32,21,79
+Laptop,Consumer,Semiconductor Shortage,51811.13,0.92,Processor,Taiwan,57,25,19
+Smartphone,Consumer,Semiconductor Shortage,13274.66,0.38,TSMC Chip,Taiwan,52,112,82
+Solar Panel,Energy,Trade Restriction,35132.84,0.52,Solar Cells,China,24,96,61
+Solar Panel,Energy,Trade Restriction,40038.27,0.54,Solar Cells,China,10,83,15
+Pharmaceutical Tablet,Consumer,API Shortage,58762.98,0.64,API,India,6,18,39
+Passenger Vehicle,Consumer,Semiconductor Shortage,46970.25,0.12,Semiconductor,Taiwan,53,93,44
+Passenger Vehicle,Consumer,Semiconductor Shortage,3219.49,0.78,Semiconductor,Taiwan,35,73,66
+Solar Panel,Energy,Trade Restriction,14519.95,0.63,Solar Cells,China,45,111,72
+Electric Vehicle,Consumer,Semiconductor Shortage,37601.36,0.47,Lithium Battery,China,25,92,23
+Fuel (per litre),Energy,Oil Shock,26384.96,0.72,Crude Oil,Saudi Arabia,23,91,61
+Tractor,Industrial,Steel Shortage,2936.73,0.18,Steel,China,21,48,24
+Pharmaceutical Tablet,Consumer,API Shortage,69192.98,0.84,API,India,5,91,79
+Medical Device,Industrial,Semiconductor Shortage,33060.39,0.27,Microcontroller,Taiwan,28,86,73
+Medical Device,Industrial,Semiconductor Shortage,60799.48,0.28,Microcontroller,Taiwan,40,23,46
+Medical Device,Industrial,Semiconductor Shortage,70467.85,0.54,Microcontroller,Taiwan,6,87,87
+Laptop,Consumer,Semiconductor Shortage,56782.92,0.38,Processor,Taiwan,5,77,62
+Electric Vehicle,Consumer,Semiconductor Shortage,17976.83,0.86,Lithium Battery,China,12,66,25
+Fuel (per litre),Energy,Oil Shock,39870.54,0.74,Crude Oil,Saudi Arabia,37,97,44
+Pharmaceutical Tablet,Consumer,API Shortage,66778.08,0.98,API,India,20,65,80
+Fuel (per litre),Energy,Oil Shock,30687.5,0.93,Crude Oil,Saudi Arabia,37,102,27
+Electric Vehicle,Consumer,Semiconductor Shortage,22100.52,0.81,Lithium Battery,China,31,50,74
+Solar Panel,Energy,Trade Restriction,65644.14,0.35,Solar Cells,China,24,114,85
+Passenger Vehicle,Consumer,Semiconductor Shortage,79912.19,0.54,Semiconductor,Taiwan,14,64,78
+Medical Device,Industrial,Semiconductor Shortage,27610.57,0.6,Microcontroller,Taiwan,39,55,68
+Wind Turbine,Energy,Rare Earth Shortage,69568.27,0.98,Rare Earth Magnets,China,20,80,59
+Laptop,Consumer,Semiconductor Shortage,68481.18,0.47,Processor,Taiwan,25,102,70
+Pharmaceutical Tablet,Consumer,API Shortage,30886.91,0.7,API,India,57,90,29
+Medical Device,Industrial,Semiconductor Shortage,77185.99,0.21,Microcontroller,Taiwan,42,49,22
+Medical Device,Industrial,Semiconductor Shortage,7977.84,0.92,Microcontroller,Taiwan,5,99,28
+Pharmaceutical Tablet,Consumer,API Shortage,69674.77,0.97,API,India,9,67,43
+Wind Turbine,Energy,Rare Earth Shortage,49861.13,0.46,Rare Earth Magnets,China,10,116,52
+Tractor,Industrial,Steel Shortage,30401.37,0.38,Steel,China,50,120,72
+Tractor,Industrial,Steel Shortage,2872.89,0.16,Steel,China,45,94,46
+Laptop,Consumer,Semiconductor Shortage,59741.56,0.49,Processor,Taiwan,11,104,22
+Medical Device,Industrial,Semiconductor Shortage,13310.02,0.37,Microcontroller,Taiwan,6,12,51
+Smartphone,Consumer,Semiconductor Shortage,23470.13,0.44,TSMC Chip,Taiwan,14,38,77
+Pharmaceutical Tablet,Consumer,API Shortage,45274.68,0.81,API,India,15,29,20
+Passenger Vehicle,Consumer,Semiconductor Shortage,69667.3,0.66,Semiconductor,Taiwan,20,70,84
+Fuel (per litre),Energy,Oil Shock,18575.84,0.67,Crude Oil,Saudi Arabia,34,39,11
+Medical Device,Industrial,Semiconductor Shortage,72096.85,0.71,Microcontroller,Taiwan,15,16,66
+Wind Turbine,Energy,Rare Earth Shortage,79012.15,0.37,Rare Earth Magnets,China,32,95,42
+Medical Device,Industrial,Semiconductor Shortage,67624.47,0.28,Microcontroller,Taiwan,29,116,71
+Electric Vehicle,Consumer,Semiconductor Shortage,18977.22,0.61,Lithium Battery,China,41,44,47
+Smartphone,Consumer,Semiconductor Shortage,78235.58,0.69,TSMC Chip,Taiwan,22,8,82
+Smartphone,Consumer,Semiconductor Shortage,72849.45,0.77,TSMC Chip,Taiwan,58,43,39
+Passenger Vehicle,Consumer,Semiconductor Shortage,64154.75,0.3,Semiconductor,Taiwan,17,86,42
+Fuel (per litre),Energy,Oil Shock,50260.22,0.91,Crude Oil,Saudi Arabia,46,12,49
+Medical Device,Industrial,Semiconductor Shortage,2670.13,0.43,Microcontroller,Taiwan,13,18,47
+Wind Turbine,Energy,Rare Earth Shortage,59798.72,0.26,Rare Earth Magnets,China,13,107,79
+Wind Turbine,Energy,Rare Earth Shortage,42468.66,0.92,Rare Earth Magnets,China,58,28,42
+Medical Device,Industrial,Semiconductor Shortage,77390.76,0.37,Microcontroller,Taiwan,60,50,24
+Medical Device,Industrial,Semiconductor Shortage,77031.5,0.23,Microcontroller,Taiwan,19,117,60
+Tractor,Industrial,Steel Shortage,29262.64,0.81,Steel,China,5,40,78
+Electric Vehicle,Consumer,Semiconductor Shortage,36383.43,0.71,Lithium Battery,China,48,40,84
+Pharmaceutical Tablet,Consumer,API Shortage,65793.56,0.95,API,India,11,93,39
+Medical Device,Industrial,Semiconductor Shortage,2002.95,0.9,Microcontroller,Taiwan,40,48,88
+Laptop,Consumer,Semiconductor Shortage,51812.54,0.67,Processor,Taiwan,34,96,48
+Pharmaceutical Tablet,Consumer,API Shortage,9334.96,0.14,API,India,7,45,73
+Electric Vehicle,Consumer,Semiconductor Shortage,7776.26,0.9,Lithium Battery,China,13,56,68
+Wind Turbine,Energy,Rare Earth Shortage,53639.23,0.77,Rare Earth Magnets,China,39,60,85
+Fuel (per litre),Energy,Oil Shock,70833.22,0.69,Crude Oil,Saudi Arabia,58,69,88
+Pharmaceutical Tablet,Consumer,API Shortage,75124.31,0.35,API,India,49,54,37
+Medical Device,Industrial,Semiconductor Shortage,35576.22,0.31,Microcontroller,Taiwan,28,19,57
+Tractor,Industrial,Steel Shortage,72135.8,0.68,Steel,China,8,57,45
+Laptop,Consumer,Semiconductor Shortage,77456.58,0.95,Processor,Taiwan,57,65,21
+Laptop,Consumer,Semiconductor Shortage,51336.72,0.64,Processor,Taiwan,6,13,52
+Laptop,Consumer,Semiconductor Shortage,79105.68,0.81,Processor,Taiwan,18,15,80
+Laptop,Consumer,Semiconductor Shortage,46911.06,0.83,Processor,Taiwan,19,49,28
+Passenger Vehicle,Consumer,Semiconductor Shortage,227.84,0.87,Semiconductor,Taiwan,14,23,79
+Solar Panel,Energy,Trade Restriction,63881.31,0.2,Solar Cells,China,60,10,26
+Smartphone,Consumer,Semiconductor Shortage,28660.02,0.81,TSMC Chip,Taiwan,42,48,12
+Fuel (per litre),Energy,Oil Shock,21230.14,0.21,Crude Oil,Saudi Arabia,31,74,24
+Electric Vehicle,Consumer,Semiconductor Shortage,38100.2,0.8,Lithium Battery,China,37,82,23
+Medical Device,Industrial,Semiconductor Shortage,40307.59,0.95,Microcontroller,Taiwan,7,100,76
+Solar Panel,Energy,Trade Restriction,36643.94,0.97,Solar Cells,China,8,68,61
+Pharmaceutical Tablet,Consumer,API Shortage,54888.11,0.54,API,India,33,16,20
+Wind Turbine,Energy,Rare Earth Shortage,48664.19,0.16,Rare Earth Magnets,China,22,86,84
+Tractor,Industrial,Steel Shortage,56972.51,0.44,Steel,China,43,74,47
+Medical Device,Industrial,Semiconductor Shortage,40444.58,0.49,Microcontroller,Taiwan,55,96,24
+Tractor,Industrial,Steel Shortage,57667.47,0.29,Steel,China,33,120,39
+Pharmaceutical Tablet,Consumer,API Shortage,27115.19,0.51,API,India,31,100,22
+Wind Turbine,Energy,Rare Earth Shortage,34141.69,0.7,Rare Earth Magnets,China,28,26,70
+Electric Vehicle,Consumer,Semiconductor Shortage,7298.89,0.18,Lithium Battery,China,32,19,57
+Fuel (per litre),Energy,Oil Shock,44510.1,0.63,Crude Oil,Saudi Arabia,40,78,52
+Electric Vehicle,Consumer,Semiconductor Shortage,32865.28,0.89,Lithium Battery,China,53,61,16
+Solar Panel,Energy,Trade Restriction,48033.21,0.42,Solar Cells,China,41,71,37
+Fuel (per litre),Energy,Oil Shock,52539.25,0.3,Crude Oil,Saudi Arabia,11,51,81
+Wind Turbine,Energy,Rare Earth Shortage,9191.71,0.35,Rare Earth Magnets,China,19,110,64
+Tractor,Industrial,Steel Shortage,77963.75,0.84,Steel,China,44,93,81
+Smartphone,Consumer,Semiconductor Shortage,48719.98,0.69,TSMC Chip,Taiwan,49,41,13
+Fuel (per litre),Energy,Oil Shock,21862.36,0.79,Crude Oil,Saudi Arabia,26,51,10
+Fuel (per litre),Energy,Oil Shock,69589.15,0.61,Crude Oil,Saudi Arabia,30,15,28
+Smartphone,Consumer,Semiconductor Shortage,7341.52,0.58,TSMC Chip,Taiwan,29,60,68
+Wind Turbine,Energy,Rare Earth Shortage,12593.58,0.38,Rare Earth Magnets,China,25,106,82
+Passenger Vehicle,Consumer,Semiconductor Shortage,6797.48,0.15,Semiconductor,Taiwan,15,103,89
+Smartphone,Consumer,Semiconductor Shortage,53917.82,0.34,TSMC Chip,Taiwan,47,61,72
+Passenger Vehicle,Consumer,Semiconductor Shortage,35364.09,0.35,Semiconductor,Taiwan,53,72,24
+Wind Turbine,Energy,Rare Earth Shortage,34393.66,0.35,Rare Earth Magnets,China,48,82,72
+Tractor,Industrial,Steel Shortage,53370.94,0.14,Steel,China,30,83,17
+Smartphone,Consumer,Semiconductor Shortage,16354.65,0.95,TSMC Chip,Taiwan,54,24,42
+Solar Panel,Energy,Trade Restriction,26250.46,0.11,Solar Cells,China,52,62,32
+Fuel (per litre),Energy,Oil Shock,30417.22,0.73,Crude Oil,Saudi Arabia,37,78,55
+Electric Vehicle,Consumer,Semiconductor Shortage,31766.3,0.77,Lithium Battery,China,32,9,68
+Electric Vehicle,Consumer,Semiconductor Shortage,68968.94,0.62,Lithium Battery,China,41,58,63
+Solar Panel,Energy,Trade Restriction,9214.75,0.12,Solar Cells,China,25,28,89
+Medical Device,Industrial,Semiconductor Shortage,66562.24,0.93,Microcontroller,Taiwan,10,62,23
+Laptop,Consumer,Semiconductor Shortage,34854.69,0.46,Processor,Taiwan,10,57,49
+Wind Turbine,Energy,Rare Earth Shortage,17726.54,0.8,Rare Earth Magnets,China,9,72,24
+Tractor,Industrial,Steel Shortage,40796.66,0.92,Steel,China,27,51,28
+Laptop,Consumer,Semiconductor Shortage,8225.26,0.33,Processor,Taiwan,16,84,29
+Electric Vehicle,Consumer,Semiconductor Shortage,14172.51,0.8,Lithium Battery,China,36,66,82
+Passenger Vehicle,Consumer,Semiconductor Shortage,35912.97,0.93,Semiconductor,Taiwan,41,89,89
+Wind Turbine,Energy,Rare Earth Shortage,69139.89,0.66,Rare Earth Magnets,China,14,63,18
+Medical Device,Industrial,Semiconductor Shortage,35377.2,0.37,Microcontroller,Taiwan,22,82,17
+Wind Turbine,Energy,Rare Earth Shortage,40587.44,0.38,Rare Earth Magnets,China,33,11,17
+Wind Turbine,Energy,Rare Earth Shortage,66535.9,0.17,Rare Earth Magnets,China,60,116,21
+Passenger Vehicle,Consumer,Semiconductor Shortage,47526.79,0.45,Semiconductor,Taiwan,42,77,15
+Medical Device,Industrial,Semiconductor Shortage,72724.09,0.61,Microcontroller,Taiwan,17,48,87
+Medical Device,Industrial,Semiconductor Shortage,40109.88,0.96,Microcontroller,Taiwan,33,20,53
+Electric Vehicle,Consumer,Semiconductor Shortage,40364.42,0.26,Lithium Battery,China,20,97,66
+Medical Device,Industrial,Semiconductor Shortage,41925.96,0.65,Microcontroller,Taiwan,28,54,46
+Pharmaceutical Tablet,Consumer,API Shortage,32702.14,0.4,API,India,43,13,90
+Wind Turbine,Energy,Rare Earth Shortage,5273.88,0.19,Rare Earth Magnets,China,48,56,46
+Solar Panel,Energy,Trade Restriction,57898.97,0.69,Solar Cells,China,43,118,29
+Wind Turbine,Energy,Rare Earth Shortage,6521.08,0.7,Rare Earth Magnets,China,27,46,60
+Fuel (per litre),Energy,Oil Shock,47603.7,0.94,Crude Oil,Saudi Arabia,24,78,58
+Wind Turbine,Energy,Rare Earth Shortage,65054.97,0.7,Rare Earth Magnets,China,58,101,77
+Electric Vehicle,Consumer,Semiconductor Shortage,51682.34,0.48,Lithium Battery,China,28,9,56
+Solar Panel,Energy,Trade Restriction,14421.85,0.29,Solar Cells,China,54,69,34
+Laptop,Consumer,Semiconductor Shortage,79998.13,0.24,Processor,Taiwan,23,115,22
+Tractor,Industrial,Steel Shortage,61670.21,0.85,Steel,China,38,11,53
+Passenger Vehicle,Consumer,Semiconductor Shortage,10484.79,0.44,Semiconductor,Taiwan,15,30,89
+Fuel (per litre),Energy,Oil Shock,57694.92,0.14,Crude Oil,Saudi Arabia,28,93,40
+Medical Device,Industrial,Semiconductor Shortage,48848.02,0.78,Microcontroller,Taiwan,55,64,39
+Tractor,Industrial,Steel Shortage,19134.24,0.97,Steel,China,55,67,34
+Wind Turbine,Energy,Rare Earth Shortage,54264.87,0.61,Rare Earth Magnets,China,33,66,46
+Pharmaceutical Tablet,Consumer,API Shortage,40233.03,0.48,API,India,15,111,35
+Passenger Vehicle,Consumer,Semiconductor Shortage,11072.74,0.33,Semiconductor,Taiwan,46,68,57
+Tractor,Industrial,Steel Shortage,74743.55,0.74,Steel,China,38,115,25
+Solar Panel,Energy,Trade Restriction,6710.93,0.24,Solar Cells,China,33,72,28
+Pharmaceutical Tablet,Consumer,API Shortage,7337.99,0.92,API,India,57,64,54
+Smartphone,Consumer,Semiconductor Shortage,33192.34,0.46,TSMC Chip,Taiwan,28,37,59
+Electric Vehicle,Consumer,Semiconductor Shortage,29993.64,0.13,Lithium Battery,China,11,114,52
+Fuel (per litre),Energy,Oil Shock,11008.83,0.36,Crude Oil,Saudi Arabia,58,67,27
+Medical Device,Industrial,Semiconductor Shortage,35888.67,0.1,Microcontroller,Taiwan,10,9,42
+Laptop,Consumer,Semiconductor Shortage,66797.21,0.59,Processor,Taiwan,51,84,77
+Pharmaceutical Tablet,Consumer,API Shortage,8895.84,0.36,API,India,24,22,16
+Laptop,Consumer,Semiconductor Shortage,33586.62,0.81,Processor,Taiwan,34,15,24
+Medical Device,Industrial,Semiconductor Shortage,47739.53,0.11,Microcontroller,Taiwan,37,80,40
+Fuel (per litre),Energy,Oil Shock,23302.47,0.1,Crude Oil,Saudi Arabia,27,37,83
+Pharmaceutical Tablet,Consumer,API Shortage,14985.93,0.7,API,India,38,53,18
+Tractor,Industrial,Steel Shortage,43527.01,0.81,Steel,China,37,77,12
+Pharmaceutical Tablet,Consumer,API Shortage,69866.64,0.14,API,India,29,54,42
+Smartphone,Consumer,Semiconductor Shortage,28568.15,0.16,TSMC Chip,Taiwan,20,100,90
+Electric Vehicle,Consumer,Semiconductor Shortage,61720.34,0.76,Lithium Battery,China,26,24,15
+Wind Turbine,Energy,Rare Earth Shortage,43681.55,0.83,Rare Earth Magnets,China,16,113,69
+Medical Device,Industrial,Semiconductor Shortage,50539.24,0.83,Microcontroller,Taiwan,9,98,68
+Smartphone,Consumer,Semiconductor Shortage,23476.11,0.14,TSMC Chip,Taiwan,17,120,15
+Wind Turbine,Energy,Rare Earth Shortage,74669.75,0.56,Rare Earth Magnets,China,57,76,70
+Solar Panel,Energy,Trade Restriction,2930.63,0.68,Solar Cells,China,23,52,16
+Wind Turbine,Energy,Rare Earth Shortage,21858.06,0.82,Rare Earth Magnets,China,32,120,61
+Medical Device,Industrial,Semiconductor Shortage,71571.1,0.45,Microcontroller,Taiwan,16,70,73
+Wind Turbine,Energy,Rare Earth Shortage,73944.91,0.57,Rare Earth Magnets,China,56,17,64
+Electric Vehicle,Consumer,Semiconductor Shortage,34449.14,1.0,Lithium Battery,China,16,76,47
+Wind Turbine,Energy,Rare Earth Shortage,8208.73,0.4,Rare Earth Magnets,China,23,46,67
+Passenger Vehicle,Consumer,Semiconductor Shortage,57413.32,0.25,Semiconductor,Taiwan,33,51,67
+Smartphone,Consumer,Semiconductor Shortage,58145.42,0.92,TSMC Chip,Taiwan,44,62,45
+Smartphone,Consumer,Semiconductor Shortage,6004.22,0.67,TSMC Chip,Taiwan,28,72,30
+Smartphone,Consumer,Semiconductor Shortage,11423.21,0.65,TSMC Chip,Taiwan,55,63,14
+Fuel (per litre),Energy,Oil Shock,5379.6,0.8,Crude Oil,Saudi Arabia,28,53,59
+Passenger Vehicle,Consumer,Semiconductor Shortage,2591.79,0.24,Semiconductor,Taiwan,33,54,57
+Medical Device,Industrial,Semiconductor Shortage,61046.99,0.62,Microcontroller,Taiwan,38,53,60
+Wind Turbine,Energy,Rare Earth Shortage,51965.21,0.32,Rare Earth Magnets,China,12,10,33
+Medical Device,Industrial,Semiconductor Shortage,41420.1,0.92,Microcontroller,Taiwan,12,40,43
+Medical Device,Industrial,Semiconductor Shortage,17166.42,0.65,Microcontroller,Taiwan,49,69,35
+Electric Vehicle,Consumer,Semiconductor Shortage,10859.14,0.17,Lithium Battery,China,16,98,66
+Electric Vehicle,Consumer,Semiconductor Shortage,64841.25,0.97,Lithium Battery,China,25,92,54
+Electric Vehicle,Consumer,Semiconductor Shortage,44000.22,0.36,Lithium Battery,China,24,115,30
+Fuel (per litre),Energy,Oil Shock,63495.92,0.56,Crude Oil,Saudi Arabia,12,32,27
+Laptop,Consumer,Semiconductor Shortage,63230.05,0.12,Processor,Taiwan,40,80,57
+Medical Device,Industrial,Semiconductor Shortage,64293.13,0.6,Microcontroller,Taiwan,44,120,21
+Electric Vehicle,Consumer,Semiconductor Shortage,24743.95,1.0,Lithium Battery,China,51,68,77
+Pharmaceutical Tablet,Consumer,API Shortage,61533.39,0.84,API,India,9,23,50
+Electric Vehicle,Consumer,Semiconductor Shortage,35998.51,0.71,Lithium Battery,China,27,23,80
+Passenger Vehicle,Consumer,Semiconductor Shortage,14557.87,0.97,Semiconductor,Taiwan,32,71,17
+Electric Vehicle,Consumer,Semiconductor Shortage,41448.65,0.37,Lithium Battery,China,15,48,38
+Wind Turbine,Energy,Rare Earth Shortage,75798.7,0.57,Rare Earth Magnets,China,23,115,20
+Solar Panel,Energy,Trade Restriction,15704.96,0.96,Solar Cells,China,22,23,90
+Solar Panel,Energy,Trade Restriction,49154.65,0.18,Solar Cells,China,46,28,85
+Passenger Vehicle,Consumer,Semiconductor Shortage,12336.39,0.69,Semiconductor,Taiwan,51,84,53
+Passenger Vehicle,Consumer,Semiconductor Shortage,3296.5,0.88,Semiconductor,Taiwan,10,12,83
+Solar Panel,Energy,Trade Restriction,52090.75,0.79,Solar Cells,China,31,86,13
+Medical Device,Industrial,Semiconductor Shortage,71119.86,0.59,Microcontroller,Taiwan,46,45,71
+Laptop,Consumer,Semiconductor Shortage,64375.25,0.72,Processor,Taiwan,24,65,19
+Smartphone,Consumer,Semiconductor Shortage,12647.28,0.47,TSMC Chip,Taiwan,34,33,53
+Passenger Vehicle,Consumer,Semiconductor Shortage,11494.35,0.88,Semiconductor,Taiwan,25,100,54
+Pharmaceutical Tablet,Consumer,API Shortage,10462.16,0.43,API,India,40,20,50
+Laptop,Consumer,Semiconductor Shortage,37318.34,0.34,Processor,Taiwan,20,25,22
+Smartphone,Consumer,Semiconductor Shortage,23217.67,0.45,TSMC Chip,Taiwan,44,60,41
+Fuel (per litre),Energy,Oil Shock,65078.41,0.94,Crude Oil,Saudi Arabia,51,47,34
+Fuel (per litre),Energy,Oil Shock,39861.75,0.56,Crude Oil,Saudi Arabia,36,119,49
+Medical Device,Industrial,Semiconductor Shortage,1855.08,0.95,Microcontroller,Taiwan,37,65,40
+Laptop,Consumer,Semiconductor Shortage,46667.95,0.14,Processor,Taiwan,23,70,86
+Battery Pack,Food,Trade Restriction,42935.72,0.86,TSMC Chip,Germany,38,100,102
+Tractor,Energy,Oil Shock,32047.13,0.61,Natural Gas,Chile,41,25,54
+Food Oil,Food,Geopolitical Conflict,43989.02,0.84,Palm Oil,USA,21,31,55
+Medical Device,Energy,Logistics Disruption,75115.95,0.78,Natural Gas,Thailand,56,135,10
+Smartphone,Consumer,Semiconductor Shortage,57087.63,0.82,API,Malaysia,24,162,119
+Food Oil,Industrial,Trade Restriction,74509.57,0.39,TSMC Chip,Canada,48,136,111
+Food Oil,Food,Natural Disaster,45034.38,0.53,Lithium,Chile,47,179,19
+Tractor,Energy,Geopolitical Conflict,71901.47,0.88,Wheat,China,65,74,88
+Industrial Robot,Industrial,Natural Disaster,4109.36,0.53,API,Brazil,23,69,9
+Industrial Robot,Consumer,Semiconductor Shortage,1515.97,0.38,Crude Oil,Indonesia,31,112,69
+Industrial Robot,Food,Geopolitical Conflict,67870.31,0.75,Semiconductor,Germany,31,150,46
+Battery Pack,Food,Logistics Disruption,30146.61,0.96,Rare Earth,Australia,50,180,103
+Telecom Router,Energy,Logistics Disruption,38734.92,0.96,Steel,Canada,33,83,103
+Wind Turbine,Industrial,Natural Disaster,56399.36,0.39,Aluminum,Qatar,41,38,78
+Battery Pack,Food,Rare Earth Shortage,65470.38,0.96,Crude Oil,Canada,10,80,96
+Electric Vehicle,Energy,Rare Earth Shortage,52478.11,0.77,Natural Gas,South Korea,39,150,94
+Wind Turbine,Industrial,Oil Shock,49254.55,0.63,Natural Gas,Taiwan,33,170,34
+Smartphone,Consumer,Rare Earth Shortage,26424.16,0.53,Wheat,Germany,5,147,25
+Tractor,Food,Rare Earth Shortage,52043.44,0.78,Steel,Australia,41,172,12
+Electric Vehicle,Industrial,Logistics Disruption,59095.18,0.87,Lithium,Japan,58,52,9
+Tractor,Food,Semiconductor Shortage,74928.76,0.97,Steel,Taiwan,6,83,77
+Industrial Robot,Consumer,Trade Restriction,22765.65,0.99,API,Thailand,68,41,113
+Food Oil,Food,Trade Restriction,15425.72,0.2,Crude Oil,Malaysia,37,54,6
+Telecom Router,Energy,Geopolitical Conflict,23602.65,0.71,Natural Gas,Japan,56,116,70
+Medical Device,Consumer,Rare Earth Shortage,53540.8,0.27,Crude Oil,Vietnam,46,70,5
+Wind Turbine,Food,Semiconductor Shortage,35739.4,0.34,Aluminum,Canada,6,73,88
+Medical Device,Industrial,Oil Shock,53423.22,0.52,Crude Oil,Brazil,69,86,93
+Electric Vehicle,Energy,Trade Restriction,49170.42,0.3,Crude Oil,Vietnam,24,123,100
+Industrial Robot,Energy,Rare Earth Shortage,56155.56,0.92,API,South Korea,36,159,116
+Electric Vehicle,Food,Logistics Disruption,56301.59,0.17,Palm Oil,USA,12,147,120
+Food Oil,Industrial,Logistics Disruption,42933.28,0.25,API,Malaysia,19,59,96
+Industrial Robot,Food,Oil Shock,71911.25,0.5,Lithium,Malaysia,21,138,58
+Passenger Vehicle,Consumer,Logistics Disruption,36990.8,0.83,Semiconductor,China,55,72,109
+Smartphone,Industrial,Logistics Disruption,5843.29,0.48,Semiconductor,India,12,24,65
+Smartphone,Energy,Rare Earth Shortage,14399.33,0.22,Wheat,Indonesia,52,104,62
+Tractor,Food,Oil Shock,54618.75,0.7,API,Germany,49,37,27
+Food Oil,Food,Logistics Disruption,10188.64,0.98,Lithium,China,43,125,91
+Telecom Router,Food,Logistics Disruption,30342.74,0.31,Rare Earth,Chile,24,77,29
+Telecom Router,Consumer,Oil Shock,64758.45,0.48,Lithium,Saudi Arabia,31,24,17
+Industrial Robot,Consumer,Rare Earth Shortage,47823.19,0.73,Lithium,Saudi Arabia,10,109,61
+Solar Panel,Industrial,Geopolitical Conflict,69098.56,0.15,API,Canada,34,154,45
+Industrial Robot,Energy,Semiconductor Shortage,24141.85,0.23,Wheat,Thailand,33,112,43
+Wind Turbine,Consumer,Logistics Disruption,75881.67,0.89,Crude Oil,Indonesia,68,19,49
+Battery Pack,Food,Geopolitical Conflict,41957.52,0.73,TSMC Chip,Germany,43,103,28
+Food Oil,Food,Semiconductor Shortage,67947.43,0.37,Semiconductor,Germany,64,21,76
+Tractor,Food,Logistics Disruption,42399.82,0.45,Steel,South Korea,47,172,15
+Passenger Vehicle,Energy,Oil Shock,42851.31,0.85,Lithium,Qatar,53,179,82
+Industrial Robot,Consumer,Geopolitical Conflict,5823.67,0.82,Palm Oil,South Korea,66,60,116
+Medical Device,Energy,Oil Shock,16945.41,0.27,Semiconductor,USA,66,69,94
+Industrial Robot,Industrial,Rare Earth Shortage,73210.2,0.6,Steel,Brazil,64,143,88
+Medical Device,Energy,Trade Restriction,28772.21,0.89,Rare Earth,USA,65,88,31
+Medical Device,Energy,Rare Earth Shortage,3658.19,0.88,Semiconductor,Germany,7,73,75
+Industrial Robot,Food,Trade Restriction,12193.76,0.4,TSMC Chip,Saudi Arabia,68,147,88
+Battery Pack,Energy,Trade Restriction,61069.09,0.54,Semiconductor,Vietnam,63,50,98
+Medical Device,Industrial,Semiconductor Shortage,57625.36,0.54,API,Taiwan,9,26,109
+Battery Pack,Consumer,Geopolitical Conflict,511.7,0.22,Wheat,Saudi Arabia,13,45,6
+Solar Panel,Food,Trade Restriction,4836.95,0.67,Palm Oil,Vietnam,67,11,5
+Food Oil,Food,Oil Shock,1339.08,0.75,API,Canada,7,135,109
+Telecom Router,Food,Geopolitical Conflict,75177.01,0.26,Copper,Thailand,24,68,29
+Industrial Robot,Energy,Geopolitical Conflict,28355.93,0.82,Copper,Chile,56,124,77
+Solar Panel,Industrial,Trade Restriction,54723.65,0.86,Wheat,Taiwan,16,110,53
+Tractor,Food,Oil Shock,50940.21,0.73,Copper,Vietnam,60,172,105
+Medical Device,Consumer,Logistics Disruption,73532.26,0.31,Semiconductor,Vietnam,39,18,14
+Battery Pack,Energy,Logistics Disruption,45081.23,0.13,Aluminum,China,31,157,23
+Telecom Router,Food,Oil Shock,23942.85,0.61,Palm Oil,Brazil,47,105,101
+Telecom Router,Industrial,Geopolitical Conflict,79078.25,0.75,API,Chile,11,32,60
+Solar Panel,Consumer,Trade Restriction,48413.89,0.65,Palm Oil,Brazil,46,14,86
+Wind Turbine,Food,Rare Earth Shortage,18251.84,0.6,TSMC Chip,Indonesia,28,156,89
+Tractor,Consumer,Geopolitical Conflict,49489.65,0.82,Semiconductor,India,15,75,24
+Tractor,Industrial,Natural Disaster,31170.37,0.42,Copper,China,44,120,51
+Wind Turbine,Consumer,Semiconductor Shortage,6984.69,0.49,API,Thailand,57,33,8
+Electric Vehicle,Energy,Logistics Disruption,7446.05,0.64,Aluminum,Brazil,6,81,57
+Tractor,Consumer,Natural Disaster,72090.98,0.91,Natural Gas,Thailand,26,104,26
+Laptop,Energy,Trade Restriction,21473.28,0.23,Crude Oil,Indonesia,40,114,43
+Passenger Vehicle,Consumer,Trade Restriction,20136.73,0.32,Wheat,Vietnam,30,124,18
+Laptop,Energy,Oil Shock,75905.93,0.4,Palm Oil,Brazil,47,119,47
+Tractor,Industrial,Trade Restriction,25653.89,0.95,Natural Gas,Vietnam,45,52,55
+Medical Device,Energy,Natural Disaster,55596.93,0.54,Palm Oil,Saudi Arabia,46,103,40
+Tractor,Energy,Oil Shock,74565.44,0.28,API,Japan,8,125,95
+Solar Panel,Food,Geopolitical Conflict,23307.21,0.72,TSMC Chip,Vietnam,22,169,43
+Solar Panel,Energy,Natural Disaster,12332.3,0.48,TSMC Chip,India,62,160,66
+Industrial Robot,Food,Logistics Disruption,40529.5,0.93,Semiconductor,Indonesia,9,99,94
+Food Oil,Consumer,Oil Shock,61516.55,0.69,Aluminum,Japan,10,151,87
+Battery Pack,Food,Geopolitical Conflict,26528.4,0.82,Copper,China,17,73,33
+Food Oil,Industrial,Rare Earth Shortage,29930.19,0.52,Wheat,Thailand,24,95,8
+Passenger Vehicle,Consumer,Trade Restriction,33278.62,0.97,Copper,Germany,49,86,48
+Passenger Vehicle,Industrial,Logistics Disruption,38634.6,0.53,Rare Earth,Malaysia,45,24,43
+Smartphone,Consumer,Oil Shock,67934.55,0.68,Wheat,Japan,36,139,27
+Food Oil,Industrial,Trade Restriction,44788.36,0.96,Natural Gas,Brazil,28,54,86
+Battery Pack,Food,Rare Earth Shortage,2336.35,0.65,Natural Gas,Malaysia,59,106,5
+Telecom Router,Industrial,Semiconductor Shortage,22268.31,0.73,Copper,USA,28,100,46
+Solar Panel,Food,Oil Shock,20989.01,0.88,API,Australia,54,163,55
+Industrial Robot,Consumer,Trade Restriction,28159.44,0.51,Crude Oil,Canada,15,179,22
+Medical Device,Consumer,Semiconductor Shortage,24431.09,0.26,Semiconductor,Germany,70,106,58
+Industrial Robot,Industrial,Logistics Disruption,30697.41,0.27,Wheat,Japan,26,132,41
+Laptop,Industrial,Trade Restriction,67358.98,0.66,Aluminum,China,67,41,29
+Tractor,Food,Rare Earth Shortage,54776.05,0.47,Rare Earth,Vietnam,26,28,77
+Smartphone,Industrial,Trade Restriction,2616.57,0.3,Steel,Japan,63,151,100
+Passenger Vehicle,Consumer,Logistics Disruption,9137.42,0.8,Aluminum,Taiwan,61,146,32
+Tractor,Consumer,Natural Disaster,66405.83,0.78,Steel,Taiwan,62,74,49
+Electric Vehicle,Food,Geopolitical Conflict,79516.62,0.8,Natural Gas,South Korea,49,163,85
+Tractor,Industrial,Logistics Disruption,11139.66,0.29,Natural Gas,Taiwan,49,143,40
+Industrial Robot,Industrial,Trade Restriction,78320.03,0.36,Palm Oil,Qatar,70,180,109
+Electric Vehicle,Industrial,Geopolitical Conflict,62855.5,0.93,Steel,Germany,21,70,23
+Telecom Router,Energy,Geopolitical Conflict,19805.13,0.86,TSMC Chip,Vietnam,23,154,85
+Wind Turbine,Food,Rare Earth Shortage,36159.89,0.67,Copper,Brazil,70,78,93
+Medical Device,Food,Rare Earth Shortage,26183.82,0.1,Semiconductor,India,63,169,90
+Telecom Router,Energy,Geopolitical Conflict,5067.39,0.58,Natural Gas,Indonesia,32,133,39
+Medical Device,Energy,Trade Restriction,43785.3,0.22,Rare Earth,Australia,11,18,17
+Battery Pack,Food,Oil Shock,9939.85,0.87,Rare Earth,Malaysia,5,116,30
+Telecom Router,Industrial,Natural Disaster,24149.94,0.89,Steel,India,51,71,15
+Medical Device,Industrial,Oil Shock,31707.93,0.37,Semiconductor,Saudi Arabia,59,174,16
+Telecom Router,Consumer,Oil Shock,17074.48,0.17,Palm Oil,Saudi Arabia,61,9,6
+Telecom Router,Energy,Geopolitical Conflict,9648.38,0.87,Semiconductor,Germany,66,25,34
+Tractor,Consumer,Natural Disaster,64476.74,0.19,Aluminum,Canada,22,104,104
+Laptop,Industrial,Oil Shock,42441.13,0.11,Wheat,Japan,61,96,97
+Solar Panel,Industrial,Rare Earth Shortage,49286.46,0.5,Natural Gas,India,17,42,101
+Electric Vehicle,Food,Trade Restriction,77059.93,0.38,Crude Oil,Saudi Arabia,40,172,15
+Solar Panel,Energy,Geopolitical Conflict,75302.4,0.12,Wheat,Canada,31,139,82
+Food Oil,Industrial,Natural Disaster,31340.69,0.68,Natural Gas,Vietnam,54,35,35
+Passenger Vehicle,Consumer,Logistics Disruption,71098.07,0.11,Aluminum,Australia,21,106,115
+Industrial Robot,Food,Trade Restriction,43708.95,0.26,Rare Earth,India,7,157,13
+Smartphone,Energy,Semiconductor Shortage,3187.11,0.15,TSMC Chip,Thailand,41,167,96
+Food Oil,Food,Rare Earth Shortage,56145.15,0.17,API,Germany,40,28,44
+Electric Vehicle,Industrial,Geopolitical Conflict,12431.02,0.39,Palm Oil,India,44,118,98
+Solar Panel,Consumer,Semiconductor Shortage,6897.94,0.49,Rare Earth,Taiwan,44,177,99
+Battery Pack,Industrial,Oil Shock,1014.19,0.22,Lithium,Japan,68,95,71
+Food Oil,Energy,Semiconductor Shortage,29750.18,0.77,Steel,USA,8,92,108
+Tractor,Energy,Logistics Disruption,5110.7,0.74,Palm Oil,India,68,123,70
+Medical Device,Consumer,Rare Earth Shortage,68748.92,0.25,Crude Oil,Qatar,18,153,91
+Telecom Router,Consumer,Semiconductor Shortage,59262.66,0.1,Lithium,Saudi Arabia,10,127,51
+Tractor,Industrial,Semiconductor Shortage,74492.88,0.87,API,Indonesia,33,89,36
+Tractor,Energy,Trade Restriction,66079.93,0.61,Copper,Thailand,11,52,33
+Food Oil,Consumer,Rare Earth Shortage,5515.05,0.52,Steel,Canada,46,29,75
+Passenger Vehicle,Consumer,Trade Restriction,16054.49,0.61,Steel,Saudi Arabia,64,101,80
+Passenger Vehicle,Industrial,Natural Disaster,72035.56,0.78,Natural Gas,Germany,5,111,8
+Solar Panel,Energy,Natural Disaster,67166.08,0.89,Aluminum,China,53,85,18
+Solar Panel,Industrial,Rare Earth Shortage,39362.82,0.15,Crude Oil,Qatar,16,18,34
+Food Oil,Food,Natural Disaster,71646.34,0.51,Semiconductor,India,17,136,22
+Battery Pack,Food,Oil Shock,47352.07,0.16,Wheat,Germany,35,81,38
+Medical Device,Food,Natural Disaster,66552.15,0.39,Rare Earth,Qatar,34,26,30
+Laptop,Consumer,Semiconductor Shortage,8453.51,0.5,Aluminum,Indonesia,20,144,50
+Solar Panel,Food,Trade Restriction,37068.26,0.87,Copper,Japan,43,161,10
+Solar Panel,Energy,Semiconductor Shortage,7297.94,0.32,Aluminum,Brazil,70,19,91
+Wind Turbine,Energy,Geopolitical Conflict,79254.14,0.13,TSMC Chip,Malaysia,36,31,64
+Electric Vehicle,Industrial,Oil Shock,957.54,0.85,Natural Gas,Germany,30,109,52
+Battery Pack,Consumer,Logistics Disruption,46889.91,0.93,Copper,China,13,57,120
+Battery Pack,Food,Geopolitical Conflict,10304.2,0.91,Aluminum,USA,10,125,11
+Laptop,Food,Geopolitical Conflict,57954.74,0.55,TSMC Chip,Indonesia,27,97,32
+Laptop,Energy,Trade Restriction,35681.47,0.23,Palm Oil,Saudi Arabia,42,134,57

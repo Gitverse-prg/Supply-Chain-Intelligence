@@ -1,0 +1,501 @@
+country,country_code,region,gdp_usd_bn,trade_openness_pct,supply_chain_hub,top_export_1,top_export_2,top_import_1,dependency_on_china_pct,political_risk_score,logistics_index,lat,lon
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+Taiwan,TW,Asia,790.0,120.0,True,Semiconductors,Electronics,Energy,40,55,80,23.69,120.96
+Malaysia,MY,Asia,450.0,130.0,True,Electronics,Palm Oil,Machinery,34,28,78,4.21,101.98
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+Germany,DE,Europe,4500.0,88.0,True,Machinery,Vehicles,Energy,12,15,88,51.16,10.45
+Australia,AU,Oceania,1700.0,46.0,True,Iron Ore,Coal,Electronics,30,15,83,-25.27,133.77
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+Australia,AU,Oceania,1700.0,46.0,True,Iron Ore,Coal,Electronics,30,15,83,-25.27,133.77
+Germany,DE,Europe,4500.0,88.0,True,Machinery,Vehicles,Energy,12,15,88,51.16,10.45
+Russia,RU,Europe,2100.0,42.0,False,Oil,Gas,Machinery,22,72,58,61.52,105.31
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+Russia,RU,Europe,2100.0,42.0,False,Oil,Gas,Machinery,22,72,58,61.52,105.31
+Russia,RU,Europe,2100.0,42.0,False,Oil,Gas,Machinery,22,72,58,61.52,105.31
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+Singapore,SG,Asia,500.0,320.0,True,Electronics,Chemicals,Food,20,12,92,1.35,103.82
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+Japan,JP,Asia,4200.0,37.0,True,Vehicles,Electronics,Energy,24,18,84,36.2,138.25
+India,IN,Asia,3900.0,48.0,True,Pharmaceuticals,IT Services,Oil,15,42,68,20.59,78.96
+Taiwan,TW,Asia,790.0,120.0,True,Semiconductors,Electronics,Energy,40,55,80,23.69,120.96
+Australia,AU,Oceania,1700.0,46.0,True,Iron Ore,Coal,Electronics,30,15,83,-25.27,133.77
+Malaysia,MY,Asia,450.0,130.0,True,Electronics,Palm Oil,Machinery,34,28,78,4.21,101.98
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+Singapore,SG,Asia,500.0,320.0,True,Electronics,Chemicals,Food,20,12,92,1.35,103.82
+Malaysia,MY,Asia,450.0,130.0,True,Electronics,Palm Oil,Machinery,34,28,78,4.21,101.98
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+Indonesia,ID,Asia,1400.0,43.0,True,Palm Oil,Coal,Machinery,32,40,64,-0.79,113.92
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+Malaysia,MY,Asia,450.0,130.0,True,Electronics,Palm Oil,Machinery,34,28,78,4.21,101.98
+Mexico,MX,Americas,1800.0,78.0,True,Vehicles,Electronics,Machinery,28,35,70,23.63,-102.55
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+Singapore,SG,Asia,500.0,320.0,True,Electronics,Chemicals,Food,20,12,92,1.35,103.82
+Mexico,MX,Americas,1800.0,78.0,True,Vehicles,Electronics,Machinery,28,35,70,23.63,-102.55
+Canada,CA,Americas,2200.0,67.0,True,Oil,Minerals,Machinery,14,12,86,56.13,-106.35
+Taiwan,TW,Asia,790.0,120.0,True,Semiconductors,Electronics,Energy,40,55,80,23.69,120.96
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+Indonesia,ID,Asia,1400.0,43.0,True,Palm Oil,Coal,Machinery,32,40,64,-0.79,113.92
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+Indonesia,ID,Asia,1400.0,43.0,True,Palm Oil,Coal,Machinery,32,40,64,-0.79,113.92
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+Vietnam,VN,Asia,470.0,185.0,True,Electronics,Textiles,Machinery,38,38,74,14.06,108.28
+Japan,JP,Asia,4200.0,37.0,True,Vehicles,Electronics,Energy,24,18,84,36.2,138.25
+India,IN,Asia,3900.0,48.0,True,Pharmaceuticals,IT Services,Oil,15,42,68,20.59,78.96
+Russia,RU,Europe,2100.0,42.0,False,Oil,Gas,Machinery,22,72,58,61.52,105.31
+Germany,DE,Europe,4500.0,88.0,True,Machinery,Vehicles,Energy,12,15,88,51.16,10.45
+Germany,DE,Europe,4500.0,88.0,True,Machinery,Vehicles,Energy,12,15,88,51.16,10.45
+South Korea,KR,Asia,1800.0,84.0,True,Electronics,Ships,Energy,23,25,82,35.91,127.77
+South Korea,KR,Asia,1800.0,84.0,True,Electronics,Ships,Energy,23,25,82,35.91,127.77
+Japan,JP,Asia,4200.0,37.0,True,Vehicles,Electronics,Energy,24,18,84,36.2,138.25
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+Taiwan,TW,Asia,790.0,120.0,True,Semiconductors,Electronics,Energy,40,55,80,23.69,120.96
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+South Korea,KR,Asia,1800.0,84.0,True,Electronics,Ships,Energy,23,25,82,35.91,127.77
+Japan,JP,Asia,4200.0,37.0,True,Vehicles,Electronics,Energy,24,18,84,36.2,138.25
+Vietnam,VN,Asia,470.0,185.0,True,Electronics,Textiles,Machinery,38,38,74,14.06,108.28
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+Brazil,BR,Americas,2100.0,39.0,False,Soybeans,Iron Ore,Machinery,25,48,62,-14.24,-51.93
+Taiwan,TW,Asia,790.0,120.0,True,Semiconductors,Electronics,Energy,40,55,80,23.69,120.96
+Taiwan,TW,Asia,790.0,120.0,True,Semiconductors,Electronics,Energy,40,55,80,23.69,120.96
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+Malaysia,MY,Asia,450.0,130.0,True,Electronics,Palm Oil,Machinery,34,28,78,4.21,101.98
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+Malaysia,MY,Asia,450.0,130.0,True,Electronics,Palm Oil,Machinery,34,28,78,4.21,101.98
+Brazil,BR,Americas,2100.0,39.0,False,Soybeans,Iron Ore,Machinery,25,48,62,-14.24,-51.93
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+Indonesia,ID,Asia,1400.0,43.0,True,Palm Oil,Coal,Machinery,32,40,64,-0.79,113.92
+Russia,RU,Europe,2100.0,42.0,False,Oil,Gas,Machinery,22,72,58,61.52,105.31
+China,CN,Asia,17700.0,38.0,True,Electronics,Machinery,Oil,5,45,78,35.86,104.19
+Vietnam,VN,Asia,470.0,185.0,True,Electronics,Textiles,Machinery,38,38,74,14.06,108.28
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+Indonesia,ID,Asia,1400.0,43.0,True,Palm Oil,Coal,Machinery,32,40,64,-0.79,113.92
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+India,IN,Asia,3900.0,48.0,True,Pharmaceuticals,IT Services,Oil,15,42,68,20.59,78.96
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+Japan,JP,Asia,4200.0,37.0,True,Vehicles,Electronics,Energy,24,18,84,36.2,138.25
+Japan,JP,Asia,4200.0,37.0,True,Vehicles,Electronics,Energy,24,18,84,36.2,138.25
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+India,IN,Asia,3900.0,48.0,True,Pharmaceuticals,IT Services,Oil,15,42,68,20.59,78.96
+India,IN,Asia,3900.0,48.0,True,Pharmaceuticals,IT Services,Oil,15,42,68,20.59,78.96
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+India,IN,Asia,3900.0,48.0,True,Pharmaceuticals,IT Services,Oil,15,42,68,20.59,78.96
+Canada,CA,Americas,2200.0,67.0,True,Oil,Minerals,Machinery,14,12,86,56.13,-106.35
+Malaysia,MY,Asia,450.0,130.0,True,Electronics,Palm Oil,Machinery,34,28,78,4.21,101.98
+Australia,AU,Oceania,1700.0,46.0,True,Iron Ore,Coal,Electronics,30,15,83,-25.27,133.77
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+Mexico,MX,Americas,1800.0,78.0,True,Vehicles,Electronics,Machinery,28,35,70,23.63,-102.55
+Thailand,TH,Asia,550.0,122.0,True,Vehicles,Electronics,Machinery,36,32,76,15.87,100.99
+Vietnam,VN,Asia,470.0,185.0,True,Electronics,Textiles,Machinery,38,38,74,14.06,108.28
+Mexico,MX,Americas,1800.0,78.0,True,Vehicles,Electronics,Machinery,28,35,70,23.63,-102.55
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+Germany,DE,Europe,4500.0,88.0,True,Machinery,Vehicles,Energy,12,15,88,51.16,10.45
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+Japan,JP,Asia,4200.0,37.0,True,Vehicles,Electronics,Energy,24,18,84,36.2,138.25
+Vietnam,VN,Asia,470.0,185.0,True,Electronics,Textiles,Machinery,38,38,74,14.06,108.28
+Vietnam,VN,Asia,470.0,185.0,True,Electronics,Textiles,Machinery,38,38,74,14.06,108.28
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+France,FR,Europe,3100.0,63.0,True,Aircraft,Luxury Goods,Energy,11,18,84,46.22,2.21
+Brazil,BR,Americas,2100.0,39.0,False,Soybeans,Iron Ore,Machinery,25,48,62,-14.24,-51.93
+Singapore,SG,Asia,500.0,320.0,True,Electronics,Chemicals,Food,20,12,92,1.35,103.82
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+Mexico,MX,Americas,1800.0,78.0,True,Vehicles,Electronics,Machinery,28,35,70,23.63,-102.55
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+Australia,AU,Oceania,1700.0,46.0,True,Iron Ore,Coal,Electronics,30,15,83,-25.27,133.77
+China,CN,Asia,17700.0,38.0,True,Electronics,Machinery,Oil,5,45,78,35.86,104.19
+Brazil,BR,Americas,2100.0,39.0,False,Soybeans,Iron Ore,Machinery,25,48,62,-14.24,-51.93
+Canada,CA,Americas,2200.0,67.0,True,Oil,Minerals,Machinery,14,12,86,56.13,-106.35
+Canada,CA,Americas,2200.0,67.0,True,Oil,Minerals,Machinery,14,12,86,56.13,-106.35
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+Mexico,MX,Americas,1800.0,78.0,True,Vehicles,Electronics,Machinery,28,35,70,23.63,-102.55
+India,IN,Asia,3900.0,48.0,True,Pharmaceuticals,IT Services,Oil,15,42,68,20.59,78.96
+Singapore,SG,Asia,500.0,320.0,True,Electronics,Chemicals,Food,20,12,92,1.35,103.82
+Japan,JP,Asia,4200.0,37.0,True,Vehicles,Electronics,Energy,24,18,84,36.2,138.25
+Canada,CA,Americas,2200.0,67.0,True,Oil,Minerals,Machinery,14,12,86,56.13,-106.35
+Russia,RU,Europe,2100.0,42.0,False,Oil,Gas,Machinery,22,72,58,61.52,105.31
+Brazil,BR,Americas,2100.0,39.0,False,Soybeans,Iron Ore,Machinery,25,48,62,-14.24,-51.93
+Saudi Arabia,SA,Middle East,1100.0,65.0,True,Oil,Petrochemicals,Machinery,18,40,70,23.89,45.08
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+Vietnam,VN,Asia,470.0,185.0,True,Electronics,Textiles,Machinery,38,38,74,14.06,108.28
+Taiwan,TW,Asia,790.0,120.0,True,Semiconductors,Electronics,Energy,40,55,80,23.69,120.96
+South Korea,KR,Asia,1800.0,84.0,True,Electronics,Ships,Energy,23,25,82,35.91,127.77
+Russia,RU,Europe,2100.0,42.0,False,Oil,Gas,Machinery,22,72,58,61.52,105.31
+South Korea,KR,Asia,1800.0,84.0,True,Electronics,Ships,Energy,23,25,82,35.91,127.77
+UK,GB,Europe,3400.0,64.0,True,Services,Pharma,Electronics,16,22,81,55.38,-3.43
+Mexico,MX,Americas,1800.0,78.0,True,Vehicles,Electronics,Machinery,28,35,70,23.63,-102.55
+Indonesia,ID,Asia,1400.0,43.0,True,Palm Oil,Coal,Machinery,32,40,64,-0.79,113.92
+Australia,AU,Oceania,1700.0,46.0,True,Iron Ore,Coal,Electronics,30,15,83,-25.27,133.77
+USA,US,Americas,26900.0,27.0,True,Aircraft,Soybeans,Electronics,18,20,85,37.09,-95.71
+Indonesia,ID,Asia,1400.0,43.0,True,Palm Oil,Coal,Machinery,32,40,64,-0.79,113.92
+Chile,CL,Americas,3974.1,31.8,False,Oil,Agriculture,Oil,16,34,62,43.7,-55.13
+Chile,CL,Americas,2325.7,185.2,True,Vehicles,Pharmaceuticals,Semiconductors,37,60,90,52.31,57.11
+Chile,CL,Americas,1270.3,108.0,False,Oil,Textiles,Food,27,30,66,34.9,59.1
+Chile,CL,Americas,1482.5,89.6,True,Metals,Gas,Machinery,46,38,63,-13.09,-13.53
+Chile,CL,Americas,178.7,160.5,True,Textiles,Oil,Electronics,43,11,64,-14.76,89.32
+Chile,CL,Americas,1582.9,194.1,False,Chemicals,Chemicals,Food,34,42,63,6.67,56.07
+Chile,CL,Americas,4135.6,91.5,True,Electronics,Agriculture,Food,40,46,69,28.44,5.25
+Chile,CL,Americas,1734.5,69.8,False,Vehicles,Vehicles,Chemicals,17,29,83,36.55,113.92
+Chile,CL,Americas,4042.7,164.4,False,Pharmaceuticals,Oil,Oil,46,73,68,-14.06,-11.17
+Chile,CL,Americas,1990.3,26.4,True,Pharmaceuticals,Gas,Semiconductors,47,55,82,-9.98,-75.8
+Chile,CL,Americas,3315.5,120.5,False,Machinery,Textiles,Electronics,21,33,71,25.44,-62.21
+Chile,CL,Americas,1178.8,176.9,False,Pharmaceuticals,Pharmaceuticals,Chemicals,42,47,79,45.12,2.34
+Chile,CL,Americas,4342.7,125.0,True,Textiles,Gas,Energy,48,58,83,-10.16,-105.94
+Chile,CL,Americas,4282.9,44.7,True,Pharmaceuticals,Chemicals,Semiconductors,14,50,61,37.89,6.77
+Chile,CL,Americas,3184.7,51.8,True,Electronics,Textiles,Chemicals,18,31,86,36.45,7.29
+Chile,CL,Americas,3836.8,35.8,False,Chemicals,Chemicals,Vehicles,35,59,50,-36.23,-68.15
+Chile,CL,Americas,1915.7,22.5,False,Agriculture,Gas,Oil,48,10,90,33.36,-61.17
+Chile,CL,Americas,4394.8,76.2,True,Chemicals,Agriculture,Chemicals,15,18,52,-10.18,-44.38
+Chile,CL,Americas,3660.9,127.3,False,Chemicals,Oil,Food,36,55,62,-23.51,115.79
+Chile,CL,Americas,4075.1,23.4,True,Oil,Gas,Oil,42,74,60,-27.68,64.89
+Chile,CL,Americas,3977.3,87.5,False,Agriculture,Metals,Oil,43,16,56,25.36,-114.87
+Chile,CL,Americas,3473.6,95.0,False,Machinery,Agriculture,Chemicals,35,29,63,29.52,43.88
+Chile,CL,Americas,1561.5,139.1,False,Metals,Metals,Electronics,31,23,82,31.88,-89.39
+Chile,CL,Americas,640.9,39.1,True,Metals,Gas,Chemicals,38,35,72,30.34,-43.21
+Chile,CL,Americas,273.9,109.3,True,Textiles,Pharmaceuticals,Machinery,5,11,55,50.69,97.16
+Chile,CL,Americas,3371.6,46.8,True,Agriculture,Machinery,Energy,21,39,79,58.87,-43.03
+Chile,CL,Americas,2364.2,38.0,True,Electronics,Vehicles,Food,48,50,77,33.85,-95.3
+Chile,CL,Americas,3810.4,28.3,True,Oil,Pharmaceuticals,Food,33,44,55,-2.74,-30.89
+Chile,CL,Americas,640.1,92.0,False,Vehicles,Chemicals,Semiconductors,31,31,57,-26.75,68.87
+Chile,CL,Americas,4909.3,172.0,True,Chemicals,Metals,Semiconductors,41,66,61,21.13,82.58
+Chile,CL,Americas,3087.9,175.3,True,Textiles,Textiles,Energy,31,66,52,-33.67,50.29
+Chile,CL,Americas,140.8,176.3,True,Pharmaceuticals,Agriculture,Energy,32,41,80,-5.43,55.84
+Chile,CL,Americas,1973.6,171.0,True,Electronics,Oil,Semiconductors,36,31,54,35.14,-36.64
+Chile,CL,Americas,1708.0,70.1,True,Agriculture,Chemicals,Vehicles,20,20,79,4.42,28.99
+Chile,CL,Americas,513.1,109.7,False,Machinery,Textiles,Oil,11,61,76,-36.42,22.77
+Chile,CL,Americas,4143.5,162.5,False,Agriculture,Agriculture,Machinery,46,68,71,-3.67,-105.89
+Peru,PE,Americas,1176.8,101.8,False,Pharmaceuticals,Textiles,Energy,11,38,50,-5.86,95.77
+Peru,PE,Americas,4825.0,72.6,False,Machinery,Electronics,Electronics,36,27,76,-29.3,38.82
+Peru,PE,Americas,1002.7,187.4,False,Gas,Textiles,Machinery,50,53,56,35.71,-107.91
+Peru,PE,Americas,3195.5,141.0,True,Textiles,Textiles,Electronics,36,10,83,33.62,23.84
+Peru,PE,Americas,2209.4,125.3,True,Metals,Oil,Electronics,11,59,88,20.62,-36.32
+Peru,PE,Americas,4416.4,95.4,True,Vehicles,Chemicals,Food,23,67,58,-26.18,36.66
+Peru,PE,Americas,4441.3,112.2,False,Agriculture,Gas,Machinery,18,47,72,52.12,-85.51
+Peru,PE,Americas,3575.2,195.5,True,Agriculture,Agriculture,Food,50,24,72,16.23,31.53
+Peru,PE,Americas,4718.0,147.8,False,Chemicals,Electronics,Energy,6,58,59,-34.69,-105.28
+Peru,PE,Americas,1393.5,161.4,False,Vehicles,Oil,Oil,49,47,63,35.36,-111.6
+Peru,PE,Americas,4085.0,38.4,True,Agriculture,Chemicals,Machinery,37,46,53,52.65,-19.24
+Peru,PE,Americas,4787.0,195.6,False,Agriculture,Electronics,Oil,21,35,89,46.88,103.72
+Peru,PE,Americas,2259.9,60.6,False,Metals,Agriculture,Machinery,17,47,78,-22.26,57.49
+Peru,PE,Americas,999.9,51.3,True,Chemicals,Electronics,Vehicles,22,43,58,-23.91,99.96
+Peru,PE,Americas,107.8,103.9,True,Electronics,Oil,Food,43,16,90,21.56,52.09
+Peru,PE,Americas,2493.5,123.1,False,Machinery,Pharmaceuticals,Machinery,16,76,54,38.63,-78.56
+Peru,PE,Americas,2752.0,92.6,False,Gas,Gas,Food,26,56,68,-18.16,75.69
+Peru,PE,Americas,2690.1,199.4,True,Machinery,Pharmaceuticals,Semiconductors,20,41,52,28.26,-36.56
+Peru,PE,Americas,4586.4,190.1,False,Vehicles,Agriculture,Chemicals,6,76,73,11.43,12.27
+Peru,PE,Americas,2475.1,73.4,True,Pharmaceuticals,Agriculture,Energy,11,31,84,13.32,43.0
+Peru,PE,Americas,1117.0,133.3,True,Chemicals,Machinery,Machinery,39,65,54,34.69,-80.02
+Peru,PE,Americas,2339.4,79.7,True,Machinery,Electronics,Electronics,21,19,86,42.16,116.86
+Peru,PE,Americas,2085.6,101.2,False,Chemicals,Pharmaceuticals,Oil,29,25,84,-39.41,67.27
+Peru,PE,Americas,391.1,154.3,True,Machinery,Pharmaceuticals,Energy,23,48,88,-31.35,78.97
+Peru,PE,Americas,2233.4,91.1,True,Textiles,Oil,Machinery,13,60,84,-10.5,44.85
+Peru,PE,Americas,1546.4,179.7,False,Electronics,Agriculture,Electronics,12,15,50,17.27,-17.54
+Peru,PE,Americas,2773.8,35.3,True,Pharmaceuticals,Gas,Vehicles,46,75,59,-23.9,-62.6
+Peru,PE,Americas,4187.0,55.0,True,Metals,Electronics,Semiconductors,46,80,54,-10.93,-102.49
+Peru,PE,Americas,563.2,150.6,False,Pharmaceuticals,Pharmaceuticals,Electronics,47,40,56,-11.49,-101.85
+Peru,PE,Americas,1032.0,107.5,False,Metals,Vehicles,Electronics,41,56,70,55.87,-76.15
+Peru,PE,Americas,1621.0,161.4,False,Vehicles,Pharmaceuticals,Electronics,48,52,80,6.28,-26.73
+Peru,PE,Americas,1582.9,119.3,True,Metals,Machinery,Chemicals,13,78,62,-13.68,110.45
+Peru,PE,Americas,456.2,33.6,True,Agriculture,Electronics,Vehicles,42,37,52,15.16,21.3
+Peru,PE,Americas,4993.7,105.0,True,Pharmaceuticals,Chemicals,Machinery,42,47,58,6.47,12.71
+Peru,PE,Americas,2032.2,110.4,True,Metals,Oil,Electronics,33,30,61,16.64,27.11
+Peru,PE,Americas,4371.2,46.3,False,Pharmaceuticals,Electronics,Machinery,36,39,54,-13.56,-59.16
+Argentina,AR,Americas,3369.4,113.2,False,Chemicals,Textiles,Semiconductors,7,15,70,-29.68,131.79
+Argentina,AR,Americas,3197.1,69.2,False,Metals,Agriculture,Electronics,29,58,73,18.77,113.54
+Argentina,AR,Americas,463.0,65.3,True,Agriculture,Chemicals,Food,27,72,80,48.72,-118.28
+Argentina,AR,Americas,4419.6,99.2,True,Machinery,Agriculture,Chemicals,18,29,61,-24.26,36.53
+Argentina,AR,Americas,4099.4,139.0,False,Pharmaceuticals,Machinery,Semiconductors,48,71,80,-18.93,-78.08
+Argentina,AR,Americas,4180.2,24.0,True,Oil,Metals,Electronics,13,75,52,49.08,-81.82
+Argentina,AR,Americas,898.4,186.0,False,Metals,Metals,Oil,47,46,55,-18.34,37.7
+Argentina,AR,Americas,2399.4,106.7,True,Chemicals,Metals,Electronics,42,33,89,25.96,-51.22
+Argentina,AR,Americas,3643.0,81.7,False,Metals,Metals,Energy,19,58,74,-26.78,-115.69
+Argentina,AR,Americas,2651.7,183.7,False,Oil,Metals,Energy,16,70,89,19.98,108.22
+Argentina,AR,Americas,2694.6,155.4,True,Textiles,Oil,Oil,48,65,83,2.07,107.45
+Argentina,AR,Americas,3512.4,97.2,False,Chemicals,Pharmaceuticals,Energy,32,27,66,7.71,-59.55
+Argentina,AR,Americas,4306.5,71.0,False,Vehicles,Gas,Oil,50,10,86,12.25,15.14
+Argentina,AR,Americas,1925.1,57.0,False,Chemicals,Pharmaceuticals,Energy,14,64,87,-14.64,102.29
+Argentina,AR,Americas,2163.9,85.8,False,Chemicals,Gas,Vehicles,40,71,61,-2.98,24.28
+Argentina,AR,Americas,1328.6,75.2,False,Chemicals,Oil,Energy,19,67,60,-29.97,12.17
+Argentina,AR,Americas,3947.5,164.2,True,Oil,Chemicals,Oil,10,28,80,52.59,-6.8
+Argentina,AR,Americas,395.3,59.9,True,Metals,Electronics,Vehicles,30,76,68,31.16,35.34
+Argentina,AR,Americas,4732.9,167.6,False,Textiles,Electronics,Machinery,47,76,68,-20.53,83.83
+Argentina,AR,Americas,2591.9,145.7,True,Electronics,Pharmaceuticals,Machinery,46,10,60,-31.32,-48.26
+Argentina,AR,Americas,2045.2,140.5,False,Metals,Gas,Oil,50,18,55,14.96,68.8
+Argentina,AR,Americas,2830.8,124.9,False,Vehicles,Gas,Machinery,34,61,86,-39.53,-74.49
+Argentina,AR,Americas,2570.7,120.6,False,Pharmaceuticals,Machinery,Chemicals,39,42,78,56.61,26.42
+Argentina,AR,Americas,3868.2,156.3,False,Textiles,Metals,Oil,35,24,66,-33.24,44.75
+Argentina,AR,Americas,4971.5,141.8,True,Pharmaceuticals,Chemicals,Food,38,78,50,30.08,-51.53
+Argentina,AR,Americas,1493.5,91.8,False,Machinery,Agriculture,Electronics,35,50,72,-18.14,29.17
+Argentina,AR,Americas,979.3,154.3,True,Textiles,Gas,Machinery,20,43,63,-17.08,97.08
+Argentina,AR,Americas,4194.8,84.1,True,Machinery,Machinery,Semiconductors,44,10,84,55.8,100.48
+Argentina,AR,Americas,1906.3,76.8,False,Textiles,Oil,Chemicals,30,38,86,-27.18,16.69
+Argentina,AR,Americas,2162.0,189.1,True,Agriculture,Pharmaceuticals,Vehicles,48,32,79,57.65,61.54
+Argentina,AR,Americas,2343.5,144.1,True,Gas,Chemicals,Energy,25,56,89,46.18,-71.34
+Argentina,AR,Americas,1373.2,68.5,False,Pharmaceuticals,Oil,Semiconductors,32,36,76,30.07,-23.2
+Argentina,AR,Americas,4283.3,70.3,True,Metals,Oil,Machinery,11,44,65,15.53,102.64
+Argentina,AR,Americas,1044.6,164.0,True,Textiles,Electronics,Electronics,31,73,58,59.56,100.84
+Argentina,AR,Americas,2623.7,149.7,False,Vehicles,Vehicles,Oil,30,22,60,-34.0,91.59
+Argentina,AR,Americas,2424.6,133.4,False,Pharmaceuticals,Vehicles,Food,28,42,72,-38.02,-88.48
+Turkey,TR,Europe,4347.5,193.4,True,Metals,Metals,Electronics,23,55,70,27.32,6.75
+Turkey,TR,Europe,3703.7,180.1,False,Metals,Vehicles,Semiconductors,45,28,60,24.06,121.43
+Turkey,TR,Europe,2155.3,130.2,False,Machinery,Machinery,Electronics,26,39,70,-8.31,-44.25
+Turkey,TR,Europe,1396.0,136.0,False,Textiles,Pharmaceuticals,Semiconductors,31,31,61,45.42,-87.49
+Turkey,TR,Europe,1234.4,65.3,True,Gas,Oil,Vehicles,11,22,54,53.68,3.03
+Turkey,TR,Europe,344.8,158.8,True,Machinery,Vehicles,Electronics,10,59,69,-17.06,71.77
+Turkey,TR,Europe,2260.3,42.8,True,Electronics,Electronics,Food,25,70,79,57.5,20.55
+Turkey,TR,Europe,1420.3,100.1,True,Metals,Metals,Semiconductors,45,65,83,23.98,18.78
+Turkey,TR,Europe,4551.9,106.7,True,Machinery,Textiles,Chemicals,28,62,66,-24.43,-117.26
+Turkey,TR,Europe,2654.7,156.5,True,Pharmaceuticals,Vehicles,Semiconductors,39,11,81,54.7,4.04
+Turkey,TR,Europe,124.9,97.5,False,Metals,Gas,Oil,40,57,62,1.17,25.74
+Turkey,TR,Europe,2022.2,49.4,False,Chemicals,Gas,Chemicals,10,64,90,-16.04,78.78
+Turkey,TR,Europe,4557.0,165.4,False,Vehicles,Agriculture,Chemicals,31,34,54,-21.76,-44.71
+Turkey,TR,Europe,3213.5,131.2,False,Metals,Textiles,Machinery,25,12,59,-35.04,19.09
+Turkey,TR,Europe,994.8,38.4,False,Oil,Textiles,Oil,19,21,59,-38.53,-63.53
+Turkey,TR,Europe,2147.6,161.4,False,Pharmaceuticals,Textiles,Oil,26,20,59,-34.4,81.67
+Turkey,TR,Europe,431.2,104.6,True,Vehicles,Chemicals,Oil,12,41,74,37.12,-4.83
+Turkey,TR,Europe,3709.1,26.0,False,Machinery,Agriculture,Machinery,35,59,69,53.62,-78.76
+Turkey,TR,Europe,3662.9,154.1,True,Vehicles,Textiles,Chemicals,17,56,53,46.37,-63.38
+Turkey,TR,Europe,635.6,133.9,False,Electronics,Oil,Chemicals,42,25,75,38.91,-117.68
+Turkey,TR,Europe,286.6,161.0,False,Metals,Oil,Food,10,41,60,9.99,58.35
+Turkey,TR,Europe,1745.0,194.5,True,Electronics,Pharmaceuticals,Electronics,49,78,56,-27.42,-59.5
+Turkey,TR,Europe,4909.8,161.9,False,Textiles,Gas,Oil,49,58,72,32.44,-54.82
+Turkey,TR,Europe,274.3,147.2,False,Agriculture,Textiles,Machinery,41,33,84,-5.23,70.42
+Turkey,TR,Europe,1434.6,169.6,True,Machinery,Agriculture,Electronics,33,47,66,14.16,-1.94
+Turkey,TR,Europe,3897.5,111.1,True,Electronics,Metals,Food,44,40,70,32.1,51.16
+Turkey,TR,Europe,2731.7,89.7,False,Agriculture,Oil,Chemicals,25,62,70,-28.95,16.03
+Turkey,TR,Europe,408.1,170.3,True,Oil,Electronics,Machinery,11,72,62,-30.12,28.46
+Turkey,TR,Europe,4194.6,138.4,False,Electronics,Pharmaceuticals,Machinery,43,19,50,53.02,-65.73
+Turkey,TR,Europe,2497.7,180.2,True,Textiles,Electronics,Food,40,63,73,39.42,-104.84
+Turkey,TR,Europe,3115.3,115.2,True,Vehicles,Machinery,Machinery,38,22,56,32.52,18.23
+Turkey,TR,Europe,1012.1,114.7,True,Metals,Oil,Vehicles,11,55,79,30.26,-8.96
+Turkey,TR,Europe,592.2,162.6,False,Agriculture,Pharmaceuticals,Electronics,39,66,72,50.25,23.02
+Turkey,TR,Europe,4984.5,172.1,False,Chemicals,Pharmaceuticals,Machinery,41,79,63,-2.49,23.06
+Turkey,TR,Europe,3743.3,84.8,False,Textiles,Chemicals,Oil,7,46,88,-38.37,-84.88
+Turkey,TR,Europe,4460.4,21.2,True,Gas,Pharmaceuticals,Oil,49,45,85,11.13,28.37
+Israel,IL,Middle East,2892.3,37.0,False,Pharmaceuticals,Oil,Electronics,21,56,87,-15.01,-53.38
+Israel,IL,Middle East,1557.5,122.7,True,Machinery,Pharmaceuticals,Semiconductors,16,72,86,41.95,-95.21
+Israel,IL,Middle East,3239.9,26.7,False,Machinery,Electronics,Food,27,65,76,53.02,-88.66
+Israel,IL,Middle East,3870.3,154.6,True,Chemicals,Electronics,Chemicals,38,15,70,13.99,-81.11
+Israel,IL,Middle East,2551.8,59.7,True,Chemicals,Textiles,Energy,19,65,68,38.64,-81.52
+Israel,IL,Middle East,1733.9,105.7,True,Agriculture,Chemicals,Chemicals,10,61,82,3.45,61.45
+Israel,IL,Middle East,3829.2,106.6,True,Textiles,Chemicals,Machinery,40,77,65,-15.77,-50.77
+Israel,IL,Middle East,2195.9,143.3,True,Machinery,Chemicals,Vehicles,28,54,62,-7.93,34.41
+Israel,IL,Middle East,199.1,74.9,False,Metals,Textiles,Electronics,33,15,64,-20.03,-22.81
+Israel,IL,Middle East,3808.1,173.5,True,Electronics,Gas,Electronics,23,11,71,29.38,-91.07
+Israel,IL,Middle East,2294.3,24.1,True,Agriculture,Gas,Machinery,39,76,66,14.88,41.99
+Israel,IL,Middle East,4962.1,145.1,True,Chemicals,Metals,Oil,21,31,53,-11.6,85.19
+Israel,IL,Middle East,3120.4,29.6,True,Machinery,Chemicals,Chemicals,47,56,56,-38.09,105.53
+Israel,IL,Middle East,3275.1,61.6,False,Agriculture,Machinery,Food,36,78,55,-21.36,10.17
+Israel,IL,Middle East,2333.3,186.7,True,Electronics,Gas,Chemicals,26,72,75,34.44,-115.22
+Israel,IL,Middle East,3446.8,84.0,False,Gas,Agriculture,Chemicals,8,42,74,49.04,91.86
+Israel,IL,Middle East,225.0,119.9,False,Gas,Oil,Food,30,27,55,32.99,15.39
+Israel,IL,Middle East,3415.7,177.1,True,Chemicals,Gas,Electronics,32,49,88,-7.07,20.98
+Israel,IL,Middle East,1097.2,44.9,True,Oil,Vehicles,Electronics,32,28,86,51.71,-37.45
+Israel,IL,Middle East,2822.1,190.7,True,Oil,Pharmaceuticals,Electronics,6,50,76,56.12,-41.13
+Israel,IL,Middle East,3748.4,167.9,False,Oil,Gas,Energy,13,33,51,36.24,39.12
+Israel,IL,Middle East,1393.0,122.1,True,Metals,Gas,Machinery,48,13,72,-32.05,82.75
+Israel,IL,Middle East,739.7,172.3,False,Pharmaceuticals,Oil,Vehicles,36,70,58,-23.62,-61.17
+Israel,IL,Middle East,2090.3,194.4,False,Chemicals,Gas,Machinery,18,18,61,52.71,136.26
+Israel,IL,Middle East,4346.3,108.2,False,Textiles,Gas,Vehicles,30,15,88,33.53,-21.1
+Israel,IL,Middle East,1619.5,130.1,True,Agriculture,Machinery,Semiconductors,34,15,65,11.87,-17.14
+Israel,IL,Middle East,3697.0,120.4,True,Gas,Vehicles,Semiconductors,30,48,68,6.13,-10.16
+Israel,IL,Middle East,3096.6,29.8,True,Textiles,Textiles,Energy,37,24,61,37.87,123.84
+Israel,IL,Middle East,3504.9,44.4,False,Pharmaceuticals,Textiles,Oil,16,68,87,49.66,112.91
+Israel,IL,Middle East,4422.1,36.2,False,Oil,Machinery,Energy,12,67,90,-3.71,16.19
+Israel,IL,Middle East,1969.7,162.4,True,Chemicals,Agriculture,Vehicles,7,31,71,16.55,51.48
+Israel,IL,Middle East,818.4,176.4,True,Electronics,Chemicals,Chemicals,24,67,68,22.65,-89.44
+Israel,IL,Middle East,727.3,56.5,False,Electronics,Textiles,Semiconductors,36,79,50,20.8,8.3
+Israel,IL,Middle East,1147.0,138.7,False,Chemicals,Textiles,Energy,43,10,65,48.22,-47.69
+Israel,IL,Middle East,3172.9,167.6,True,Electronics,Oil,Electronics,8,54,52,-25.46,-111.57
+Israel,IL,Middle East,2924.2,128.6,False,Machinery,Electronics,Energy,31,32,60,27.21,38.88
+South Africa,ZA,Africa,3482.2,127.1,True,Textiles,Metals,Food,7,21,69,-7.72,113.36
+South Africa,ZA,Africa,4115.7,156.5,True,Vehicles,Textiles,Electronics,12,45,71,12.71,16.41
+South Africa,ZA,Africa,3503.5,130.2,True,Metals,Agriculture,Energy,35,46,77,20.88,-37.71
+South Africa,ZA,Africa,2664.9,199.1,False,Oil,Metals,Semiconductors,38,73,81,40.8,109.75
+South Africa,ZA,Africa,1225.0,72.3,True,Electronics,Machinery,Oil,34,25,63,39.96,139.74
+South Africa,ZA,Africa,2117.1,80.1,True,Electronics,Gas,Chemicals,21,18,69,-9.97,23.0
+South Africa,ZA,Africa,3853.8,40.5,False,Pharmaceuticals,Chemicals,Oil,16,34,71,43.38,119.79
+South Africa,ZA,Africa,2437.2,105.4,True,Oil,Textiles,Electronics,45,68,84,49.59,0.24
+South Africa,ZA,Africa,4085.7,187.0,True,Agriculture,Vehicles,Food,40,78,51,-19.17,58.23
+South Africa,ZA,Africa,4013.7,179.8,False,Machinery,Oil,Chemicals,6,53,74,22.65,99.03
+South Africa,ZA,Africa,2889.2,90.1,True,Vehicles,Pharmaceuticals,Oil,22,62,55,9.71,-58.21
+South Africa,ZA,Africa,2303.4,191.1,True,Agriculture,Vehicles,Electronics,12,57,52,37.78,117.47
+South Africa,ZA,Africa,2263.4,24.5,False,Agriculture,Oil,Machinery,26,71,83,-8.96,-34.89
+South Africa,ZA,Africa,3865.8,37.7,True,Gas,Electronics,Semiconductors,29,76,57,-39.59,122.41
+South Africa,ZA,Africa,3460.3,127.0,True,Pharmaceuticals,Textiles,Oil,11,76,69,-37.75,77.21
+South Africa,ZA,Africa,3223.1,57.8,True,Gas,Vehicles,Chemicals,39,50,78,27.11,-49.11
+South Africa,ZA,Africa,854.9,40.6,True,Gas,Agriculture,Food,40,50,67,-25.84,63.13
+South Africa,ZA,Africa,1473.7,64.1,True,Vehicles,Metals,Food,39,66,53,-26.99,2.39
+South Africa,ZA,Africa,3403.4,39.1,True,Machinery,Chemicals,Vehicles,16,67,89,-4.44,-33.59
+South Africa,ZA,Africa,1054.9,156.5,True,Textiles,Metals,Electronics,10,69,56,5.56,57.96
+South Africa,ZA,Africa,3574.3,103.8,True,Gas,Oil,Chemicals,28,60,61,29.96,52.95
+South Africa,ZA,Africa,3960.8,178.8,False,Textiles,Electronics,Energy,35,24,72,7.87,99.9
+South Africa,ZA,Africa,1468.7,82.8,True,Agriculture,Machinery,Vehicles,50,23,70,15.61,-101.56
+South Africa,ZA,Africa,1566.4,103.0,False,Gas,Metals,Machinery,40,30,80,-1.62,-31.41
+South Africa,ZA,Africa,4084.5,126.4,False,Metals,Pharmaceuticals,Machinery,16,19,86,43.67,-90.28
+South Africa,ZA,Africa,3012.7,78.6,True,Textiles,Oil,Chemicals,30,18,88,-29.13,91.66
+South Africa,ZA,Africa,3875.0,88.2,False,Electronics,Machinery,Machinery,13,10,59,26.09,-2.23
+South Africa,ZA,Africa,1514.2,130.8,False,Gas,Gas,Food,24,48,77,31.78,117.93
+South Africa,ZA,Africa,4952.2,124.9,False,Oil,Vehicles,Oil,28,80,53,-39.92,25.61
+South Africa,ZA,Africa,4895.2,39.7,False,Electronics,Gas,Vehicles,49,60,90,-8.19,-20.47
+South Africa,ZA,Africa,1957.3,118.1,True,Textiles,Oil,Machinery,40,59,73,44.0,-79.89
+South Africa,ZA,Africa,4987.5,140.6,True,Electronics,Machinery,Oil,14,72,77,57.5,-84.7
+South Africa,ZA,Africa,755.1,165.1,False,Metals,Chemicals,Electronics,34,75,77,15.21,-2.99
+South Africa,ZA,Africa,1828.1,53.4,True,Metals,Textiles,Machinery,50,74,67,1.08,22.0
+South Africa,ZA,Africa,1885.5,196.1,False,Pharmaceuticals,Machinery,Semiconductors,49,20,59,33.02,16.87
+South Africa,ZA,Africa,4308.0,155.1,False,Textiles,Agriculture,Energy,38,21,65,7.25,72.84
+UAE,AE,Middle East,4805.2,34.1,False,Metals,Electronics,Food,39,11,80,5.4,115.57
+UAE,AE,Middle East,2903.9,79.7,False,Vehicles,Vehicles,Electronics,7,48,86,-13.96,43.62
+UAE,AE,Middle East,2924.5,123.1,False,Metals,Electronics,Chemicals,36,20,58,10.56,101.38
+UAE,AE,Middle East,1447.0,43.9,False,Vehicles,Vehicles,Oil,12,32,87,33.9,51.38
+UAE,AE,Middle East,1899.3,51.6,True,Textiles,Oil,Oil,26,20,59,19.55,93.65
+UAE,AE,Middle East,4201.1,155.5,False,Chemicals,Gas,Semiconductors,45,31,63,17.78,98.88
+UAE,AE,Middle East,347.3,67.6,True,Electronics,Oil,Semiconductors,30,70,69,7.63,126.55
+UAE,AE,Middle East,4618.5,62.1,False,Textiles,Vehicles,Electronics,38,65,50,-11.12,87.3
+UAE,AE,Middle East,1959.5,76.8,True,Machinery,Agriculture,Food,32,44,71,-12.97,88.6
+UAE,AE,Middle East,1336.3,125.2,False,Gas,Metals,Machinery,38,53,61,-8.67,-117.25
+UAE,AE,Middle East,121.7,32.2,False,Machinery,Agriculture,Energy,48,67,72,-18.06,-46.34
+UAE,AE,Middle East,1030.0,24.3,True,Electronics,Metals,Machinery,43,25,57,-31.36,37.22
+UAE,AE,Middle East,1929.7,157.5,True,Machinery,Oil,Chemicals,23,69,54,23.88,119.9
+UAE,AE,Middle East,1439.8,96.9,False,Vehicles,Oil,Energy,22,17,74,-1.14,138.95
+UAE,AE,Middle East,1350.5,166.3,True,Textiles,Machinery,Semiconductors,17,60,61,24.55,-91.81
+UAE,AE,Middle East,2739.9,97.6,True,Textiles,Vehicles,Energy,7,19,54,17.13,-54.84
+UAE,AE,Middle East,2273.7,181.4,True,Electronics,Electronics,Vehicles,22,29,71,50.46,29.41
+UAE,AE,Middle East,2615.7,189.2,False,Textiles,Chemicals,Vehicles,9,79,64,-39.67,128.08
+UAE,AE,Middle East,4104.4,106.8,False,Pharmaceuticals,Vehicles,Vehicles,8,21,73,13.46,129.84
+UAE,AE,Middle East,475.8,102.7,False,Gas,Oil,Oil,29,34,69,29.59,113.08
+UAE,AE,Middle East,3182.6,84.7,True,Textiles,Gas,Electronics,7,34,51,31.97,34.17
+UAE,AE,Middle East,2487.0,31.3,False,Textiles,Agriculture,Semiconductors,6,14,71,-34.39,84.82
+UAE,AE,Middle East,290.6,41.3,False,Agriculture,Oil,Machinery,9,14,59,8.89,-115.04
+UAE,AE,Middle East,4543.3,131.3,True,Oil,Electronics,Electronics,45,16,69,42.07,-94.7
+UAE,AE,Middle East,3087.2,170.4,True,Machinery,Machinery,Semiconductors,43,38,54,40.45,-9.19
+UAE,AE,Middle East,4072.7,196.8,False,Pharmaceuticals,Machinery,Electronics,25,37,52,19.31,-32.77
+UAE,AE,Middle East,674.1,45.4,False,Oil,Pharmaceuticals,Electronics,33,41,87,-35.93,-94.01
+UAE,AE,Middle East,4249.0,130.2,True,Electronics,Textiles,Energy,5,10,61,52.61,63.75
+UAE,AE,Middle East,3001.2,71.1,False,Oil,Gas,Electronics,45,44,83,5.04,-57.79
+UAE,AE,Middle East,938.8,144.5,True,Textiles,Metals,Energy,45,48,72,1.88,25.0
+UAE,AE,Middle East,1024.2,197.6,True,Metals,Pharmaceuticals,Machinery,34,36,67,-34.69,-90.7
+UAE,AE,Middle East,814.1,171.9,False,Textiles,Oil,Electronics,47,15,53,24.49,-45.88
+UAE,AE,Middle East,2218.6,80.2,False,Electronics,Machinery,Oil,39,32,60,38.55,6.12
+UAE,AE,Middle East,651.0,181.1,False,Metals,Metals,Food,31,35,70,-16.99,-91.37
+UAE,AE,Middle East,1200.7,62.7,False,Gas,Chemicals,Machinery,9,70,87,8.44,111.53
+UAE,AE,Middle East,793.1,187.0,False,Oil,Chemicals,Food,13,68,62,23.2,133.64
+Qatar,QA,Middle East,1074.9,42.9,True,Vehicles,Oil,Energy,34,68,76,-22.88,-30.67
+Qatar,QA,Middle East,4441.1,128.7,True,Metals,Agriculture,Machinery,10,62,83,8.92,138.87
+Qatar,QA,Middle East,2990.6,170.7,False,Electronics,Chemicals,Machinery,20,51,77,17.95,111.87
+Qatar,QA,Middle East,2991.5,46.8,True,Chemicals,Electronics,Oil,35,74,52,2.57,-17.48
+Qatar,QA,Middle East,4063.8,145.4,True,Textiles,Textiles,Machinery,10,11,76,54.99,-85.49
+Qatar,QA,Middle East,1535.3,136.6,True,Electronics,Textiles,Chemicals,15,68,86,34.73,-113.65
+Qatar,QA,Middle East,2317.8,158.9,False,Oil,Pharmaceuticals,Semiconductors,50,10,90,-32.93,112.29
+Qatar,QA,Middle East,1717.9,25.9,False,Vehicles,Metals,Machinery,48,20,89,48.08,71.3
+Qatar,QA,Middle East,349.7,190.2,False,Electronics,Machinery,Vehicles,28,69,89,-35.91,-24.73
+Qatar,QA,Middle East,3269.0,146.9,True,Oil,Pharmaceuticals,Machinery,39,24,80,33.74,75.59
+Qatar,QA,Middle East,4366.0,146.5,True,Pharmaceuticals,Pharmaceuticals,Chemicals,37,64,67,-34.55,-23.07
+Qatar,QA,Middle East,2305.9,110.3,True,Textiles,Agriculture,Chemicals,33,57,54,-21.16,109.83
+Qatar,QA,Middle East,509.6,90.3,True,Vehicles,Machinery,Energy,15,45,57,29.71,9.05
+Qatar,QA,Middle East,4385.0,113.7,True,Vehicles,Chemicals,Electronics,35,54,76,4.39,47.62
+Qatar,QA,Middle East,1514.3,31.3,True,Agriculture,Pharmaceuticals,Vehicles,42,53,70,8.61,53.12
+Qatar,QA,Middle East,2688.4,118.7,False,Vehicles,Metals,Electronics,24,31,66,-17.32,-23.31
+Qatar,QA,Middle East,1497.7,172.2,True,Pharmaceuticals,Vehicles,Semiconductors,15,30,84,-11.48,133.03
+Qatar,QA,Middle East,4209.5,144.7,True,Oil,Gas,Energy,7,50,86,-27.35,-52.29
+Qatar,QA,Middle East,987.7,121.2,True,Pharmaceuticals,Pharmaceuticals,Electronics,28,67,84,57.55,18.75
+Qatar,QA,Middle East,677.7,24.5,False,Oil,Textiles,Food,14,10,84,57.56,-33.87
+Qatar,QA,Middle East,3550.8,105.3,False,Metals,Oil,Semiconductors,26,24,80,50.02,-83.75
+Qatar,QA,Middle East,2790.7,75.5,False,Metals,Gas,Semiconductors,27,21,70,-34.5,46.74
+Qatar,QA,Middle East,2950.5,60.0,False,Gas,Electronics,Energy,39,67,55,57.58,-17.45
+Qatar,QA,Middle East,2493.1,128.6,True,Pharmaceuticals,Chemicals,Electronics,50,64,73,-1.39,-116.83
+Qatar,QA,Middle East,1777.0,75.5,False,Agriculture,Machinery,Machinery,33,63,78,-11.14,89.47
+Qatar,QA,Middle East,4854.2,96.3,False,Oil,Metals,Energy,14,36,69,7.46,105.56
+Qatar,QA,Middle East,4934.3,31.9,False,Machinery,Electronics,Vehicles,45,44,76,-22.51,0.15
+Qatar,QA,Middle East,2874.1,184.7,True,Oil,Chemicals,Chemicals,40,72,52,42.28,-41.48
+Qatar,QA,Middle East,2959.2,108.9,False,Gas,Electronics,Oil,14,43,69,55.6,96.9
+Qatar,QA,Middle East,2404.9,137.7,False,Chemicals,Oil,Semiconductors,49,41,51,-28.06,-47.92
+Qatar,QA,Middle East,4972.1,32.0,False,Metals,Textiles,Vehicles,21,70,57,-2.68,70.57
+Qatar,QA,Middle East,166.3,66.7,True,Oil,Pharmaceuticals,Semiconductors,49,27,72,-23.67,-49.11
+Qatar,QA,Middle East,2144.0,184.2,False,Electronics,Vehicles,Chemicals,38,19,82,-20.62,43.29
+Qatar,QA,Middle East,3842.3,127.8,True,Agriculture,Pharmaceuticals,Food,48,48,67,28.54,58.97
+Qatar,QA,Middle East,551.5,124.4,True,Electronics,Oil,Chemicals,28,72,76,-5.97,116.8
+Qatar,QA,Middle East,583.9,47.8,True,Gas,Agriculture,Energy,31,68,54,-28.34,-85.88
+Ukraine,UA,Europe,165.5,82.7,False,Oil,Textiles,Food,16,48,51,34.45,-89.16
+Ukraine,UA,Europe,713.3,145.0,True,Vehicles,Oil,Machinery,13,20,77,29.08,83.85
+Ukraine,UA,Europe,462.5,159.4,False,Electronics,Gas,Energy,7,75,87,-34.07,-89.08
+Ukraine,UA,Europe,1324.8,31.9,True,Machinery,Machinery,Machinery,42,35,61,27.06,-112.39
+Ukraine,UA,Europe,796.1,154.3,False,Metals,Pharmaceuticals,Food,15,74,89,-15.82,28.26
+Ukraine,UA,Europe,567.6,124.1,True,Agriculture,Gas,Machinery,23,31,84,-39.57,68.59
+Ukraine,UA,Europe,4627.2,185.7,False,Pharmaceuticals,Metals,Electronics,33,23,61,43.47,135.14
+Ukraine,UA,Europe,2166.5,112.6,False,Machinery,Pharmaceuticals,Energy,34,24,83,-26.41,78.19
+Ukraine,UA,Europe,3547.3,120.3,True,Machinery,Pharmaceuticals,Semiconductors,12,59,68,5.69,71.41
+Ukraine,UA,Europe,3460.3,171.4,True,Agriculture,Chemicals,Chemicals,32,34,54,49.48,88.63
+Ukraine,UA,Europe,4700.3,86.1,True,Textiles,Machinery,Vehicles,33,76,55,-28.08,-17.35
+Ukraine,UA,Europe,3499.6,196.0,True,Machinery,Pharmaceuticals,Machinery,26,35,88,44.4,-14.88
+Ukraine,UA,Europe,1225.7,96.4,False,Vehicles,Metals,Chemicals,46,61,72,7.58,36.82
+Ukraine,UA,Europe,2069.9,107.2,False,Oil,Textiles,Energy,12,42,81,9.73,43.38
+Ukraine,UA,Europe,742.3,37.9,True,Machinery,Textiles,Oil,16,58,88,27.92,-80.29
+Ukraine,UA,Europe,3140.1,37.3,True,Agriculture,Textiles,Semiconductors,17,47,81,9.03,-51.97
+Ukraine,UA,Europe,1770.6,174.7,True,Electronics,Chemicals,Energy,29,67,70,45.29,-4.94
+Ukraine,UA,Europe,257.0,51.8,False,Oil,Textiles,Vehicles,13,49,74,8.75,-91.56
+Ukraine,UA,Europe,3401.1,138.8,False,Textiles,Agriculture,Electronics,37,17,75,-13.66,33.67
+Ukraine,UA,Europe,1938.8,141.8,False,Pharmaceuticals,Electronics,Oil,42,15,58,43.69,-29.29
+Ukraine,UA,Europe,3730.9,24.8,False,Chemicals,Machinery,Vehicles,27,55,76,-4.87,51.92
+Ukraine,UA,Europe,1298.3,136.7,True,Machinery,Vehicles,Energy,26,31,51,13.84,-110.28
+Ukraine,UA,Europe,3316.2,96.0,False,Vehicles,Electronics,Semiconductors,42,12,70,-2.23,-18.52
+Ukraine,UA,Europe,2896.9,165.5,True,Gas,Pharmaceuticals,Semiconductors,37,53,60,21.48,-25.53
+Ukraine,UA,Europe,2225.1,109.5,True,Agriculture,Gas,Chemicals,21,16,69,59.62,-15.47
+Ukraine,UA,Europe,1191.4,153.7,True,Metals,Machinery,Food,22,18,86,40.12,3.57
+Ukraine,UA,Europe,1111.9,163.2,False,Agriculture,Vehicles,Vehicles,47,79,70,-19.99,-15.4
+Ukraine,UA,Europe,3154.8,101.6,True,Electronics,Agriculture,Electronics,41,73,63,26.08,94.22
+Ukraine,UA,Europe,4695.5,68.2,False,Metals,Electronics,Machinery,28,69,59,-15.96,74.07
+Ukraine,UA,Europe,3846.4,171.9,False,Pharmaceuticals,Machinery,Machinery,31,44,68,24.6,-53.32
+Ukraine,UA,Europe,3038.1,93.1,True,Oil,Gas,Oil,20,49,79,8.54,137.74
+Ukraine,UA,Europe,2156.3,183.0,True,Oil,Vehicles,Electronics,6,43,67,25.87,-74.24
+Ukraine,UA,Europe,4274.4,193.5,False,Electronics,Electronics,Energy,25,48,54,50.06,-14.18
+Ukraine,UA,Europe,1868.1,138.3,True,Chemicals,Oil,Machinery,12,74,57,12.2,95.54
+Ukraine,UA,Europe,4752.4,187.7,False,Textiles,Machinery,Machinery,43,25,70,-7.07,31.92
+Ukraine,UA,Europe,1998.6,154.7,True,Chemicals,Gas,Electronics,11,32,63,56.99,-5.74
+Kazakhstan,KZ,Asia,1331.2,126.1,False,Agriculture,Pharmaceuticals,Energy,25,79,77,7.49,-55.95
+Kazakhstan,KZ,Asia,1446.5,161.2,True,Pharmaceuticals,Textiles,Food,24,12,88,-36.52,72.26
+Kazakhstan,KZ,Asia,4010.8,29.8,True,Vehicles,Agriculture,Vehicles,24,56,57,13.49,-58.54
+Kazakhstan,KZ,Asia,2256.6,21.4,False,Vehicles,Vehicles,Energy,20,48,63,45.94,-78.34
+Kazakhstan,KZ,Asia,2239.1,77.1,False,Electronics,Vehicles,Energy,36,70,76,52.65,-33.49
+Kazakhstan,KZ,Asia,2158.0,185.3,True,Oil,Vehicles,Energy,27,63,88,32.92,22.41
+Kazakhstan,KZ,Asia,1687.7,145.1,True,Oil,Textiles,Electronics,5,61,62,22.83,-38.43
+Kazakhstan,KZ,Asia,484.6,48.4,True,Metals,Chemicals,Food,33,71,58,-13.93,58.74
+Kazakhstan,KZ,Asia,4147.7,163.9,True,Machinery,Chemicals,Food,16,60,74,54.48,109.93
+Kazakhstan,KZ,Asia,1184.5,190.7,True,Machinery,Textiles,Machinery,21,31,53,0.1,-8.49
+Kazakhstan,KZ,Asia,1360.0,36.0,False,Oil,Metals,Energy,5,77,77,37.34,121.35
+Kazakhstan,KZ,Asia,4150.1,108.9,True,Gas,Gas,Chemicals,23,73,74,-26.98,102.65
+Kazakhstan,KZ,Asia,3032.4,199.1,False,Gas,Chemicals,Electronics,31,28,51,-10.98,-51.93
+Kazakhstan,KZ,Asia,3119.0,183.3,False,Metals,Textiles,Energy,5,70,58,47.14,133.34
+Kazakhstan,KZ,Asia,2036.0,58.2,False,Chemicals,Metals,Chemicals,9,22,85,-34.12,-33.46
+Kazakhstan,KZ,Asia,1235.4,183.5,True,Electronics,Vehicles,Vehicles,24,60,73,-26.78,111.98
+Kazakhstan,KZ,Asia,282.3,52.3,True,Agriculture,Textiles,Food,34,26,55,-8.27,17.91
+Kazakhstan,KZ,Asia,777.6,41.0,True,Oil,Textiles,Chemicals,28,65,68,50.28,-51.56
+Kazakhstan,KZ,Asia,4161.6,186.8,False,Chemicals,Oil,Food,36,29,85,45.3,50.93
+Kazakhstan,KZ,Asia,4007.2,29.6,True,Electronics,Gas,Electronics,7,70,66,-23.64,1.45
+Kazakhstan,KZ,Asia,650.8,181.1,False,Electronics,Textiles,Food,50,72,79,9.3,99.92
+Kazakhstan,KZ,Asia,4345.0,42.3,True,Gas,Vehicles,Electronics,15,75,67,16.32,52.42
+Kazakhstan,KZ,Asia,1125.0,199.6,True,Agriculture,Metals,Electronics,31,19,65,36.83,56.0
+Kazakhstan,KZ,Asia,4445.8,24.7,True,Chemicals,Pharmaceuticals,Energy,25,29,51,-31.89,95.98
+Kazakhstan,KZ,Asia,3324.9,101.7,False,Metals,Electronics,Food,7,67,70,54.74,139.95
+Kazakhstan,KZ,Asia,4541.8,163.5,True,Gas,Electronics,Chemicals,25,17,54,14.72,36.6
+Kazakhstan,KZ,Asia,535.4,65.9,True,Chemicals,Machinery,Oil,18,30,74,37.95,-45.92
+Kazakhstan,KZ,Asia,3782.6,137.7,True,Vehicles,Textiles,Vehicles,24,26,72,26.55,96.33
+Kazakhstan,KZ,Asia,2602.3,108.1,False,Textiles,Vehicles,Vehicles,10,64,73,21.39,-7.13
+Kazakhstan,KZ,Asia,2176.0,27.3,False,Textiles,Gas,Electronics,36,77,90,24.72,-98.17
+Kazakhstan,KZ,Asia,2383.6,34.3,False,Vehicles,Oil,Electronics,48,48,65,12.31,-43.17
+Kazakhstan,KZ,Asia,314.8,33.8,True,Agriculture,Machinery,Vehicles,31,22,79,26.09,27.8
+Kazakhstan,KZ,Asia,1326.6,65.9,True,Agriculture,Electronics,Energy,47,69,61,38.62,99.16
+Kazakhstan,KZ,Asia,302.7,94.9,False,Pharmaceuticals,Metals,Semiconductors,47,67,89,40.78,-31.25
+Kazakhstan,KZ,Asia,4597.1,165.8,True,Oil,Machinery,Chemicals,48,23,77,13.44,-118.48
+Kazakhstan,KZ,Asia,654.1,50.9,False,Textiles,Chemicals,Semiconductors,24,56,75,40.46,-97.21

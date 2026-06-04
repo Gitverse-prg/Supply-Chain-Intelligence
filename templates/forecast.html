@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% block page_title %}Forecast Center{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h2><i class="fas fa-chart-area me-2 text-accent"></i>Forecast Center</h2>
+  <p>Prophet-powered supply chain risk forecasting with confidence intervals</p>
+</div>
+<div class="row g-3 mb-4">
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-header"><h6><i class="fas fa-sliders-h me-2"></i>Forecast Settings</h6></div>
+      <div class="card-body">
+        <div class="mb-3">
+          <label class="form-label">FORECAST TYPE</label>
+          <select class="form-select" id="fc-type">
+            <option>Oil Price Risk</option>
+            <option>Supply Chain Risk</option>
+            <option>Consumer Price Impact</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label class="form-label">HORIZON</label>
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm btn-outline-accent flex-fill" onclick="setHorizon(30,this)">30D</button>
+            <button class="btn btn-sm btn-primary flex-fill" onclick="setHorizon(60,this)">60D</button>
+            <button class="btn btn-sm btn-outline-accent flex-fill" onclick="setHorizon(90,this)">90D</button>
+          </div>
+          <input type="hidden" id="fc-horizon" value="60">
+        </div>
+        <button class="btn btn-primary w-100" onclick="runForecast()">
+          <i class="fas fa-magic me-2"></i>Generate Forecast
+        </button>
+        <div id="forecast-meta" class="mt-3" style="font-size:11px;color:#475569;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="card h-100">
+      <div class="card-header"><h6 id="fc-chart-title"><i class="fas fa-chart-line me-2"></i>Forecast Chart</h6></div>
+      <div class="card-body">
+        <canvas id="forecastChart" height="260"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header"><h6><i class="fas fa-exclamation-triangle me-2 text-warning"></i>Early Warning Signals</h6></div>
+  <div class="card-body">
+    <div id="warnings-list" class="text-muted small">Run a forecast to generate early warnings.</div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+let fcChart = null;
+
+function setHorizon(val, btn) {
+  document.getElementById('fc-horizon').value = val;
+  document.querySelectorAll('.d-flex .btn').forEach(b=>{
+    b.className = b===btn ? 'btn btn-sm btn-primary flex-fill' : 'btn btn-sm btn-outline-accent flex-fill';
+  });
+}
+
+async function runForecast() {
+  const type = document.getElementById('fc-type').value;
+  const horizon = +document.getElementById('fc-horizon').value;
+  showToast('Generating forecast...','info');
+  const d = await fetch('/api/forecast',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({type,horizon})}).then(r=>r.json());
+
+  document.getElementById('fc-chart-title').innerHTML = `<i class="fas fa-chart-line me-2"></i>${d.forecast_type} — ${d.horizon_days}D Forecast`;
+  document.getElementById('forecast-meta').innerHTML = `Method: <b>${d.method}</b> &nbsp;·&nbsp; ${d.dates?.length} data points`;
+
+  if (fcChart) fcChart.destroy();
+  fcChart = new Chart(document.getElementById('forecastChart'), {
+    type:'line',
+    data:{
+      labels: d.dates,
+      datasets:[
+        {label:'Forecast', data:d.values, borderColor:'#0ea5e9', borderWidth:2, pointRadius:0, fill:false},
+        {label:'Upper', data:d.upper, borderColor:'rgba(14,165,233,.2)', borderWidth:0, fill:'+1', backgroundColor:'rgba(14,165,233,.08)', pointRadius:0},
+        {label:'Lower', data:d.lower, borderColor:'rgba(14,165,233,.2)', borderWidth:0, fill:false, pointRadius:0},
+      ]
+    },
+    options:{
+      plugins:{legend:{labels:{color:'#94a3b8',filter:i=>i.text!='Lower'&&i.text!='Upper'}}},
+      scales:{x:{ticks:{color:'#64748b',maxTicksLimit:8},grid:{color:'#1e2d42'}},
+               y:{grid:{color:'#1e2d42'},ticks:{color:'#94a3b8'},min:0,max:100}}
+    }
+  });
+
+  // Warnings
+  const maxVal = Math.max(...d.values);
+  const maxIdx = d.values.indexOf(maxVal);
+  const warnHtml = maxVal >= 70
+    ? `<div class="alert-item high"><div class="d-flex align-items-center gap-2">
+        <span class="badge-severity sev-high">HIGH</span>
+        <span style="font-size:13px;font-weight:500">${d.forecast_type} predicted to reach <span class="mono text-danger">${maxVal.toFixed(0)}</span> on day ${maxIdx+1}</span>
+      </div></div>`
+    : `<div class="text-success"><i class="fas fa-check-circle me-2"></i>No critical thresholds breached in this forecast period.</div>`;
+
+  document.getElementById('warnings-list').innerHTML = warnHtml;
+  showToast('Forecast generated!','success');
+}
+</script>
+{% endblock %}

@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block page_title %}News Monitor{% endblock %}
+{% block content %}
+<div class="page-header d-flex justify-content-between align-items-start">
+  <div>
+    <h2><i class="fas fa-newspaper me-2 text-accent"></i>News Monitor</h2>
+    <p>AI-classified global supply chain news events</p>
+  </div>
+  <button class="btn btn-primary" onclick="refreshNews()">
+    <i class="fas fa-sync-alt me-1"></i>Refresh News
+  </button>
+</div>
+
+<!-- Filters -->
+<div class="card mb-4">
+  <div class="card-body py-3">
+    <div class="row g-2">
+      <div class="col-md-3">
+        <select class="form-select form-select-sm" id="filter-shock">
+          <option value="">All Shock Types</option>
+          <option>Oil Shock</option><option>Semiconductor Shortage</option>
+          <option>Trade Restriction</option><option>Shipping Crisis</option>
+          <option>Climate Event</option><option>Currency Volatility</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <select class="form-select form-select-sm" id="filter-country">
+          <option value="">All Countries</option>
+          <option>China</option><option>USA</option><option>Taiwan</option>
+          <option>Russia</option><option>India</option><option>Germany</option>
+          <option>Japan</option><option>Global</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-sm btn-outline-accent w-100" onclick="loadNews()">
+          <i class="fas fa-filter me-1"></i>Apply
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Stats Row -->
+<div class="row g-3 mb-4" id="news-stats-row"></div>
+
+<!-- News List -->
+<div class="card">
+  <div class="card-header">
+    <h6><i class="fas fa-list me-2"></i>News Articles</h6>
+    <span class="text-muted" style="font-size:12px;" id="news-count">Loading...</span>
+  </div>
+  <div class="card-body p-3">
+    <div id="news-list"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+async function refreshNews() {
+  showToast('Fetching from NewsAPI / GNews...','info');
+  const r = await fetch('/api/news/refresh',{method:'POST'});
+  const d = await r.json();
+  showToast(`Fetched ${d.total_fetched}, added ${d.added} new articles`, 'success');
+  loadNews();
+}
+
+async function loadNews() {
+  const shock = document.getElementById('filter-shock').value;
+  const country = document.getElementById('filter-country').value;
+  let url = '/api/news?limit=100';
+  if (shock) url += '&shock_type='+encodeURIComponent(shock);
+  if (country) url += '&country='+encodeURIComponent(country);
+
+  const news = await fetch(url).then(r=>r.json());
+  document.getElementById('news-count').textContent = `${news.length} articles`;
+
+  document.getElementById('news-list').innerHTML = news.length ? news.map(n => `
+    <div class="news-card">
+      <div class="d-flex flex-wrap gap-2 mb-2">
+        ${shockTag(n.shock_type)}
+        ${severityBadge(n.severity)}
+        <span class="shock-tag" style="background:rgba(148,163,184,.1);color:#94a3b8">${n.country||'Global'}</span>
+        <span class="shock-tag" style="background:rgba(148,163,184,.1);color:#94a3b8">${n.industry||'—'}</span>
+      </div>
+      <h6>${n.title}</h6>
+      ${n.description ? `<p style="font-size:12px;color:#64748b;margin:6px 0 0;">${n.description.slice(0,180)}...</p>` : ''}
+      <div class="meta mt-2">
+        <i class="fas fa-newspaper me-1"></i>${n.source||'Unknown'} &nbsp;·&nbsp;
+        ${fmtDate(n.date)} &nbsp;·&nbsp;
+        Prob: <span class="mono">${((n.probability||0)*100).toFixed(0)}%</span>
+        &nbsp;·&nbsp; Severity: <span class="mono">${n.severity||0}/10</span>
+        ${n.url ? `&nbsp;·&nbsp; <a href="${n.url}" target="_blank" style="color:#0ea5e9;font-size:11px;"><i class="fas fa-external-link-alt"></i> Read</a>` : ''}
+      </div>
+    </div>`).join('') : '<div class="text-center py-5 text-muted"><i class="fas fa-newspaper fa-2x mb-3 d-block"></i>No news articles yet.<br><small>Click "Refresh News" to fetch the latest articles.</small></div>';
+
+  // Stats
+  const stats = await fetch('/api/news/stats').then(r=>r.json());
+  const sd = stats.shock_distribution || {};
+  document.getElementById('news-stats-row').innerHTML = [
+    {label:'Total Articles',val:stats.total||0,icon:'fa-newspaper',cls:''},
+    {label:'High Severity',val:stats.high_severity||0,icon:'fa-fire',cls:'danger'},
+    {label:'Avg Severity',val:((stats.avg_severity||0)*10).toFixed(1)+'/100',icon:'fa-thermometer-half',cls:'warning'},
+    {label:'Shock Types',val:Object.keys(sd).length,icon:'fa-tags',cls:'success'},
+  ].map(s => `
+    <div class="col-md-3 col-6">
+      <div class="stat-card ${s.cls}">
+        <div class="stat-icon"><i class="fas ${s.icon}"></i></div>
+        <div class="stat-value">${s.val}</div>
+        <div class="stat-label">${s.label}</div>
+      </div>
+    </div>`).join('');
+}
+
+loadNews();
+</script>
+{% endblock %}

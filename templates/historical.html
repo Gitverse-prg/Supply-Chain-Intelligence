@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block page_title %}Historical Analytics{% endblock %}
+{% block content %}
+<div class="page-header d-flex justify-content-between align-items-start">
+  <div>
+    <h2><i class="fas fa-history me-2 text-accent"></i>Historical Analytics</h2>
+    <p>Trend analysis of supply chain disruptions over time</p>
+  </div>
+  <div class="d-flex gap-2">
+    <button class="btn btn-sm btn-outline-accent" onclick="loadHistorical(30)">30 Days</button>
+    <button class="btn btn-sm btn-primary" onclick="loadHistorical(90)">90 Days</button>
+    <button class="btn btn-sm btn-outline-accent" onclick="loadHistorical(365)">1 Year</button>
+  </div>
+</div>
+
+<div class="row g-3 mb-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header"><h6><i class="fas fa-chart-line me-2"></i>Risk Trend Over Time</h6></div>
+      <div class="card-body"><canvas id="riskTrendChart" height="180"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-header"><h6><i class="fas fa-industry me-2"></i>Industry Trend</h6></div>
+      <div class="card-body"><canvas id="industryChart" height="240"></canvas></div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-header"><h6><i class="fas fa-globe me-2"></i>Country Trend</h6></div>
+      <div class="card-body"><canvas id="countryChart" height="240"></canvas></div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+let charts = {};
+
+async function loadHistorical(days = 90) {
+  const d = await fetch(`/api/historical?days=${days}`).then(r=>r.json());
+
+  // Risk Trend
+  if (charts.risk) charts.risk.destroy();
+  charts.risk = new Chart(document.getElementById('riskTrendChart'), {
+    type:'line',
+    data:{
+      labels: d.risk_trend.map(r=>r.date),
+      datasets:[
+        {label:'Avg Risk Score', data:d.risk_trend.map(r=>r.avg_risk), borderColor:'#0ea5e9', borderWidth:2, fill:true, backgroundColor:'rgba(14,165,233,.08)', pointRadius:3},
+        {label:'Event Count', data:d.risk_trend.map(r=>r.count), borderColor:'#8b5cf6', borderWidth:2, fill:false, pointRadius:3, yAxisID:'y2'}
+      ]
+    },
+    options:{
+      plugins:{legend:{labels:{color:'#94a3b8'}}},
+      scales:{
+        x:{ticks:{color:'#64748b',maxTicksLimit:10},grid:{color:'#1e2d42'}},
+        y:{grid:{color:'#1e2d42'},ticks:{color:'#94a3b8'},min:0,max:100},
+        y2:{position:'right',grid:{display:false},ticks:{color:'#8b5cf6'}}
+      }
+    }
+  });
+
+  // Industry
+  const ind = d.industry_trend || [];
+  if (charts.industry) charts.industry.destroy();
+  charts.industry = new Chart(document.getElementById('industryChart'), {
+    type:'bar',
+    data:{
+      labels: ind.map(i=>i.industry||'Unknown'),
+      datasets:[
+        {label:'Event Count', data:ind.map(i=>i.count), backgroundColor:'#3b82f666', borderColor:'#3b82f6', borderWidth:1},
+        {label:'Avg Severity', data:ind.map(i=>i.avg_severity), backgroundColor:'#f59e0b66', borderColor:'#f59e0b', borderWidth:1}
+      ]
+    },
+    options:{plugins:{legend:{labels:{color:'#94a3b8'}}},scales:{x:{ticks:{color:'#94a3b8',font:{size:10}},grid:{color:'#1e2d42'}},y:{grid:{color:'#1e2d42'},ticks:{color:'#94a3b8'}}}}
+  });
+
+  // Country
+  const ctry = (d.country_trend||[]).slice(0,8);
+  if (charts.country) charts.country.destroy();
+  charts.country = new Chart(document.getElementById('countryChart'), {
+    type:'bar',
+    data:{
+      labels: ctry.map(c=>c.country),
+      datasets:[{label:'Event Count', data:ctry.map(c=>c.count), backgroundColor:'#10b98166', borderColor:'#10b981', borderWidth:1, borderRadius:4}]
+    },
+    options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{grid:{color:'#1e2d42'},ticks:{color:'#94a3b8'}},y:{ticks:{color:'#94a3b8'}}}}
+  });
+}
+loadHistorical(90);
+</script>
+{% endblock %}

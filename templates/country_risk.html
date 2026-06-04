@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% block page_title %}Country Risk Map{% endblock %}
+{% block content %}
+<div class="page-header d-flex justify-content-between align-items-start">
+  <div>
+    <h2><i class="fas fa-map-marked-alt me-2 text-accent"></i>Country Risk Map</h2>
+    <p>Interactive global risk visualization with trade exposure and dependency scores</p>
+  </div>
+  <button class="btn btn-sm btn-outline-accent" onclick="updateRisks()">
+    <i class="fas fa-sync me-1"></i>Update from News
+  </button>
+</div>
+
+<!-- Legend -->
+<div class="d-flex gap-3 mb-3 flex-wrap">
+  <span class="d-flex align-items-center gap-1 text-muted" style="font-size:12px">
+    <span style="width:14px;height:14px;border-radius:50%;background:#10b981;display:inline-block"></span> Low (&lt;40)
+  </span>
+  <span class="d-flex align-items-center gap-1 text-muted" style="font-size:12px">
+    <span style="width:14px;height:14px;border-radius:50%;background:#f59e0b;display:inline-block"></span> Medium (40-65)
+  </span>
+  <span class="d-flex align-items-center gap-1 text-muted" style="font-size:12px">
+    <span style="width:14px;height:14px;border-radius:50%;background:#f97316;display:inline-block"></span> High (65-80)
+  </span>
+  <span class="d-flex align-items-center gap-1 text-muted" style="font-size:12px">
+    <span style="width:14px;height:14px;border-radius:50%;background:#ef4444;display:inline-block"></span> Critical (&gt;80)
+  </span>
+</div>
+
+<div class="card mb-4">
+  <div class="card-body p-0">
+    <div id="risk-map"></div>
+  </div>
+</div>
+
+<!-- Country Table -->
+<div class="card">
+  <div class="card-header"><h6><i class="fas fa-table me-2"></i>Country Risk Details</h6></div>
+  <div class="card-body p-0">
+    <div class="table-responsive">
+      <table class="table table-hover mb-0">
+        <thead>
+          <tr>
+            <th>Country</th><th>Risk Score</th><th>Trade Exposure</th>
+            <th>Dependency</th><th>Risk Level</th><th>Risk Bar</th>
+          </tr>
+        </thead>
+        <tbody id="country-table"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+let map;
+function riskColor(score) {
+  if (score >= 80) return '#ef4444';
+  if (score >= 65) return '#f97316';
+  if (score >= 40) return '#f59e0b';
+  return '#10b981';
+}
+
+async function loadMap() {
+  const data = await fetch('/api/country-risk').then(r=>r.json());
+
+  if (!map) {
+    map = L.map('risk-map', {zoomControl:true, scrollWheelZoom:false}).setView([20, 0], 2);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution:'&copy; CartoDB', maxZoom:18
+    }).addTo(map);
+  }
+
+  data.forEach(c => {
+    const color = riskColor(c.risk_score);
+    const radius = 8 + (c.risk_score / 100) * 18;
+    L.circleMarker([c.lat, c.lon], {
+      radius, color, fillColor: color, fillOpacity: 0.7,
+      weight: 2, opacity: 0.9
+    }).bindPopup(`
+      <div class="risk-popup">
+        <h6>${c.country} (${c.country_code})</h6>
+        <table style="font-size:12px;width:100%">
+          <tr><td>Risk Score</td><td><b style="color:${color}">${c.risk_score?.toFixed(0)}/100</b></td></tr>
+          <tr><td>Trade Exposure</td><td>${c.trade_exposure?.toFixed(0)}/100</td></tr>
+          <tr><td>Dependency</td><td>${c.dependency_score?.toFixed(0)}/100</td></tr>
+        </table>
+      </div>`).addTo(map);
+  });
+
+  // Table
+  document.getElementById('country-table').innerHTML = [...data]
+    .sort((a,b)=>b.risk_score - a.risk_score)
+    .map(c => {
+      const col = riskColor(c.risk_score);
+      const lvl = c.risk_score >= 80 ? 'Critical' : c.risk_score >= 65 ? 'High' : c.risk_score >= 40 ? 'Medium' : 'Low';
+      const sev = c.risk_score >= 80 ? 'critical' : c.risk_score >= 65 ? 'high' : c.risk_score >= 40 ? 'medium' : 'low';
+      return `<tr>
+        <td><b>${c.country}</b> <small class="text-muted">${c.country_code}</small></td>
+        <td><span class="mono" style="color:${col};font-weight:700">${c.risk_score?.toFixed(0)}</span></td>
+        <td>${c.trade_exposure?.toFixed(0)}</td>
+        <td>${c.dependency_score?.toFixed(0)}</td>
+        <td><span class="badge-severity sev-${sev}">${lvl}</span></td>
+        <td style="width:120px">
+          <div class="progress"><div class="progress-bar" style="width:${c.risk_score}%;background:${col}"></div></div>
+        </td>
+      </tr>`;
+    }).join('');
+}
+
+async function updateRisks() {
+  showToast('Updating risks from news data...','info');
+  await fetch('/api/country-risk/update',{method:'POST'});
+  showToast('Risk scores updated!','success');
+  if (map) { map.remove(); map = null; }
+  loadMap();
+}
+
+loadMap();
+</script>
+{% endblock %}

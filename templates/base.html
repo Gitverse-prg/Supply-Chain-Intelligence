@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Supply Chain Shock Intelligence Platform</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-brand">
+    <div class="brand-icon"><i class="fas fa-globe-asia"></i></div>
+    <div class="brand-text">
+      <span class="brand-title">SCSI</span>
+      <span class="brand-sub">Supply Chain Intelligence</span>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <div class="nav-section-label">CORE</div>
+    <a href="/" class="nav-item {% if page=='dashboard' %}active{% endif %}">
+      <i class="fas fa-tachometer-alt"></i><span>Dashboard</span>
+    </a>
+    <a href="/news" class="nav-item {% if page=='news' %}active{% endif %}">
+      <i class="fas fa-newspaper"></i><span>News Monitor</span>
+      <span class="nav-badge" id="nav-news-count">0</span>
+    </a>
+
+    <div class="nav-section-label">ANALYSIS</div>
+    <a href="/simulator" class="nav-item {% if page=='simulator' %}active{% endif %}">
+      <i class="fas fa-flask"></i><span>Shock Simulator</span>
+    </a>
+    <a href="/country-risk" class="nav-item {% if page=='country_risk' %}active{% endif %}">
+      <i class="fas fa-map-marked-alt"></i><span>Country Risk Map</span>
+    </a>
+    <a href="/consumer-impact" class="nav-item {% if page=='consumer_impact' %}active{% endif %}">
+      <i class="fas fa-shopping-cart"></i><span>Consumer Impact</span>
+    </a>
+    <a href="/scenario" class="nav-item {% if page=='scenario' %}active{% endif %}">
+      <i class="fas fa-code-branch"></i><span>Scenario Compare</span>
+    </a>
+
+    <div class="nav-section-label">INTELLIGENCE</div>
+    <a href="/investment" class="nav-item {% if page=='investment' %}active{% endif %}">
+      <i class="fas fa-chart-line"></i><span>Investment</span>
+    </a>
+    <a href="/forecast" class="nav-item {% if page=='forecast' %}active{% endif %}">
+      <i class="fas fa-chart-area"></i><span>Forecast Center</span>
+    </a>
+    <a href="/historical" class="nav-item {% if page=='historical' %}active{% endif %}">
+      <i class="fas fa-history"></i><span>Historical Analytics</span>
+    </a>
+
+    <div class="nav-section-label">REPORTS & AI</div>
+    <a href="/ceo-report" class="nav-item {% if page=='ceo_report' %}active{% endif %}">
+      <i class="fas fa-file-alt"></i><span>CEO Report</span>
+    </a>
+    <a href="/assistant" class="nav-item {% if page=='assistant' %}active{% endif %}">
+      <i class="fas fa-robot"></i><span>AI Assistant</span>
+    </a>
+    <a href="/notifications" class="nav-item {% if page=='notifications' %}active{% endif %}">
+      <i class="fas fa-bell"></i><span>Notifications</span>
+      <span class="nav-badge danger" id="nav-alert-count">0</span>
+    </a>
+  </nav>
+
+  <div class="sidebar-footer">
+    <div class="status-dot"></div>
+    <span>Live Intelligence Active</span>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main-content" id="main-content">
+  <!-- Top Bar -->
+  <div class="topbar">
+    <button class="sidebar-toggle" onclick="toggleSidebar()">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="topbar-title">{% block page_title %}Dashboard{% endblock %}</div>
+    <div class="topbar-right">
+      <div class="risk-meter" id="global-risk-badge">
+        <span class="risk-label">GLOBAL RISK</span>
+        <span class="risk-value" id="global-risk-val">--</span>
+      </div>
+      <div class="topbar-time" id="topbar-time"></div>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="page-content">
+    {% block content %}{% endblock %}
+  </div>
+</div>
+
+<!-- Toast Container -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3" id="toast-container"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
