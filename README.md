@@ -85,7 +85,7 @@ Open your browser: **http://127.0.0.1:5000**
 
 ## 📊 Datasets (Create Your Own)
 
-See `datasets/DATASETS_README.md` for exact column schemas for:
+See `datasets/` for exact column schemas for:
 - `industry_dependency.csv`
 - `country_dependency.csv`
 - `product_dependency.csv`
